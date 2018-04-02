@@ -59,9 +59,3 @@ Will restart the simulation.
 
  * Cell Size: Controls the height and width of the cells. Low values are very CPU intensive.
  
-
-B1S48
-zwei cellen übereinander
-
-B3S03
-2x4 00,01,11,31
