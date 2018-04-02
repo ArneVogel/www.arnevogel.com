@@ -1,0 +1,28 @@
+```{r}
+library(ggmap)
+library(ggplot2)
+library(rgdal)
+library(scales)
+```
+```{r}
+bahn_data <- read.csv(file="bahn2.csv", header=TRUE, sep=",")[c(TRUE, FALSE, FALSE, FALSE, FALSE, FALSE), ]
+margin <- 0.3
+map_boundaries <- c(min(bahn_data["lng"])-margin,min(bahn_data["lat"])-margin,max(bahn_data["lng"])+margin,max(bahn_data["lat"])+margin)
+map_boundaries
+```
+
+```{r}
+mmap <- get_map(location = map_boundaries, source = "google")
+pmap <- ggmap(mmap, extend= "normal")
+```
+
+```{r}
+gpoints <- as.data.frame(cbind(bahn_data["lng"],bahn_data["lat"]))
+lon_points = bahn_data["lng"]
+lat_points = bahn_data["lat"]
+speed = bahn_data$speed
+ggmap(mmap) + 
+  geom_point(data = gpoints, aes(x = lon_points, y = lat_points, fill = speed),alpha = 0.5, size = 2, shape = 21) +
+  scale_fill_distiller(palette = "RdYlGn", direction = 1)
+```
+

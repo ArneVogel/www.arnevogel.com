@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Postgresql on Welcome</title>
+    <link>https://www.arnevogel.com/category/postgresql/</link>
+    <description>Recent content in Postgresql on Welcome</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 10 Feb 2018 13:38:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://www.arnevogel.com/category/postgresql/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Logging Twitch Subscriptions for One Month</title>
+      <link>https://www.arnevogel.com/logging-twitch-subscriptions-for-one-month/</link>
+      <pubDate>Sat, 10 Feb 2018 13:38:00 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/logging-twitch-subscriptions-for-one-month/</guid>
+      <description>For one month now I have been logging twitch subscriptions of channels that have surpassed 50 viewers at one point in the month and are partnered with twitch.
+Note that this the logging wasn&amp;rsquo;t perfect and this overview is only a distorted view on the ground truth of data that twitch has. The logger isn&amp;rsquo;t as robust as I would like to have it, it wasn&amp;rsquo;t logging 100% of the time in each channel and it sometimes counted subscriptions twice when users had the chance to announce a sub multiple times.</description>
+    </item>
+    
+    <item>
+      <title>Using Postgresql on Ubuntu</title>
+      <link>https://www.arnevogel.com/using-postgresql-on-ubuntu/</link>
+      <pubDate>Thu, 18 Jan 2018 11:56:52 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/using-postgresql-on-ubuntu/</guid>
+      <description>Logging into psql as postgres user:
+sudo -u postgres psql  Switching databases:
+\c [DB NAME]  Executing an example query:
+SELECT * from user;  Note that SELECT has to be capitalized, otherwise it will result in a syntac error. Also don&amp;rsquo;t forget the ; at the end of the query.
+Exiting psql:
+\q  </description>
+    </item>
+    
+  </channel>
+</rss>

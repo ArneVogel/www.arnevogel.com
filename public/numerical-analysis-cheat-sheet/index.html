@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Numerical Analysis Cheat Sheet</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Arne Vogel">
+<meta name="description" content="">
+<meta property="og:url" content="https://www.arnevogel.com/numerical-analysis-cheat-sheet/" />
+<meta property="og:title" content="Numerical Analysis Cheat Sheet" />
+<link rel="canonical" href="https://www.arnevogel.com/numerical-analysis-cheat-sheet/">
+<link rel="icon" type="image/png" href="https://www.arnevogel.com/favicon.png" sizes="128x128">
+		<link href="https://www.arnevogel.com/style/style.css" rel="stylesheet">
+
+
+
+	</head>
+	<body >
+		<header class="site-header">
+	<div class="wrapper">
+		<a href="/" class="header-text">
+			Arne Vogel
+		</a><br>
+	</div>
+</header>
+		<div class="site-content">
+	<div class="wrapper">
+		
+
+<h1>Numerical Analysis Cheat Sheet</h1>
+<span class="list-date">Jan 21, 2018 • Arne Vogel</span>
+
+
+
+<h2 id="error-analysis">Error Analysis</h2>
+
+<h3 id="machine-numbers">Machine Numbers</h3>
+
+<p>A set of machine numbers $\mathbb{M}(b,m,e)$ is composed of three parts, $b$ the base of the number, $m$ the number of digits in the mantissa and $e$ the number of digits for the exponent. $\mathbb{M}(10,3,1)$ contains the machine numbers with base 10 that have three digits for the mantissa and 1 digit for the exponent. One such number would be +102 +3 where +102 is the mantissa and +3 is the exponent. The corresponding number would be 102.000.</p>
+
+<p>Roundoff unit or macheps is defined as $\varepsilon = \tfrac{b}{2}b^{-m}$. For $\mathbb{M}(10,3,1)$ that would be $\varepsilon = \tfrac{10}{2}10^{-3} = 0.005$.</p>
+
+<h4 id="converting-decimal-numbers-to-machine-numbers">Converting Decimal numbers to Machine Numbers</h4>
+
+<p>To convert a decimal number to a machine number you have to keep dividing the number by the base of the machine number and keep track of the remainer and set the resulting number to the decimal number until the division results in 0. For example converting $125_{10}$ to $\mathbb{M}(2,5,3)$:</p>
+
+<p>$$125 : 2 = 62, R = 1$$
+$$62 : 2 = 31, R = 0$$
+$$31 : 2 = 15, R = 1$$
+$$15 : 2 = 7, R = 1$$
+$$7 : 2 = 3, R = 1$$
+$$3 : 2 = 1, R = 1$$
+$$1 : 2 = 0, R = 1$$</p>
+
+<p>If we would have an infinite mantissa $m$ we would take all the reminders in reverse order but because $m$ is limited we only take 5 in this case. So we get $+11111$ as the mantissa. Now we have to calculate the exponent. The exponent is the number of division you had to do to get to 0 in the base of $b$. We had to do 7 divisions. That is in binary $111_{2}$. So the final number is $+11111 +111$. That is also the biggest number in the set of numbers in $\mathbb{M}(2,5,3)$. If you convert it back into base 10 you notice that the number you get back is 124. During the conversion we got a rounding error.</p>
+
+<h4 id="arithmetic-with-machine-numbers">Arithmetic with Machine Numbers</h4>
+
+<p>Calculations also result in rounding errors. For example with $a = 23, b = 24$ in $\mathbb{M}(10,2,1)$:</p>
+
+<p>The conversion has no error because $a = 23 = +23+2$ and $b = 24 = +24+2$ but if we calculate $a^2 - b^2$ we get different results from the real result than when we use the machine numbers.</p>
+
+<p>Calculation with machine numbers:</p>
+
+<p>$$a^2 = (+23+2)^2 = 529 = (+53+3)$$
+$$b^2 = (+24+2)^2 = 576 = (+58+3)$$
+$$(+53+3) - (+58+3) = -50 = (-5+2)$$</p>
+
+<p>Note that you have to convert the number back into $\mathbb{M}(10,2,1)$ after every calculation.</p>
+
+<p>Calculation with natural numbers:</p>
+
+<p>$$a^2 = 23^2 = 529$$
+$$b^2 = 24^2 = 576$$
+$$a^2-b^2 = -47$$</p>
+
+<h4 id="absolute-relative-rounding-error">Absolute/relative rounding error</h4>
+
+<p>The absolute rounding error in calculations with machine numbers is calculated like this: $|gl(x) - x|$ where $gl(x)$ is the machine number and $x$ is the natural number. The relative rounding error is calculated with $\tfrac{|gl(x) - x|}{|x|}$.</p>
+
+<p>The rounding errors for the example above would be:</p>
+
+<p>absolute: $|gl(x) - x| = | - 50 - (-47)| = |-3| = 3$</p>
+
+<p>relative: $\tfrac{|gl(x) - x|}{|x|} = \tfrac{|-50 - (-47)|}{|-47|} = \tfrac{3}{47} \approx 0.0638$</p>
+
+<h2 id="system-of-linear-equations">System of linear equations</h2>
+
+<h3 id="matrix-norm-and-condition-number">Matrix Norm and Condition Number</h3>
+
+<p>Matrix norm for $A = \begin{pmatrix}-1 &amp; 1\\ 2 &amp; -4\end{pmatrix}$:</p>
+
+<p>${ ||A||_{1}=\max(|-1|+2;1+|-4|)=\max(3,5)=5}$</p>
+
+<p>${ ||A||_{\infty}=\max(|-1|+1; 2 + |-4|)=\max(2,6)=6}$</p>
+
+<p>Condition number is defined as: ${ \kappa (A)=||A||\cdot||A^{-1}||}$. The condition number depends on the norm you choose.</p>
+
+<p>$A^{-1} = \begin{pmatrix}-2 &amp; -\tfrac{1}{2}\\ -1 &amp; -\tfrac{1}{2}\end{pmatrix}$</p>
+
+<p>${ ||A^{-1}||_{1}=\max(|-2|+|1|;|-\tfrac{1}{2}|+|-\tfrac{1}{2}|)=\max(3,1)=3}$</p>
+
+<p>${ ||A^{-1}||_{\infty}=\max(|-2|+|-\tfrac{1}{2}|; |-1| + |-\tfrac{1}{2}|)=\max(\tfrac{5}{2},\tfrac{3}{2})=\tfrac{5}{2}}$</p>
+
+<p>So ${ \kappa_1 (A)=||A||_1\cdot||A^{-1}||_1} = 5 \cdot 3 = 15$,</p>
+
+<p>and ${ \kappa_\infty (A)=||A||\cdot||A^{-1}||} = 6 \cdot \tfrac{5}{2} = 15$</p>
+
+<h2 id="system-of-non-linear-equations">System of non-linear equations</h2>
+
+
+
+
+
+
+
+			</div>
+</div>
+		<footer class="site-footer">
+	<div class="wrapper">
+		© Copyright - Arne Vogel<br>
+		See <a href="/license/">License</a> for more details
+	</div>
+	
+	<script type="text/javascript" async src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-MML-AM_CHTML'>
+
+  MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$']],
+    processEscapes: true,
+	imageFont:null,
+    processEnvironments: true,
+	showMathMenu: false,
+	
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+	jax: ["input/TeX","output/SVG"]
+  }
+  });
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+	
+</footer>
+	</body>
+</html>
+

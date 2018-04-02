@@ -1,0 +1,26 @@
+{{define "main" }}
+{{ if eq .Params.ads "yes"}}
+{{ partial "single-ad1.html" . }}
+{{end}}
+<h1>{{ .Title}}</h1>
+<span class="list-date">{{ dateFormat "Jan 2, 2006" .Date }}{{ if ne .Params.lastModified ""}}; last modified: {{ dateFormat "Jan 2, 2006" .Params.lastModified }}{{end}} • {{.Params.author }}</span>
+{{ if eq .Params.toc "yes"}}
+{{ .TableOfContents }}
+{{end}}
+{{.Content}}
+{{ if eq .Params.ads "yes"}}
+{{ partial "single-ad2.html" . }}
+{{end}}
+{{ if eq .Params.share "yes"}}
+{{ partial "single-share.html" . }}
+{{end}}
+{{ if eq .Params.about "yes"}}
+{{ partial "single-about.html" . }}
+{{end}}
+{{ if eq .Params.email "yes"}}
+{{ partial "single-email.html" . }}
+{{end}}
+{{ if eq .Params.related "yes"}}
+{{ partial "single-related.html" . }}
+{{end}}
+{{end}}

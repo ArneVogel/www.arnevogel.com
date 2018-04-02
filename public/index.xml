@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcome</title>
+    <link>https://www.arnevogel.com/</link>
+    <description>Recent content on Welcome</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Apr 2018 13:49:44 +0200</lastBuildDate>
+    
+	<atom:link href="https://www.arnevogel.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Categories</title>
+      <link>https://www.arnevogel.com/categories/</link>
+      <pubDate>Sun, 01 Apr 2018 13:49:44 +0200</pubDate>
+      
+      <guid>https://www.arnevogel.com/categories/</guid>
+      <description>Cheat-SheetGoMathMatlabNumericPostgresqlPythonRTheoretical-Computer-ScienceTwitchUbuntuVisualization </description>
+    </item>
+    
+    <item>
+      <title>Regionalbahn Between Bremen and Hannover</title>
+      <link>https://www.arnevogel.com/regionalbahn-between-bremen-and-hannover/</link>
+      <pubDate>Sat, 17 Mar 2018 16:25:15 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/regionalbahn-between-bremen-and-hannover/</guid>
+      <description>While traveling with the Deutsche Bahn I noticed that they broadcast amongst others the speed and the position of the train under this url: https://www.wifi-bahn.de/schedule.jason
+This is the result of logging the positions and speeds and plotting them with R&amp;rsquo;s ggmap:
+The speed is in m/s, each point is after 30 seconds.
+Logging with: bahnlog.py
+Plotting with: bahn.Rmd</description>
+    </item>
+    
+    <item>
+      <title>Logging Twitch Subscriptions for One Month</title>
+      <link>https://www.arnevogel.com/logging-twitch-subscriptions-for-one-month/</link>
+      <pubDate>Sat, 10 Feb 2018 13:38:00 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/logging-twitch-subscriptions-for-one-month/</guid>
+      <description>For one month now I have been logging twitch subscriptions of channels that have surpassed 50 viewers at one point in the month and are partnered with twitch.
+Note that this the logging wasn&amp;rsquo;t perfect and this overview is only a distorted view on the ground truth of data that twitch has. The logger isn&amp;rsquo;t as robust as I would like to have it, it wasn&amp;rsquo;t logging 100% of the time in each channel and it sometimes counted subscriptions twice when users had the chance to announce a sub multiple times.</description>
+    </item>
+    
+    <item>
+      <title>Taylor Series</title>
+      <link>https://www.arnevogel.com/taylor-series/</link>
+      <pubDate>Wed, 24 Jan 2018 12:45:56 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/taylor-series/</guid>
+      <description>Taylor series approximation for sin exp log cos and tan.
+Generated with: taylorseries.m and ffmpeg
+Some browsers might not support the .webm format. You can download the files to your pc and view them with vlc if that is the case.
+Your browser doesn&#39;t seem to support the \ tag. Direct link to the video: newton-raphson-approximation.webm
+ Your browser doesn&#39;t seem to support the \ tag. Direct link to the video: newton-raphson-approximation.</description>
+    </item>
+    
+    <item>
+      <title>Newton Raphson Method</title>
+      <link>https://www.arnevogel.com/newton-raphson-method/</link>
+      <pubDate>Tue, 23 Jan 2018 16:18:43 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/newton-raphson-method/</guid>
+      <description>The Newton-Raphson method (named after Isaac Newton 1669 and Joseph Raphson 1690) is a method for generating a numerical sulution for systems of equations.
+Example for f(x) = -1&amp;frasl;4*x^4+5&amp;frasl;2*x^3-7*x^2+8*x-1, x0 = 2 and eps = 0.1 generated with MatLab:
+Your browser doesn&#39;t seem to support the \ tag. Direct link to the video: newton-raphson-approximation.webm
+ Newton Raphson Method in MatLab MatLab implementation for :
+function y = newton_raphson_method(f,x,x0,eps) fx = jacobian(f,x); v = num2cell(x0); b = f(v{:}); while norm(b) &amp;gt; eps d = fx(v{:})\f(v{:}); x0 = x0 - d; v = num2cell(x0); b = f(v{:}); end y = x0; end  Note that the MatLab implementation doesn&amp;rsquo;t exit when the function has no root.</description>
+    </item>
+    
+    <item>
+      <title>Numerical Analysis Cheat Sheet</title>
+      <link>https://www.arnevogel.com/numerical-analysis-cheat-sheet/</link>
+      <pubDate>Sun, 21 Jan 2018 15:11:39 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/numerical-analysis-cheat-sheet/</guid>
+      <description>Error Analysis Machine Numbers A set of machine numbers $\mathbb{M}(b,m,e)$ is composed of three parts, $b$ the base of the number, $m$ the number of digits in the mantissa and $e$ the number of digits for the exponent. $\mathbb{M}(10,3,1)$ contains the machine numbers with base 10 that have three digits for the mantissa and 1 digit for the exponent. One such number would be +102 +3 where +102 is the mantissa and +3 is the exponent.</description>
+    </item>
+    
+    <item>
+      <title>Using Postgresql on Ubuntu</title>
+      <link>https://www.arnevogel.com/using-postgresql-on-ubuntu/</link>
+      <pubDate>Thu, 18 Jan 2018 11:56:52 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/using-postgresql-on-ubuntu/</guid>
+      <description>Logging into psql as postgres user:
+sudo -u postgres psql  Switching databases:
+\c [DB NAME]  Executing an example query:
+SELECT * from user;  Note that SELECT has to be capitalized, otherwise it will result in a syntac error. Also don&amp;rsquo;t forget the ; at the end of the query.
+Exiting psql:
+\q  </description>
+    </item>
+    
+    <item>
+      <title>Installing Latest Golang Version on Ubuntu</title>
+      <link>https://www.arnevogel.com/installing-latest-golang-version-on-ubuntu/</link>
+      <pubDate>Wed, 10 Jan 2018 11:03:35 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/installing-latest-golang-version-on-ubuntu/</guid>
+      <description>Installing Go with apt-get might not give you the most up to date golang version. On this page I describe how to install the latest golang version on how to set the $GOPATH and $GOROOT system variables
+$go version The program &#39;go&#39; is currently not installed. You can install it by typing: apt install golang-go  After installing golang with the suggested command apt install golang-go you might have an older version of golang installed.</description>
+    </item>
+    
+    <item>
+      <title>License</title>
+      <link>https://www.arnevogel.com/license/</link>
+      <pubDate>Fri, 05 Jan 2018 00:49:45 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/license/</guid>
+      <description>Text and Images Text and images are, unless otherwise noted, licensed under CC BY-SA 4.0
+Code Code on this site, everything between the html &amp;lt;code&amp;gt;&amp;lt;/code&amp;gt; tags, is licensed, unless otherwise noted, under X11, Apache 2.0 and GPLv3 license. You can choose yourself which license is most suitable for your need.
+MathJax Some pages on this site use MathJax to render LaTeX. MathJax is licensed under Apache 2.0, you can find the source code on the MathJax GitHub page.</description>
+    </item>
+    
+    <item>
+      <title>MathJax Minimum Viable Installation</title>
+      <link>https://www.arnevogel.com/mathjax-minimum-viable-installation/</link>
+      <pubDate>Tue, 02 Jan 2018 01:50:47 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/mathjax-minimum-viable-installation/</guid>
+      <description>Downloading a local copy of MathJax gives you over 60mb in 30.000 files. If you want to use this on your webserver or don&amp;rsquo;t want 30.000 files on your local copy this can be a problem. Luckily many files can be cut without affecting MathJax&amp;rsquo;s functionality. For example for this website my MathJax folder has only 47 files in 12 folders and is only 948kb big.
+Things to cut for free Some of the files you get don&amp;rsquo;t add any functionality and are only for development or documentation reasons in the zip.</description>
+    </item>
+    
+    <item>
+      <title>Theoretical Computer Science Cheat Sheet</title>
+      <link>https://www.arnevogel.com/theoretical-computer-science-cheat-sheet/</link>
+      <pubDate>Mon, 01 Jan 2018 17:33:55 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/theoretical-computer-science-cheat-sheet/</guid>
+      <description>Automata and Formal Languages Formal Languages An alphabet $\Sigma$ is a finite set of symbols. For example $\{0,1\}$ is an alphabet and $\{a,b,c,d\}$ is an alphabet. An word is a finite set of symbols from an alphabet $\Sigma$. One word for the alphabet $\{a,b,c,d\}$ would be $abc$ and another one would be $aaab$. The length of a word $w$ is defined as the number of symbols it has. So the length of the word $01010$ from the alphabet $\{0,1\}$ would be $5$.</description>
+    </item>
+    
+    <item>
+      <title>Analyzing Hacker News &#34;Who Is Hiring&#34; Threads</title>
+      <link>https://www.arnevogel.com/analyzing-hacker-news-who-is-hiring-threads/</link>
+      <pubDate>Sat, 30 Dec 2017 17:54:49 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/analyzing-hacker-news-who-is-hiring-threads/</guid>
+      <description>Analyzing 41194 comments and 6367099 words posted in Hacker News &amp;ldquo;Who is Hiring&amp;rdquo; threads. If you don&amp;rsquo;t know what those threads are here is the latest one: Ask HN: Who is hiring? (December 2017)
+In these threads companies can self promote their job offerings and in doing to they describe the jobs they are offering.
+In this post I show the most interesting things I found while playing around with the data.</description>
+    </item>
+    
+    <item>
+      <title>Applying Benfords Law</title>
+      <link>https://www.arnevogel.com/applying-benfords-law/</link>
+      <pubDate>Thu, 28 Dec 2017 17:07:28 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/applying-benfords-law/</guid>
+      <description>If you don&amp;rsquo;t know about Benford&amp;rsquo;s law here is a quick summary:
+In numerical data the frequency distribution of the leading digits it not an equal distribution. The lower the digit the more likely it is to appear as leading digit in the data. For example in base 10: Numbers with the initial digit 1 occur about 6.6 times as often as numbers with the initial digit 9.
+For more information check out the extensive Wikipedia page about Benford&amp;rsquo;s law.</description>
+    </item>
+    
+    <item>
+      <title>Golang Cross Compiling on Ubuntu</title>
+      <link>https://www.arnevogel.com/golang-cross-compiling-on-ubuntu/</link>
+      <pubDate>Wed, 27 Dec 2017 15:41:07 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/golang-cross-compiling-on-ubuntu/</guid>
+      <description>Cross compiling a golang project on Ubuntu is as easy as building the project for ubuntu itself. Golang makes it easy to cross compile for many platforms and architecture types. When you want to cross compile your go project you only have to set the GOOS and GOARCH variables and go will handle the rest.
+In your project folder typing go build will build it for the platform and architecture of the computer you currently are on.</description>
+    </item>
+    
+    <item>
+      <title>Denoising Functions in Matlab With FFT</title>
+      <link>https://www.arnevogel.com/denoising-functions-in-matlab-with-fft/</link>
+      <pubDate>Fri, 22 Dec 2017 12:44:59 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/denoising-functions-in-matlab-with-fft/</guid>
+      <description>Reducing the noise of a signal in Matlab using fast fourier transform.
+You can download the Matlab file: denoise.m
+The function generating the signal in this post will be:
+% number of signal measurements n = 1000; % measuring from 0 to 2 pi length = 2*pi; % difference between two measurements h = length/n; % steps t = (0:h:length-h); % Signal S = sin(2*t)+cos(7*t)-cos(t);  Plot of the signal from 0 to 2*pi.</description>
+    </item>
+    
+    <item>
+      <title>Standalone Concat Version</title>
+      <link>https://www.arnevogel.com/standalone-concat-version/</link>
+      <pubDate>Wed, 13 Dec 2017 13:21:01 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/standalone-concat-version/</guid>
+      <description>For some time I wanted to create a standalone version of Concat without the download restriction I had to pose on the online version because of server limitations.
+In a poll I put up some months ago the most asked feature was to increase the download limit. Unfortunately with only 20gb disk space on the server and about 300 people using the downloader every day that is not possible without investing in more disk space.</description>
+    </item>
+    
+    <item>
+      <title>Numerical Integration in Matlab</title>
+      <link>https://www.arnevogel.com/numerical-integration-in-matlab/</link>
+      <pubDate>Sat, 09 Dec 2017 11:32:35 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/numerical-integration-in-matlab/</guid>
+      <description> The code for the summed newton cotes formulas in matlab. The functions compute the integral of a function f(x) in the same file from a to b with step size n. Use a sufficient high n for accurate results.
+See the example for usage.
+x is a vector of equidistant nodes.
+Trapezoid rule function t = trapezoid_rule(a,b,n) t = 0; x = linspace(a,b,n); h = x(2)-x(1); for i = 1:length(x)-1 t = t + (h/2 * (f(x(i)) + f(x(i+1)))); end end  Simpson&amp;rsquo;s rule function s = simpson_rule(a,b,n) s = 0; x = linspace(a,b,n); h = x(2)-x(1); for i = 1:length(x)-1 s = s + (f(x(i)) + 4* f((x(i)+x(i+1))/2) + f(x(i+1))); end s = s * h/6; end  3&amp;frasl;8 rule function r = rule38(a,b,n) r = 0; x = linspace(a,b,n); h = x(2)-x(1); for i = 1:length(x)-1 r = r + ( f(x(i)) + 3* f(((x(i) + x(i+1))*(4/3)/3)) + 3* f(((x(i) + x(i+1))*(5/3))/3) + f(x(i+1))); end r = r * h/8; end  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Matlab on Welcome</title>
+    <link>https://www.arnevogel.com/category/matlab/</link>
+    <description>Recent content in Matlab on Welcome</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 22 Dec 2017 12:44:59 +0100</lastBuildDate>
+    
+	<atom:link href="https://www.arnevogel.com/category/matlab/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Denoising Functions in Matlab With FFT</title>
+      <link>https://www.arnevogel.com/denoising-functions-in-matlab-with-fft/</link>
+      <pubDate>Fri, 22 Dec 2017 12:44:59 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/denoising-functions-in-matlab-with-fft/</guid>
+      <description>Reducing the noise of a signal in Matlab using fast fourier transform.
+You can download the Matlab file: denoise.m
+The function generating the signal in this post will be:
+% number of signal measurements n = 1000; % measuring from 0 to 2 pi length = 2*pi; % difference between two measurements h = length/n; % steps t = (0:h:length-h); % Signal S = sin(2*t)+cos(7*t)-cos(t);  Plot of the signal from 0 to 2*pi.</description>
+    </item>
+    
+    <item>
+      <title>Numerical Integration in Matlab</title>
+      <link>https://www.arnevogel.com/numerical-integration-in-matlab/</link>
+      <pubDate>Sat, 09 Dec 2017 11:32:35 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/numerical-integration-in-matlab/</guid>
+      <description> The code for the summed newton cotes formulas in matlab. The functions compute the integral of a function f(x) in the same file from a to b with step size n. Use a sufficient high n for accurate results.
+See the example for usage.
+x is a vector of equidistant nodes.
+Trapezoid rule function t = trapezoid_rule(a,b,n) t = 0; x = linspace(a,b,n); h = x(2)-x(1); for i = 1:length(x)-1 t = t + (h/2 * (f(x(i)) + f(x(i+1)))); end end  Simpson&amp;rsquo;s rule function s = simpson_rule(a,b,n) s = 0; x = linspace(a,b,n); h = x(2)-x(1); for i = 1:length(x)-1 s = s + (f(x(i)) + 4* f((x(i)+x(i+1))/2) + f(x(i+1))); end s = s * h/6; end  3&amp;frasl;8 rule function r = rule38(a,b,n) r = 0; x = linspace(a,b,n); h = x(2)-x(1); for i = 1:length(x)-1 r = r + ( f(x(i)) + 3* f(((x(i) + x(i+1))*(4/3)/3)) + 3* f(((x(i) + x(i+1))*(5/3))/3) + f(x(i+1))); end r = r * h/8; end  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,146 @@
+---
+title: "Logging Twitch Subscriptions for One Month"
+description: ""
+author: "Arne Vogel"
+date: 2018-02-10T13:38:00+01:00
+lastModified: ""
+language: "en"
+ads: "no"
+share: "no"
+email: "no"
+about: "no"
+related: "no"
+listed: "yes"
+mathjax: "no"
+category: ["twitch", "postgresql"]
+draft: false
+---
+
+For one month now I have been logging twitch subscriptions of channels that have surpassed 50 viewers at one point in the month and are partnered with twitch.
+
+Note that this the logging wasn't perfect and this overview is only a distorted view on the ground truth of data that twitch has. The logger isn't as robust as I would like to have it, it wasn't logging 100% of the time in each channel and it sometimes counted subscriptions twice when users had the chance to announce a sub multiple times. The data is only a small portion of all subscriptions on twitch.
+
+You can explore the data yourself at [twslogs.com](https://twslogs.com/). Unfortunately the site runs on the same server as the logging bot so it's quite slow sometimes.
+
+## Data
+	tws=# SELECT count(*) from partner;
+	 count
+	-------
+	  9948
+
+Excactly 9948 streamers chats are monitored for subscriptions as of this writing. 
+
+	tws=# SELECT count(*) from users;
+	  count
+	---------
+	 1040416
+	 
+And to these 9948 streamers are 1 040 416 users that subscribed atleast to one of the partners.
+
+	tws=# SELECT count(*) from subscription;
+	  count
+	---------
+	 1461692
+ 
+The total number of subscriptions detected by the bot are 1 461 692. So on average one user subscribes to 1.4 streamers per month.
+
+	tws=# SELECT sub_plan, count(sub_plan) from subscription group by sub_plan;
+	 sub_plan | count
+	----------+--------
+	 Prime    | 607876
+	 1000     | 803683
+	 2000     |  25995
+	 3000     |  24197
+
+Of all subscriptions 41.5% were prime subs, 55% were $5 subscriptions, 1.78% where $9.99 subs and 1.7% were $24.99 subs.
+
+	tws=# SELECT u.name, count(u.id) from subscription join users u on u_id = u.id group by u.id order by count(u.id) desc limit 10;
+			name        | count
+	--------------------+-------
+	 champion7b         |   864
+	 asubtoremember     |   465
+	 slingersam         |   427
+	 di3n0mit3          |   381
+	 death2qwerty       |   377
+	 theragingchilean   |   291
+	 dralfredpennyworth |   283
+	 mscdexdotexe       |   273
+	 carcinogensda      |   228
+	 sweetbro           |   227
+
+Above is the number of subs and gifted subscriptions per user. Some people have way to much money to throw around. More than one in 2000 subscriptions on twitch are from champion7b.
+	
+Where the streamers come from:
+
+	tws=# SELECT language, count(*) from partner group by language order by count(*) DESC;
+	 language | count
+	----------+-------
+	 en       |  4707
+	 ru       |   717
+	 de       |   671
+	 ko       |   664
+	 es       |   466
+	 fr       |   436
+	 pt-br    |   371
+	 en-gb    |   339
+	 zh-tw    |   270
+	 pl       |   228
+	 ja       |   199
+	 tr       |   165
+	 sv       |   111
+	 it       |   100
+	 nl       |    91
+	 th       |    79
+	 da       |    68
+	 cs       |    65
+	 fi       |    56
+	 pt       |    29
+	 no       |    27
+	 hu       |    27
+	 es-mx    |    21
+	 sk       |    17
+	 el       |    10
+	 bg       |     7
+	 zh-cn    |     4
+	 vi       |     3
+	 
+And the number of subscriptions to streamers with their language set to x:
+
+	tws=# SELECT language, count(*) from partner join subscription on p_id = partner.id group by language order by count(*) DESC;
+	 language | count
+	----------+--------
+	 en       | 983475
+	 de       | 121791
+	 fr       |  61468
+	 en-gb    |  57526
+	 ko       |  38300
+	 ru       |  36643
+	 es       |  35691
+	 zh-tw    |  17908
+	 it       |  15098
+	 pt-br    |  14560
+	 tr       |  11960
+	 sv       |  11265
+	 pl       |   9594
+	 ja       |   8099
+	 da       |   7155
+	 nl       |   6570
+	 cs       |   6029
+	 no       |   4530
+	 th       |   4176
+	 fi       |   3897
+	 sk       |   1872
+	 pt       |   1357
+	 es-mx    |   1185
+	 hu       |    917
+	 el       |    606
+	 zh-cn    |    190
+	 bg       |     75
+
+The three streamers from United States Virgin Islands unfortunately didn't recieve any subscriptions as far as I can tell with the data :( 
+
+## Future plans
+
+I am going to keep the bot running and will try to make the logging more robust so the data comes more reliable. For some channels the logger has only registered half of all subscriptions. 
+
+If you want to take a look at the source code the code is avaliable on github: [github.com/ArneVogel/TWS](https://github.com/ArneVogel/TWS).

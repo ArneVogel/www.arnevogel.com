@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Visualization on Welcome</title>
+    <link>https://www.arnevogel.com/category/visualization/</link>
+    <description>Recent content in Visualization on Welcome</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 17 Mar 2018 16:25:15 +0100</lastBuildDate>
+    
+	<atom:link href="https://www.arnevogel.com/category/visualization/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Regionalbahn Between Bremen and Hannover</title>
+      <link>https://www.arnevogel.com/regionalbahn-between-bremen-and-hannover/</link>
+      <pubDate>Sat, 17 Mar 2018 16:25:15 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/regionalbahn-between-bremen-and-hannover/</guid>
+      <description>While traveling with the Deutsche Bahn I noticed that they broadcast amongst others the speed and the position of the train under this url: https://www.wifi-bahn.de/schedule.jason
+This is the result of logging the positions and speeds and plotting them with R&amp;rsquo;s ggmap:
+The speed is in m/s, each point is after 30 seconds.
+Logging with: bahnlog.py
+Plotting with: bahn.Rmd</description>
+    </item>
+    
+    <item>
+      <title>Analyzing Hacker News &#34;Who Is Hiring&#34; Threads</title>
+      <link>https://www.arnevogel.com/analyzing-hacker-news-who-is-hiring-threads/</link>
+      <pubDate>Sat, 30 Dec 2017 17:54:49 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/analyzing-hacker-news-who-is-hiring-threads/</guid>
+      <description>Analyzing 41194 comments and 6367099 words posted in Hacker News &amp;ldquo;Who is Hiring&amp;rdquo; threads. If you don&amp;rsquo;t know what those threads are here is the latest one: Ask HN: Who is hiring? (December 2017)
+In these threads companies can self promote their job offerings and in doing to they describe the jobs they are offering.
+In this post I show the most interesting things I found while playing around with the data.</description>
+    </item>
+    
+  </channel>
+</rss>

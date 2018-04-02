@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Theoretical Computer Science on Welcome</title>
+    <link>https://www.arnevogel.com/category/theoretical-computer-science/</link>
+    <description>Recent content in Theoretical Computer Science on Welcome</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 2018 17:33:55 +0100</lastBuildDate>
+    
+	<atom:link href="https://www.arnevogel.com/category/theoretical-computer-science/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Theoretical Computer Science Cheat Sheet</title>
+      <link>https://www.arnevogel.com/theoretical-computer-science-cheat-sheet/</link>
+      <pubDate>Mon, 01 Jan 2018 17:33:55 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/theoretical-computer-science-cheat-sheet/</guid>
+      <description>Automata and Formal Languages Formal Languages An alphabet $\Sigma$ is a finite set of symbols. For example $\{0,1\}$ is an alphabet and $\{a,b,c,d\}$ is an alphabet. An word is a finite set of symbols from an alphabet $\Sigma$. One word for the alphabet $\{a,b,c,d\}$ would be $abc$ and another one would be $aaab$. The length of a word $w$ is defined as the number of symbols it has. So the length of the word $01010$ from the alphabet $\{0,1\}$ would be $5$.</description>
+    </item>
+    
+  </channel>
+</rss>

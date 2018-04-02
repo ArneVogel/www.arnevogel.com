@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Category on Welcome</title>
+    <link>https://www.arnevogel.com/category/</link>
+    <description>Recent content in Category on Welcome</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://www.arnevogel.com/category/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cheat Sheet</title>
+      <link>https://www.arnevogel.com/category/cheat-sheet/</link>
+      <pubDate>Sun, 21 Jan 2018 15:11:39 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/category/cheat-sheet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Go</title>
+      <link>https://www.arnevogel.com/category/go/</link>
+      <pubDate>Wed, 10 Jan 2018 11:03:35 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/category/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Math</title>
+      <link>https://www.arnevogel.com/category/math/</link>
+      <pubDate>Wed, 24 Jan 2018 12:45:56 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/category/math/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Matlab</title>
+      <link>https://www.arnevogel.com/category/matlab/</link>
+      <pubDate>Fri, 22 Dec 2017 12:44:59 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/category/matlab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Numeric</title>
+      <link>https://www.arnevogel.com/category/numeric/</link>
+      <pubDate>Wed, 24 Jan 2018 12:45:56 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/category/numeric/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Postgresql</title>
+      <link>https://www.arnevogel.com/category/postgresql/</link>
+      <pubDate>Sat, 10 Feb 2018 13:38:00 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/category/postgresql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://www.arnevogel.com/category/python/</link>
+      <pubDate>Sat, 17 Mar 2018 16:25:15 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/category/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>https://www.arnevogel.com/category/r/</link>
+      <pubDate>Sat, 17 Mar 2018 16:25:15 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/category/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Theoretical Computer Science</title>
+      <link>https://www.arnevogel.com/category/theoretical-computer-science/</link>
+      <pubDate>Mon, 01 Jan 2018 17:33:55 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/category/theoretical-computer-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Twitch</title>
+      <link>https://www.arnevogel.com/category/twitch/</link>
+      <pubDate>Sat, 10 Feb 2018 13:38:00 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/category/twitch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ubuntu</title>
+      <link>https://www.arnevogel.com/category/ubuntu/</link>
+      <pubDate>Thu, 18 Jan 2018 11:56:52 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/category/ubuntu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visualization</title>
+      <link>https://www.arnevogel.com/category/visualization/</link>
+      <pubDate>Sat, 17 Mar 2018 16:25:15 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/category/visualization/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

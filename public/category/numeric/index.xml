@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Numeric on Welcome</title>
+    <link>https://www.arnevogel.com/category/numeric/</link>
+    <description>Recent content in Numeric on Welcome</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Jan 2018 12:45:56 +0100</lastBuildDate>
+    
+	<atom:link href="https://www.arnevogel.com/category/numeric/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Taylor Series</title>
+      <link>https://www.arnevogel.com/taylor-series/</link>
+      <pubDate>Wed, 24 Jan 2018 12:45:56 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/taylor-series/</guid>
+      <description>Taylor series approximation for sin exp log cos and tan.
+Generated with: taylorseries.m and ffmpeg
+Some browsers might not support the .webm format. You can download the files to your pc and view them with vlc if that is the case.
+Your browser doesn&#39;t seem to support the \ tag. Direct link to the video: newton-raphson-approximation.webm
+ Your browser doesn&#39;t seem to support the \ tag. Direct link to the video: newton-raphson-approximation.</description>
+    </item>
+    
+    <item>
+      <title>Newton Raphson Method</title>
+      <link>https://www.arnevogel.com/newton-raphson-method/</link>
+      <pubDate>Tue, 23 Jan 2018 16:18:43 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/newton-raphson-method/</guid>
+      <description>The Newton-Raphson method (named after Isaac Newton 1669 and Joseph Raphson 1690) is a method for generating a numerical sulution for systems of equations.
+Example for f(x) = -1&amp;frasl;4*x^4+5&amp;frasl;2*x^3-7*x^2+8*x-1, x0 = 2 and eps = 0.1 generated with MatLab:
+Your browser doesn&#39;t seem to support the \ tag. Direct link to the video: newton-raphson-approximation.webm
+ Newton Raphson Method in MatLab MatLab implementation for :
+function y = newton_raphson_method(f,x,x0,eps) fx = jacobian(f,x); v = num2cell(x0); b = f(v{:}); while norm(b) &amp;gt; eps d = fx(v{:})\f(v{:}); x0 = x0 - d; v = num2cell(x0); b = f(v{:}); end y = x0; end  Note that the MatLab implementation doesn&amp;rsquo;t exit when the function has no root.</description>
+    </item>
+    
+    <item>
+      <title>Numerical Analysis Cheat Sheet</title>
+      <link>https://www.arnevogel.com/numerical-analysis-cheat-sheet/</link>
+      <pubDate>Sun, 21 Jan 2018 15:11:39 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/numerical-analysis-cheat-sheet/</guid>
+      <description>Error Analysis Machine Numbers A set of machine numbers $\mathbb{M}(b,m,e)$ is composed of three parts, $b$ the base of the number, $m$ the number of digits in the mantissa and $e$ the number of digits for the exponent. $\mathbb{M}(10,3,1)$ contains the machine numbers with base 10 that have three digits for the mantissa and 1 digit for the exponent. One such number would be +102 +3 where +102 is the mantissa and +3 is the exponent.</description>
+    </item>
+    
+    <item>
+      <title>Denoising Functions in Matlab With FFT</title>
+      <link>https://www.arnevogel.com/denoising-functions-in-matlab-with-fft/</link>
+      <pubDate>Fri, 22 Dec 2017 12:44:59 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/denoising-functions-in-matlab-with-fft/</guid>
+      <description>Reducing the noise of a signal in Matlab using fast fourier transform.
+You can download the Matlab file: denoise.m
+The function generating the signal in this post will be:
+% number of signal measurements n = 1000; % measuring from 0 to 2 pi length = 2*pi; % difference between two measurements h = length/n; % steps t = (0:h:length-h); % Signal S = sin(2*t)+cos(7*t)-cos(t);  Plot of the signal from 0 to 2*pi.</description>
+    </item>
+    
+    <item>
+      <title>Numerical Integration in Matlab</title>
+      <link>https://www.arnevogel.com/numerical-integration-in-matlab/</link>
+      <pubDate>Sat, 09 Dec 2017 11:32:35 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/numerical-integration-in-matlab/</guid>
+      <description> The code for the summed newton cotes formulas in matlab. The functions compute the integral of a function f(x) in the same file from a to b with step size n. Use a sufficient high n for accurate results.
+See the example for usage.
+x is a vector of equidistant nodes.
+Trapezoid rule function t = trapezoid_rule(a,b,n) t = 0; x = linspace(a,b,n); h = x(2)-x(1); for i = 1:length(x)-1 t = t + (h/2 * (f(x(i)) + f(x(i+1)))); end end  Simpson&amp;rsquo;s rule function s = simpson_rule(a,b,n) s = 0; x = linspace(a,b,n); h = x(2)-x(1); for i = 1:length(x)-1 s = s + (f(x(i)) + 4* f((x(i)+x(i+1))/2) + f(x(i+1))); end s = s * h/6; end  3&amp;frasl;8 rule function r = rule38(a,b,n) r = 0; x = linspace(a,b,n); h = x(2)-x(1); for i = 1:length(x)-1 r = r + ( f(x(i)) + 3* f(((x(i) + x(i+1))*(4/3)/3)) + 3* f(((x(i) + x(i+1))*(5/3))/3) + f(x(i+1))); end r = r * h/8; end  </description>
+    </item>
+    
+  </channel>
+</rss>

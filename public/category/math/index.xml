@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Math on Welcome</title>
+    <link>https://www.arnevogel.com/category/math/</link>
+    <description>Recent content in Math on Welcome</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Jan 2018 12:45:56 +0100</lastBuildDate>
+    
+	<atom:link href="https://www.arnevogel.com/category/math/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Taylor Series</title>
+      <link>https://www.arnevogel.com/taylor-series/</link>
+      <pubDate>Wed, 24 Jan 2018 12:45:56 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/taylor-series/</guid>
+      <description>Taylor series approximation for sin exp log cos and tan.
+Generated with: taylorseries.m and ffmpeg
+Some browsers might not support the .webm format. You can download the files to your pc and view them with vlc if that is the case.
+Your browser doesn&#39;t seem to support the \ tag. Direct link to the video: newton-raphson-approximation.webm
+ Your browser doesn&#39;t seem to support the \ tag. Direct link to the video: newton-raphson-approximation.</description>
+    </item>
+    
+    <item>
+      <title>Applying Benfords Law</title>
+      <link>https://www.arnevogel.com/applying-benfords-law/</link>
+      <pubDate>Thu, 28 Dec 2017 17:07:28 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/applying-benfords-law/</guid>
+      <description>If you don&amp;rsquo;t know about Benford&amp;rsquo;s law here is a quick summary:
+In numerical data the frequency distribution of the leading digits it not an equal distribution. The lower the digit the more likely it is to appear as leading digit in the data. For example in base 10: Numbers with the initial digit 1 occur about 6.6 times as often as numbers with the initial digit 9.
+For more information check out the extensive Wikipedia page about Benford&amp;rsquo;s law.</description>
+    </item>
+    
+  </channel>
+</rss>

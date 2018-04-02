@@ -1,0 +1,8 @@
+<link href="{{ .Site.BaseURL }}style/style.css" rel="stylesheet">
+{{ range $css := .Params.customCSS }}
+<link href="/css/{{ $css }}.css" rel="stylesheet">
+{{end}}
+
+{{ range $js := .Params.customJS }}
+<script type="text/javascript" src="/js/{{ $js }}.js"></script>
+{{end}}

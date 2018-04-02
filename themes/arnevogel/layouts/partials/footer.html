@@ -1,0 +1,9 @@
+<footer class="site-footer">
+	<div class="wrapper">
+		© Copyright - Arne Vogel<br>
+		See <a href="/license/">License</a> for more details
+	</div>
+	{{ if eq .Params.mathjax "yes"}}
+	{{ partial "mathjax.html" . }}
+	{{end}}
+</footer>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{.Params.language}}">
+	<head>
+		{{ partial "head-meta.html" . }}
+		{{ partial "head.html" . }}
+	</head>
+	<body {{ if eq .Params.init "yes"}}onload="init();"{{end}}>
+		{{ partial "header.html" . }}
+		{{ partial "content-begin.html" . }}
+		{{ block "main" . }}
+		{{end}}
+		{{ partial "content-end.html" . }}
+		{{ partial "footer.html" . }}
+	</body>
+</html>
+

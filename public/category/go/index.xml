@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Go on Welcome</title>
+    <link>https://www.arnevogel.com/category/go/</link>
+    <description>Recent content in Go on Welcome</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Jan 2018 11:03:35 +0100</lastBuildDate>
+    
+	<atom:link href="https://www.arnevogel.com/category/go/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Installing Latest Golang Version on Ubuntu</title>
+      <link>https://www.arnevogel.com/installing-latest-golang-version-on-ubuntu/</link>
+      <pubDate>Wed, 10 Jan 2018 11:03:35 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/installing-latest-golang-version-on-ubuntu/</guid>
+      <description>Installing Go with apt-get might not give you the most up to date golang version. On this page I describe how to install the latest golang version on how to set the $GOPATH and $GOROOT system variables
+$go version The program &#39;go&#39; is currently not installed. You can install it by typing: apt install golang-go  After installing golang with the suggested command apt install golang-go you might have an older version of golang installed.</description>
+    </item>
+    
+    <item>
+      <title>Golang Cross Compiling on Ubuntu</title>
+      <link>https://www.arnevogel.com/golang-cross-compiling-on-ubuntu/</link>
+      <pubDate>Wed, 27 Dec 2017 15:41:07 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/golang-cross-compiling-on-ubuntu/</guid>
+      <description>Cross compiling a golang project on Ubuntu is as easy as building the project for ubuntu itself. Golang makes it easy to cross compile for many platforms and architecture types. When you want to cross compile your go project you only have to set the GOOS and GOARCH variables and go will handle the rest.
+In your project folder typing go build will build it for the platform and architecture of the computer you currently are on.</description>
+    </item>
+    
+  </channel>
+</rss>

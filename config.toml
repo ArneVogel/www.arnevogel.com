@@ -1,0 +1,10 @@
+baseURL = "https://www.arnevogel.com/"
+languageCode = "en-us"
+title = "Welcome"
+theme = "arnevogel"
+uglyURLs = false
+disableHugoGeneratorInject = true
+pygmentsUseClasses=true
+
+[taxonomies]
+  category = "category"

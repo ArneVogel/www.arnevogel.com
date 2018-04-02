@@ -1,0 +1,17 @@
+canvas { 
+    background: white;
+    border: 1px solid #eee;
+}
+
+input {
+    width: 80px;
+}
+
+.width30 {
+    width: 30px;
+}
+
+.checkbox {
+    width: 15px;
+    height: 15px;
+}

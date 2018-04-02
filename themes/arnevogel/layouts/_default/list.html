@@ -1,0 +1,24 @@
+{{define "main" }}
+{{.Content}}
+{{ if eq .URL "/category/" }}
+<ul>
+    {{ range $key, $value := $.Site.Taxonomies.category  }}
+    <li>
+        <a href="/category/{{ $key | urlize }}">{{ $key | title }}</a>
+    </li>
+    {{ end }}
+</ul>
+{{ else }}
+<ul class="list-listing">
+{{ range .Pages }}
+{{ if eq .Params.listed "yes"}}
+	<li>
+		<span class="list-date">{{ dateFormat "Jan 2, 2006" .Date }}</span><br>
+		<a class="list-title" href="{{.URL}}">{{.Title}}</a>
+	</li>
+<br>
+{{end}}
+{{end}}
+{{end}}
+</ul>
+{{end}}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on Welcome</title>
+    <link>https://www.arnevogel.com/category/r/</link>
+    <description>Recent content in R on Welcome</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 17 Mar 2018 16:25:15 +0100</lastBuildDate>
+    
+	<atom:link href="https://www.arnevogel.com/category/r/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Regionalbahn Between Bremen and Hannover</title>
+      <link>https://www.arnevogel.com/regionalbahn-between-bremen-and-hannover/</link>
+      <pubDate>Sat, 17 Mar 2018 16:25:15 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/regionalbahn-between-bremen-and-hannover/</guid>
+      <description>While traveling with the Deutsche Bahn I noticed that they broadcast amongst others the speed and the position of the train under this url: https://www.wifi-bahn.de/schedule.jason
+This is the result of logging the positions and speeds and plotting them with R&amp;rsquo;s ggmap:
+The speed is in m/s, each point is after 30 seconds.
+Logging with: bahnlog.py
+Plotting with: bahn.Rmd</description>
+    </item>
+    
+  </channel>
+</rss>
