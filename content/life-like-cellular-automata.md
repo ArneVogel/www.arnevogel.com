@@ -17,7 +17,7 @@ customCSS: ["life-like", "canvas"]
 customJS: ["life-like", "canvas"]
 init: "yes"
 category: ["cellular automaton"]
-draft: true
+draft: false
 ---
 
 <div id="canvasWrapper" class="canvasWrapper">
