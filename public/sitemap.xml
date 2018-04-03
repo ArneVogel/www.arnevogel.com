@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.arnevogel.com/brians-brain-cellular-automaton/</loc>
+    <lastmod>2018-04-03T17:08:02+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.arnevogel.com/categories/</loc>
     <lastmod>2018-04-01T13:49:44+02:00</lastmod>
   </url>
@@ -98,7 +103,7 @@
   
   <url>
     <loc>https://www.arnevogel.com/category/cellular-automaton/</loc>
-    <lastmod>2018-03-31T12:52:42+02:00</lastmod>
+    <lastmod>2018-04-03T17:08:02+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -176,7 +181,7 @@
   
   <url>
     <loc>https://www.arnevogel.com/</loc>
-    <lastmod>2018-04-01T13:49:44+02:00</lastmod>
+    <lastmod>2018-04-03T17:08:02+02:00</lastmod>
     <priority>0</priority>
   </url>
   

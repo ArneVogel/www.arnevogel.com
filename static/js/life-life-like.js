@@ -20,7 +20,7 @@ function init() {
 
 function updateChanvas() {
     setCanvasSize();
-    createPopulationArray("dead");
+    population = createPopulationArray("dead");
     randomizePopulation();
     colorCanvas();
 }
@@ -67,7 +67,7 @@ function randomize() {
 }
 
 function clearScreen() {
-    createPopulationArray("dead");
+    population = createPopulationArray("dead");
     colorCanvas();
     
     stopGenerating();

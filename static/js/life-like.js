@@ -31,15 +31,16 @@ function switchTypes(pixel) {
 }
 
 function createPopulationArray(std) {
-    population = [];
+    var tmp = [];
     var x = getCanvasWidthInPixel();
     var y = getCanvasHeightInPixel();
     for (var i = 0; i < x; ++i) {
-        population.push([]);
+        tmp.push([]);
         for (var j = 0; j < y; ++j) {
-            population[i].push(std);
+            tmp[i].push(std);
         }
     }
+	return tmp;
 }
 
 function getNeighborCount(x, y, type) {

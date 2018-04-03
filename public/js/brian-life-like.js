@@ -1,9 +1,8 @@
 var wrap = true;
 var speed = 200;
 var population = [];
-var typeColors = {alive: "black", dead: "white"};
-var types = ["alive", "dead"];
-var survivingNumbers; // a alive cell with a number of alive neighbors in survivingNumbers survives into the next generation
+var typeColors = {alive: "black", dead: "white", dying: "gray"};
+var types = ["alive", "dying", "dead"];
 var birthNumbers; // a dead cell with a number of alive neighbors in birthNumbers revives in the next generation
 var generator;
 
@@ -27,7 +26,6 @@ function updateChanvas() {
 
 function gameChange() {
     birthNumbers = parseMirekString(document.getElementById("b").value);
-    survivingNumbers = parseMirekString(document.getElementById("s").value);
     wrap = document.getElementById("wrap").checked;
 }
 
@@ -76,7 +74,7 @@ function clearScreen() {
 
 
 function nextPopulation() {
-    newPopulation = [];
+    var newPopulation = [];
     var x = getCanvasWidthInPixel();
     var y = getCanvasHeightInPixel();
     for (var i = 0; i < x; ++i) {
@@ -85,7 +83,7 @@ function nextPopulation() {
             if (population[i][j] == "dead") {
                 birthNumbers.includes(getNeighborCount(i,j,"alive")) ? newPopulation[i].push("alive") : newPopulation[i].push("dead");
             } else if (population[i][j] == "alive") {
-                survivingNumbers.includes(getNeighborCount(i,j,"alive")) ? newPopulation[i].push("alive") : newPopulation[i].push("dead");
+                newPopulation[i].push("dying");
             } else {
                 newPopulation[i].push("dead");
             }
