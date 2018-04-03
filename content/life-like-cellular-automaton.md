@@ -14,7 +14,7 @@ listed: "yes"
 mathjax: "no"
 toc: "no"
 customCSS: ["life-like", "canvas"]
-customJS: ["life-like", "canvas"]
+customJS: ["life-like", "canvas", "life-life-like"]
 init: "yes"
 category: ["cellular automaton"]
 draft: false
