@@ -20,7 +20,7 @@ function init() {
 
 function updateChanvas() {
     setCanvasSize();
-    population = createPopulationArray("dead");
+    population = createPopulationArray("0");
     randomizePopulation();
     colorCanvas();
 }
@@ -28,6 +28,8 @@ function updateChanvas() {
 function gameChange() {
     n = parseInt(document.getElementById("n").value);
     wrap = document.getElementById("wrap").checked;
+	types = [];
+	typeColors = [];
 	for (var i = 0; i < n; ++i) {
 		types.push(i.toString())
 		typeColors[i.toString()] = toRGB(nthColor(i,n));
@@ -70,7 +72,7 @@ function randomize() {
 }
 
 function clearScreen() {
-    population = createPopulationArray("dead");
+    population = createPopulationArray("0");
     colorCanvas();
     
     stopGenerating();
