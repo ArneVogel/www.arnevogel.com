@@ -1,6 +1,7 @@
 var wrap = true;
 var speed = 200;
 var n = 10;
+var t = 1;
 var population = [];
 var typeColors = {};
 var types = [];
@@ -27,6 +28,7 @@ function updateChanvas() {
 
 function gameChange() {
     n = parseInt(document.getElementById("n").value);
+	t = parseInt(document.getElementById("t").value);
     wrap = document.getElementById("wrap").checked;
 	types = [];
 	typeColors = [];
@@ -91,7 +93,7 @@ function nextPopulation() {
         for (var j = 0; j < y; ++j) {
 			curr = population[i][j];
 			plusOne = ((parseInt(curr)+1)%n).toString();
-			if (getNeighborCount(i,j,plusOne) >= 1) {
+			if (getNeighborCount(i,j,plusOne) >= t) {
 				newPopulation[i].push(plusOne);
 			} else {
 				newPopulation[i].push(curr);

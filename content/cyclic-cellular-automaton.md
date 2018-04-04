@@ -27,11 +27,13 @@ draft: false
 <button class="btn" id="startStop" onclick="startStop()">Start</button><button class="btn" onclick="createAndDrawNextPopulation()">Step</button><button class="btn" onclick="clearScreen()">Clear</button><button class="btn" onclick="randomize()">Randomize</button> update rate: <input value="200" class="width30" id="speed"></input><span>ms</span><button class="btn" onclick="updateSpeed()">Apply</button>
 </div>
 <div>
-Simulation settings: # of colors: <input type="number" style="width:40px" id="n" value="15"> Wrapping: <input class="checkbox" id="wrap" type="checkbox"><button class="btn" onclick="gameChange()">Apply</button>
+Simulation settings: # of colors: <input type="number" style="width:40px" id="n" value="15"> threshold: <input type="number" style="width:35px" id="t" value="1"> Wrapping: <input class="checkbox" id="wrap" type="checkbox"><button class="btn" onclick="gameChange()">Apply</button>
 </div>
 <div class="input_with_appended_unit">
 Display settings: Cell Size: <input style="width:30px" value="10" id="cellSize"></input><span>px</span><button  class="btn" onclick="lvlChange()">Apply</button>
 </div>
+
+__Rules__: Each cell has a state. There are n states set with the number of colors above. The state of a cell is between 0 and n-1. A cell with state i is consumed and changes to i+1 if the number of cells with state i+1 in the [moore neighborhood](https://en.wikipedia.org/wiki/Moore_neighborhood) are equal or greater to the threshold. If a cell is in the n-1 state while it is consumed, it changes its state to 0.
 
 ## Settings
 
@@ -50,6 +52,7 @@ Clicking on the simulation turns cells on and off.
 Can be edited while the simulation is running.
 
  * # of colors: Number of colors
+ * Threshold: How many cells around a cell have to be the successor of the cell for the cells color to change.
  * Wrapping: Makes the _world_ wrap around, like in snake. With wrapping turned off the outside world acts as dead cells.
 
 **Display Settings:**

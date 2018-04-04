@@ -8,7 +8,7 @@ pixel format = (x,y)
 */
 
 var pixelSize = 5;
-var widthToHeightDifference = 1.6; // 1.6 = 16:10
+var widthToHeightDifference = 1.6; // 1.6 = 16:10, 1.778 16/9
 
 var canvas;
 var ctx;
