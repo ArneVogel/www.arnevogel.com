@@ -6,10 +6,21 @@
     <description>Recent content on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 04 Apr 2018 10:30:52 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 05 Apr 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.arnevogel.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>RGB Rainbow</title>
+      <link>https://www.arnevogel.com/rgb-rainbow/</link>
+      <pubDate>Thu, 05 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.arnevogel.com/rgb-rainbow/</guid>
+      <description>For the cyclic cellular automaton I had to get a variable amount of colors around the color circle. This is how I solved that problem.
+ # of colors  I split the color wheel into 6 equal parts:
+   Sector/Color R G B     0 incr. 0 255   1 255 0 decr.   2 255 incr. 0   3 decr.</description>
+    </item>
     
     <item>
       <title>Cyclic Cellular Automaton</title>

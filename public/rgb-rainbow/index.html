@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>RGB Rainbow</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Arne Vogel">
+<meta name="description" content="RGB Rainbow: Generating N colors in rgb around the color circle">
+<meta property="og:url" content="https://www.arnevogel.com/rgb-rainbow/" />
+<meta property="og:title" content="RGB Rainbow" />
+<link rel="canonical" href="https://www.arnevogel.com/rgb-rainbow/">
+<link rel="icon" type="image/png" href="https://www.arnevogel.com/favicon.png" sizes="128x128">
+		<link href="https://www.arnevogel.com/style/style.css" rel="stylesheet">
+
+<link href="/css/rgb-rainbow.css" rel="stylesheet">
+
+
+
+<script type="text/javascript" src="/js/rgb-rainbow.js"></script>
+
+	</head>
+	<body onload="init();">
+		<header class="site-header">
+	<div class="wrapper">
+		<a href="/" class="header-text">
+			Arne Vogel
+		</a><br>
+	</div>
+</header>
+		<div class="site-content">
+	<div class="wrapper">
+		
+
+<h1>RGB Rainbow</h1>
+<span class="list-date">Apr 5, 2018 • Arne Vogel</span>
+
+
+
+<p>For the <a href="https://www.arnevogel.com/cyclic-cellular-automaton/">cyclic cellular automaton</a> I had to get a variable amount of colors around the color circle. This is how I solved that problem.</p>
+
+<p><div style="border: 1px solid black; margin-bottom:5px; padding: 5px">
+<div id="rainbow1" class="rainbow"></div>
+# of colors <input style="width:40px;" value="20" onchange="init()" id="n1" type="number">
+</div>
+I split the color wheel into 6 equal parts:</p>
+
+<p><img src="/images/rgb-rainbow/wheel.png" alt="wheel" /></p>
+
+<table>
+<thead>
+<tr>
+<th>Sector/Color</th>
+<th>R</th>
+<th>G</th>
+<th>B</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>0</td>
+<td>incr.</td>
+<td>0</td>
+<td>255</td>
+</tr>
+
+<tr>
+<td>1</td>
+<td>255</td>
+<td>0</td>
+<td>decr.</td>
+</tr>
+
+<tr>
+<td>2</td>
+<td>255</td>
+<td>incr.</td>
+<td>0</td>
+</tr>
+
+<tr>
+<td>3</td>
+<td>decr.</td>
+<td>255</td>
+<td>0</td>
+</tr>
+
+<tr>
+<td>4</td>
+<td>0</td>
+<td>255</td>
+<td>incr.</td>
+</tr>
+
+<tr>
+<td>5</td>
+<td>0</td>
+<td>decr.</td>
+<td>255</td>
+</tr>
+</tbody>
+</table>
+
+<p><strong>incr.</strong> means the color is increasing and <strong>decr.</strong> means the color is decreasing going counter clockwise around the circle.</p>
+
+<p>The pseudo code to achieve this:</p>
+
+<pre><code>#get the i'th color, of n colors. 
+color(i,n):
+    r, g, b = 0
+    stepsize = floor((255*6)/n)
+    progress = i*stepsize
+    switch(floor(progress/255))
+        case 0:
+            b = 255
+            r = progress%255
+        case 1:
+            r = 255
+            b = progress%255
+        case 2:
+            r = 255
+            g = progress%255
+        case 3:
+            g = 255
+            r = progress%255
+        case 4:
+            g = 255
+            b = progress%255
+        case 5:
+            b = 255
+            g = progress%255
+    return r, g, b
+</code></pre>
+
+<p><div style="border: 1px solid black; margin-bottom:5px; padding: 5px">
+<div id="rainbow2" class="rainbow"></div>
+# of colors <input style="width:40px;" value="20" onchange="init()" id="n2" type="number">
+</div></p>
+
+<h2 id="attributions">Attributions</h2>
+
+<p>RGB color wheel: <a href="https://commons.wikimedia.org/wiki/File:RGB_color_wheel_360.svg">https://commons.wikimedia.org/wiki/File:RGB_color_wheel_360.svg</a></p>
+
+
+
+
+
+
+
+			</div>
+</div>
+		<footer class="site-footer">
+	<div class="wrapper">
+		© Copyright - Arne Vogel<br>
+		See <a href="/license/">License</a> for more details
+	</div>
+	
+</footer>
+	</body>
+</html>
+
