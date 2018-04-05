@@ -28,7 +28,7 @@ For the [cyclic cellular automaton](https://www.arnevogel.com/cyclic-cellular-au
 </div>
 I split the color wheel into 6 equal parts:
 
-![wheel](/images/rgb-rainbow/wheel.png)
+![wheel](/images/rgb-rainbow/wheelLow.png)
 
 
 | Sector/Color | R     | G     | B     |
