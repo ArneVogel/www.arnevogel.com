@@ -17,7 +17,7 @@
       <pubDate>Sun, 08 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://www.arnevogel.com/post-correspondence-problem/</guid>
-      <description>Problem Statement Given a list of pairs ((x1,y1),(x2,y2),&amp;hellip;,(xn,yn)) of non-empty words x1,x2,&amp;hellip;,xn,y1,y2,&amp;hellip;,yn find a non-empty list of indeces i1,i2,&amp;hellip;,im so that the concatination of xi1.xi2&amp;hellip;.xim equals yi1.yi2&amp;hellip;.yim.
+      <description>Problem Statement Given a list of pairs ((x1,y1),(x2,y2),&amp;hellip;,(xn,yn)) of non-empty words x1,x2,&amp;hellip;,xn,y1,y2,&amp;hellip;,yn find a non-empty list of indices i1,i2,&amp;hellip;,im so that the concatination of xi1.xi2&amp;hellip;.xim equals yi1.yi2&amp;hellip;.yim.
 The word pairs (xi,yi) of a problem case can well be imagined as dominoes, where on one half xi and on the other half yi are written. There are n types of dominoes and any number of dominoes are available.
 The correspondence problem can now be understood as follows: Is there a sequence of dominoes so that the words on the upper half of the dominoes (read from left to right) produce the same word as the words (read from left to right) from the lower half of the merged dominoes?</description>
     </item>
