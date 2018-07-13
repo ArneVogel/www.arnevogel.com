@@ -73,14 +73,3 @@ The Algorithm, given a list of pairs (n pairs) and a limit k, finds a list of in
 In step (1) a solutions list is created. Solutions are checked for validity in (2.4). There are k iterations (2). For each iteration each solution in the set of possible solutions (2.1) is checked if there can be added one of each of the possible pairs of (x<sub>j</sub>,y<sub>j</sub>) (2.2). A pair can be added if the concatination of all the x and y in the solution concatinated with x<sub>j</sub> and y<sub>j</sub>, like in (1), the bigger concatination begins with the smaller of both concatinations. If no new possible solutions are found the search can be aborted in (2.3).
 
 Inpired by https://webdocs.cs.ualberta.ca/~games/PCP/thesis/pcp.pdf (Chapter 2.2 An example of solving PCP instances).
-
-### Proposition
-The Algorithm is correct and produces a set of lists of indices, with the number of indices in the lists being the least number of indices to solve the problem, if a solution to the PCP problem exists with less or equal than k indices, returns an empty set if no solution exists with k or less indices.
-
-### Proof
-
-In (1) only indice lists are added to the solutions set that can be the first indice of a solution. This is insured by only adding indices where the longer word of x or y has the prefix of the shorter of the two. If there exist pairs of words with identical x and y words those are returned.
-
-In (2) the lists of indices are expanded only if it would not break the solution. So in the check (2.4) if the concatination of words from the indices in the list of indices are the same length all the characters of the concatinated word are identical. This is done for every solution and for every pair of words. So every legal list of indices is kept and illegal list of indices are not added. Since every pair of words is considered for expanding each of the list of legal indices the correct pair of words is found, if it exists.
-
-If there can be no new indices added to a list the list can not be expanded in any later iteration. So if it did not get returned in (2.4) it will be discarded for the next iteration.

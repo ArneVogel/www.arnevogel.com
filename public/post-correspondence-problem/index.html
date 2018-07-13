@@ -91,18 +91,6 @@
 
 <p>Inpired by <a href="https://webdocs.cs.ualberta.ca/~games/PCP/thesis/pcp.pdf">https://webdocs.cs.ualberta.ca/~games/PCP/thesis/pcp.pdf</a> (Chapter 2.2 An example of solving PCP instances).</p>
 
-<h3 id="proposition">Proposition</h3>
-
-<p>The Algorithm is correct and produces a set of lists of indices, with the number of indices in the lists being the least number of indices to solve the problem, if a solution to the PCP problem exists with less or equal than k indices, returns an empty set if no solution exists with k or less indices.</p>
-
-<h3 id="proof">Proof</h3>
-
-<p>In (1) only indice lists are added to the solutions set that can be the first indice of a solution. This is insured by only adding indices where the longer word of x or y has the prefix of the shorter of the two. If there exist pairs of words with identical x and y words those are returned.</p>
-
-<p>In (2) the lists of indices are expanded only if it would not break the solution. So in the check (2.4) if the concatination of words from the indices in the list of indices are the same length all the characters of the concatinated word are identical. This is done for every solution and for every pair of words. So every legal list of indices is kept and illegal list of indices are not added. Since every pair of words is considered for expanding each of the list of legal indices the correct pair of words is found, if it exists.</p>
-
-<p>If there can be no new indices added to a list the list can not be expanded in any later iteration. So if it did not get returned in (2.4) it will be discarded for the next iteration.</p>
-
 
 
 
