@@ -6,10 +6,19 @@
     <description>Recent content on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Jan 2019 13:20:42 +0100</lastBuildDate>
     
 	<atom:link href="https://www.arnevogel.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Unit Fractions</title>
+      <link>https://www.arnevogel.com/unit-fractions/</link>
+      <pubDate>Thu, 24 Jan 2019 13:20:42 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/unit-fractions/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Post Correspondence Problem (PCP)</title>
