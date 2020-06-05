@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ubuntu on Welcome</title>
+    <title>ubuntu on Welcome</title>
     <link>https://www.arnevogel.com/category/ubuntu/</link>
-    <description>Recent content in Ubuntu on Welcome</description>
+    <description>Recent content in ubuntu on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 18 Jan 2018 11:56:52 +0100</lastBuildDate>
@@ -22,7 +22,7 @@ sudo -u postgres psql  Switching databases:
 \c [DB NAME]  Executing an example query:
 SELECT * from user;  Note that SELECT has to be capitalized, otherwise it will result in a syntac error. Also don&amp;rsquo;t forget the ; at the end of the query.
 Exiting psql:
-\q  </description>
+\q </description>
     </item>
     
     <item>

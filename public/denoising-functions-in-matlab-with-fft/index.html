@@ -31,13 +31,9 @@
 <span class="list-date">Dec 22, 2017 • Arne Vogel</span>
 
 <p>Reducing the noise of a signal in Matlab using fast fourier transform.</p>
-
 <p>You can download the Matlab file: <a href="/download/denoise.m">denoise.m</a></p>
-
 <p>The function generating the signal in this post will be:</p>
-
-<p><img src="/images/denoising-functions-in-matlab-with-fft/function.svg" alt="sin(2*t)+cos(7*t)-cos(t)" /></p>
-
+<p><img src="/images/denoising-functions-in-matlab-with-fft/function.svg" alt="sin(2t)+cos(7t)-cos(t)"></p>
 <pre><code>% number of signal measurements
 n = 1000;
 % measuring from 0 to 2 pi
@@ -49,32 +45,21 @@ t = (0:h:length-h);
 % Signal
 S = sin(2*t)+cos(7*t)-cos(t);
 </code></pre>
-
 <p>Plot of the signal from 0 to 2*pi.
-<img src="/images/denoising-functions-in-matlab-with-fft/signal.png" alt="signal" /></p>
-
+<img src="/images/denoising-functions-in-matlab-with-fft/signal.png" alt="signal"></p>
 <pre><code>% random noise
 RN = randn(n,1);
 % adding the random noise to the signal
 NS = transpose(RN) + S;
 </code></pre>
-
 <p>The signal with added noise.</p>
-
-<p><img src="/images/denoising-functions-in-matlab-with-fft/noisy_signal.png" alt="noisy signal" /></p>
-
+<p><img src="/images/denoising-functions-in-matlab-with-fft/noisy_signal.png" alt="noisy signal"></p>
 <p>Next we get the complex fourier coefficients using fft. Those get split up into:</p>
-
-<p><img src="/images/denoising-functions-in-matlab-with-fft/ak.svg" alt="ak" /></p>
-
-<p><img src="/images/denoising-functions-in-matlab-with-fft/bk.svg" alt="bk" /></p>
-
+<p><img src="/images/denoising-functions-in-matlab-with-fft/ak.svg" alt="ak"></p>
+<p><img src="/images/denoising-functions-in-matlab-with-fft/bk.svg" alt="bk"></p>
 <p>Using ak and bk from 1 to s we can put them into the sin cos form of the fourier series.</p>
-
-<p><img src="/images/denoising-functions-in-matlab-with-fft/s.svg" alt="s" /></p>
-
-<p><img src="/images/denoising-functions-in-matlab-with-fft/fourier.svg" alt="fourier" /></p>
-
+<p><img src="/images/denoising-functions-in-matlab-with-fft/s.svg" alt="s"></p>
+<p><img src="/images/denoising-functions-in-matlab-with-fft/fourier.svg" alt="fourier"></p>
 <pre><code>% getting the complex fourier coefficients using fft
 ck = fft(NS);
 
@@ -106,33 +91,20 @@ for i = 1:n
   end
 end
 </code></pre>
-
 <p>Plot of the generated signal:
-<img src="/images/denoising-functions-in-matlab-with-fft/generated_signal.png" alt="generated signal" /></p>
-
+<img src="/images/denoising-functions-in-matlab-with-fft/generated_signal.png" alt="generated signal"></p>
 <p>Here is a plot of the absulute error of the generated signal minus the analytical signal.</p>
-
-<p><img src="/images/denoising-functions-in-matlab-with-fft/error.png" alt="error" /></p>
-
+<p><img src="/images/denoising-functions-in-matlab-with-fft/error.png" alt="error"></p>
 <p>and the relative error (discrepancies between the two result from different added noises)</p>
-
-<p><img src="/images/denoising-functions-in-matlab-with-fft/error2.png" alt="error" /></p>
-
+<p><img src="/images/denoising-functions-in-matlab-with-fft/error2.png" alt="error"></p>
 <p>These are the ak values if the ck values weren&rsquo;t filtered. After the filtering all the values near zero are exactly zero. This removes the noise from the generated signal.</p>
-
-<p><img src="/images/denoising-functions-in-matlab-with-fft/ak_values_pre_filter.png" alt="ak values before filtering" /></p>
-
+<p><img src="/images/denoising-functions-in-matlab-with-fft/ak_values_pre_filter.png" alt="ak values before filtering"></p>
 <p>This is what the generated signal looks like without the filtering of the fourier coefficients.</p>
-
-<p><img src="/images/denoising-functions-in-matlab-with-fft/no_filter.png" alt="no coefficient filter" /></p>
-
+<p><img src="/images/denoising-functions-in-matlab-with-fft/no_filter.png" alt="no coefficient filter"></p>
 <p>Doubling the noise also results in a subpar result:</p>
-
-<p><img src="/images/denoising-functions-in-matlab-with-fft/double_noise.png" alt="double noise" /></p>
-
+<p><img src="/images/denoising-functions-in-matlab-with-fft/double_noise.png" alt="double noise"></p>
 <p>Reducing the percantage of fourier coefficients to the top 5% however improves the result again:</p>
-
-<p><img src="/images/denoising-functions-in-matlab-with-fft/double_noise_top_5_percent.png" alt="double noise top 5 percent" /></p>
+<p><img src="/images/denoising-functions-in-matlab-with-fft/double_noise_top_5_percent.png" alt="double noise top 5 percent"></p>
 
 
 

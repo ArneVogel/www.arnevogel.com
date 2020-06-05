@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Matlab on Welcome</title>
+    <title>matlab on Welcome</title>
     <link>https://www.arnevogel.com/category/matlab/</link>
-    <description>Recent content in Matlab on Welcome</description>
+    <description>Recent content in matlab on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 22 Dec 2017 12:44:59 +0100</lastBuildDate>
@@ -29,10 +29,10 @@ The function generating the signal in this post will be:
       <pubDate>Sat, 09 Dec 2017 11:32:35 +0100</pubDate>
       
       <guid>https://www.arnevogel.com/numerical-integration-in-matlab/</guid>
-      <description> The code for the summed newton cotes formulas in matlab. The functions compute the integral of a function f(x) in the same file from a to b with step size n. Use a sufficient high n for accurate results.
+      <description>The code for the summed newton cotes formulas in matlab. The functions compute the integral of a function f(x) in the same file from a to b with step size n. Use a sufficient high n for accurate results.
 See the example for usage.
 x is a vector of equidistant nodes.
-Trapezoid rule function t = trapezoid_rule(a,b,n) t = 0; x = linspace(a,b,n); h = x(2)-x(1); for i = 1:length(x)-1 t = t + (h/2 * (f(x(i)) + f(x(i+1)))); end end  Simpson&amp;rsquo;s rule function s = simpson_rule(a,b,n) s = 0; x = linspace(a,b,n); h = x(2)-x(1); for i = 1:length(x)-1 s = s + (f(x(i)) + 4* f((x(i)+x(i+1))/2) + f(x(i+1))); end s = s * h/6; end  3&amp;frasl;8 rule function r = rule38(a,b,n) r = 0; x = linspace(a,b,n); h = x(2)-x(1); for i = 1:length(x)-1 r = r + ( f(x(i)) + 3* f(((x(i) + x(i+1))*(4/3)/3)) + 3* f(((x(i) + x(i+1))*(5/3))/3) + f(x(i+1))); end r = r * h/8; end  </description>
+Trapezoid rule function t = trapezoid_rule(a,b,n) t = 0; x = linspace(a,b,n); h = x(2)-x(1); for i = 1:length(x)-1 t = t + (h/2 * (f(x(i)) + f(x(i+1)))); end end  Simpson&amp;rsquo;s rule function s = simpson_rule(a,b,n) s = 0; x = linspace(a,b,n); h = x(2)-x(1); for i = 1:length(x)-1 s = s + (f(x(i)) + 4* f((x(i)+x(i+1))/2) + f(x(i+1))); end s = s * h/6; end  3/8 rule function r = rule38(a,b,n) r = 0; x = linspace(a,b,n); h = x(2)-x(1); for i = 1:length(x)-1 r = r + ( f(x(i)) + 3* f(((x(i) + x(i+1))*(4/3)/3)) + 3* f(((x(i) + x(i+1))*(5/3))/3) + f(x(i+1))); end r = r * h/8; end </description>
     </item>
     
   </channel>

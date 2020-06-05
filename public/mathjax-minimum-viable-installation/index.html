@@ -30,14 +30,9 @@
 <h1>MathJax Minimum Viable Installation</h1>
 <span class="list-date">Jan 2, 2018 • Arne Vogel</span>
 
-
-
 <p>Downloading a local copy of MathJax gives you over 60mb in 30.000 files. If you want to use this on your webserver or don&rsquo;t want 30.000 files on your local copy this can be a problem. Luckily many files can be cut without affecting MathJax&rsquo;s functionality. For example for this website my <a href="https://github.com/ArneVogel/arnevogel.github.io/tree/master/MathJax">MathJax folder</a> has only 47 files in 12 folders and is only 948kb big.</p>
-
 <h2 id="things-to-cut-for-free">Things to cut for free</h2>
-
 <p>Some of the files you get don&rsquo;t add any functionality and are only for development or documentation reasons in the zip. So you can cut these files and folders without affecting MathJax in any way if you don&rsquo;t specially need them yourself:</p>
-
 <ol>
 <li>/Docs</li>
 <li>/test</li>
@@ -53,29 +48,17 @@
 <li>package.json</li>
 <li>README.md</li>
 </ol>
-
 <p>Already down to 47mb, but still over 30.000 files.</p>
-
-<h2 id="things-you-probably-won-t-need">Things you probably won&rsquo;t need</h2>
-
+<h2 id="things-you-probably-wont-need">Things you probably won&rsquo;t need</h2>
 <p>The biggest chunk of files is located in <code>/fonts/HTML-CSS/TeX/png/</code>, this is most likely a fallback for browsers that don&rsquo;t support webfonts. But since all up to date browsers support them, all the files in <code>/fonts/HTML-CSS/TeX/png/</code> aren&rsquo;t needed anymore. Deleting the folder removes 7.6mb in 29.012 files.</p>
-
 <p>You also most likely only need one config from <code>/config/</code>. Deleting all the others gets rid of over 7mb.</p>
-
 <p>Another thing that many people won&rsquo;t need is the <code>/localization/</code> folder. If you only need english you are safe to delete that to reducing the total size another 1mb and getting rid of 300 files.</p>
-
 <p>Down to 31mb and 1523 files.</p>
-
 <h2 id="limiting-to-one">Limiting to one</h2>
-
 <p>Limiting yourself to one font and one rendering mode safes more redundant files. If you choose to render your LaTeX to SVG you can delete the complete <code>/fonts/</code> folder since SVG uses fonts from <code>/jax/output/SVG/fonts/</code>. If you choose a different render mode delete all fonts you don&rsquo;t need in <code>/fonts/</code>. If you choose SVG delete the <code>/fonts/</code> folder and delete all fonts you don&rsquo;t need in <code>/jax/output/SVG/fonts/</code>.</p>
-
 <p>Also delete all render modes and input modes in <code>/jax/output/</code> and <code>/jax/input/</code> that you don&rsquo;t need.</p>
-
 <h2 id="extreme-limiting">Extreme Limiting</h2>
-
 <p>Technically you don&rsquo;t need anything in the older <code>/extensions/</code> so you can go in and delete anything that you don&rsquo;t specifically need, or just delete it completely saving another 2mb and 300 files.</p>
-
 <p>Another thing you can do is cutting more on the font front. After you limited yourself to one font there are still most likely options like <strong>bold</strong> or <em>italic</em> that you might not need.</p>
 
 

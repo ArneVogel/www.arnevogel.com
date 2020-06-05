@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cellular Automaton on Welcome</title>
+    <title>cellular automaton on Welcome</title>
     <link>https://www.arnevogel.com/category/cellular-automaton/</link>
-    <description>Recent content in Cellular Automaton on Welcome</description>
+    <description>Recent content in cellular automaton on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 04 Apr 2018 10:30:52 +0200</lastBuildDate>
@@ -17,7 +17,7 @@
       <pubDate>Wed, 04 Apr 2018 10:30:52 +0200</pubDate>
       
       <guid>https://www.arnevogel.com/cyclic-cellular-automaton/</guid>
-      <description>StartStepClearRandomize update rate: msApply   Simulation settings: # of colors: threshold: Wrapping: Apply  Display settings: Cell Size: pxApply  Rules: Each cell has a state. There are n states set with the number of colors above. The state of a cell is between 0 and n-1. A cell with state i is consumed and changes to i+1 if the number of cells with state i+1 in the moore neighborhood are equal or greater to the threshold.</description>
+      <description>Rules: Each cell has a state. There are n states set with the number of colors above. The state of a cell is between 0 and n-1. A cell with state i is consumed and changes to i+1 if the number of cells with state i+1 in the moore neighborhood are equal or greater to the threshold. If a cell is in the n-1 state while it is consumed, it changes its state to 0.</description>
     </item>
     
     <item>
@@ -26,7 +26,10 @@
       <pubDate>Tue, 03 Apr 2018 17:08:02 +0200</pubDate>
       
       <guid>https://www.arnevogel.com/brians-brain-cellular-automaton/</guid>
-      <description>StartStepClearRandomize update rate: msApply  Simulation settings: Birth numbers: B Wrapping: Apply  Display settings: Cell Size: pxApply  Rules: There are three cell types. Dead (white), alive (black) and dying (gray). A alive cell always goes into dying and a dying cell always dies in the next iteration. A dead cell comes alive in the next iteration if the number of alive cells in the moore neighborhood are in the birth numbers (above).</description>
+      <description>Rules: There are three cell types. Dead (white), alive (black) and dying (gray). A alive cell always goes into dying and a dying cell always dies in the next iteration. A dead cell comes alive in the next iteration if the number of alive cells in the moore neighborhood are in the birth numbers (above).
+Settings Clicking on the simulation turns cells on and off.
+Controls:
+ Start: Begins the simulation, calculating and displaying the next population every update rate seconds Step: Calculates and displays the next population Clear: Stops the simulation and clears the population Randomize: Randomly sets 50% of the cells alive and the other 50% dead Update Rate: How many milliseconds each frame is displayed.</description>
     </item>
     
     <item>
@@ -35,9 +38,9 @@
       <pubDate>Sat, 31 Mar 2018 12:52:42 +0200</pubDate>
       
       <guid>https://www.arnevogel.com/life-like-cellular-automaton/</guid>
-      <description>StartStepClearRandomize update rate: msApply  Simulation settings: Spawn: B S Wrapping: Apply  Display settings: Cell Size: pxApply  Settings Clicking on the simulation turns cells on and off.
+      <description>Settings Clicking on the simulation turns cells on and off.
 Controls:
- Start: Begins the simulation, calculating and displaying the next population every update rate seconds Step: Calculates and displays the next population Clear: Stops the simulation and clears the population Randomize: Randomly sets 50% of the cells alive and the other 50% dead Update Rate: How many milliseconds each frame is displayed.</description>
+ Start: Begins the simulation, calculating and displaying the next population every update rate seconds Step: Calculates and displays the next population Clear: Stops the simulation and clears the population Randomize: Randomly sets 50% of the cells alive and the other 50% dead Update Rate: How many milliseconds each frame is displayed. Lower = Faster simulation, but more CPU intensive.</description>
     </item>
     
   </channel>

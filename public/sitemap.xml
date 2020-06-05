@@ -1,6 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://www.arnevogel.com/how-fast-is-webassembly/</loc>
+    <lastmod>2020-06-05T19:40:42+02:00</lastmod>
+  </url>
   
   <url>
     <loc>https://www.arnevogel.com/unit-fractions/</loc>
@@ -18,7 +23,22 @@
   </url>
   
   <url>
+    <loc>https://www.arnevogel.com/category/</loc>
+    <lastmod>2018-04-04T10:30:52+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.arnevogel.com/category/cellular-automaton/</loc>
+    <lastmod>2018-04-04T10:30:52+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.arnevogel.com/cyclic-cellular-automaton/</loc>
+    <lastmod>2018-04-04T10:30:52+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.arnevogel.com/</loc>
     <lastmod>2018-04-04T10:30:52+02:00</lastmod>
   </url>
   
@@ -33,13 +53,48 @@
   </url>
   
   <url>
+    <loc>https://www.arnevogel.com/category/python/</loc>
+    <lastmod>2018-03-17T16:25:15+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.arnevogel.com/category/r/</loc>
+    <lastmod>2018-03-17T16:25:15+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.arnevogel.com/regionalbahn-between-bremen-and-hannover/</loc>
+    <lastmod>2018-03-17T16:25:15+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.arnevogel.com/category/visualization/</loc>
     <lastmod>2018-03-17T16:25:15+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.arnevogel.com/logging-twitch-subscriptions-for-one-month/</loc>
     <lastmod>2018-02-10T13:38:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.arnevogel.com/category/postgresql/</loc>
+    <lastmod>2018-02-10T13:38:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.arnevogel.com/category/twitch/</loc>
+    <lastmod>2018-02-10T13:38:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.arnevogel.com/category/math/</loc>
+    <lastmod>2018-01-24T12:45:56+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.arnevogel.com/category/numeric/</loc>
+    <lastmod>2018-01-24T12:45:56+01:00</lastmod>
   </url>
   
   <url>
@@ -53,13 +108,28 @@
   </url>
   
   <url>
+    <loc>https://www.arnevogel.com/category/cheat-sheet/</loc>
+    <lastmod>2018-01-21T15:11:39+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.arnevogel.com/numerical-analysis-cheat-sheet/</loc>
     <lastmod>2018-01-21T15:11:39+01:00</lastmod>
   </url>
   
   <url>
+    <loc>https://www.arnevogel.com/category/ubuntu/</loc>
+    <lastmod>2018-01-18T11:56:52+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.arnevogel.com/using-postgresql-on-ubuntu/</loc>
     <lastmod>2018-01-18T11:56:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.arnevogel.com/category/go/</loc>
+    <lastmod>2018-01-10T11:03:35+01:00</lastmod>
   </url>
   
   <url>
@@ -75,6 +145,11 @@
   <url>
     <loc>https://www.arnevogel.com/mathjax-minimum-viable-installation/</loc>
     <lastmod>2018-01-02T01:50:47+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.arnevogel.com/category/theoretical-computer-science/</loc>
+    <lastmod>2018-01-01T17:33:55+01:00</lastmod>
   </url>
   
   <url>
@@ -103,6 +178,11 @@
   </url>
   
   <url>
+    <loc>https://www.arnevogel.com/category/matlab/</loc>
+    <lastmod>2017-12-22T12:44:59+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.arnevogel.com/standalone-concat-version/</loc>
     <lastmod>2017-12-13T13:21:01+01:00</lastmod>
   </url>
@@ -110,102 +190,6 @@
   <url>
     <loc>https://www.arnevogel.com/numerical-integration-in-matlab/</loc>
     <lastmod>2017-12-09T11:32:35+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.arnevogel.com/category/</loc>
-    <lastmod>2018-07-08T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.arnevogel.com/category/</loc>
-    <lastmod>2018-07-08T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.arnevogel.com/category/cellular-automaton/</loc>
-    <lastmod>2018-04-04T10:30:52+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.arnevogel.com/category/cheat-sheet/</loc>
-    <lastmod>2018-01-21T15:11:39+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.arnevogel.com/category/go/</loc>
-    <lastmod>2018-01-10T11:03:35+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.arnevogel.com/category/math/</loc>
-    <lastmod>2018-01-24T12:45:56+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.arnevogel.com/category/matlab/</loc>
-    <lastmod>2017-12-22T12:44:59+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.arnevogel.com/category/numeric/</loc>
-    <lastmod>2018-01-24T12:45:56+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.arnevogel.com/category/postgresql/</loc>
-    <lastmod>2018-02-10T13:38:00+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.arnevogel.com/category/python/</loc>
-    <lastmod>2018-03-17T16:25:15+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.arnevogel.com/category/r/</loc>
-    <lastmod>2018-03-17T16:25:15+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.arnevogel.com/category/theoretical-computer-science/</loc>
-    <lastmod>2018-01-01T17:33:55+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.arnevogel.com/category/twitch/</loc>
-    <lastmod>2018-02-10T13:38:00+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.arnevogel.com/category/ubuntu/</loc>
-    <lastmod>2018-01-18T11:56:52+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.arnevogel.com/category/visualization/</loc>
-    <lastmod>2018-03-17T16:25:15+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.arnevogel.com/</loc>
-    <lastmod>2019-01-24T13:20:42+01:00</lastmod>
-    <priority>0</priority>
   </url>
   
 </urlset>

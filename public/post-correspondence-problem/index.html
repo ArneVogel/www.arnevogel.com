@@ -32,35 +32,22 @@
 <h1>Post Correspondence Problem (PCP)</h1>
 <span class="list-date">Jul 8, 2018 • Arne Vogel</span>
 
-
-
 <h2 id="problem-statement">Problem Statement</h2>
-
-<p>Given a list of pairs ((x<sub>1</sub>,y<sub>1</sub>),(x<sub>2</sub>,y<sub>2</sub>),&hellip;,(x<sub>n</sub>,y<sub>n</sub>)) of non-empty words x<sub>1</sub>,x<sub>2</sub>,&hellip;,x<sub>n</sub>,y<sub>1</sub>,y<sub>2</sub>,&hellip;,y<sub>n</sub> find a non-empty list of indices i<sub>1</sub>,i<sub>2</sub>,&hellip;,i<sub>m</sub> so that the concatination of x<sub>i<sub>1</sub></sub>.x<sub>i<sub>2</sub></sub>&hellip;.x<sub>i<sub>m</sub></sub> equals y<sub>i<sub>1</sub></sub>.y<sub>i<sub>2</sub></sub>&hellip;.y<sub>i<sub>m</sub></sub>.</p>
-
-<p>The word pairs (x<sub>i</sub>,y<sub>i</sub>) of a problem case can well be imagined as dominoes, where on one half x<sub>i</sub> and on the other half y<sub>i</sub> are written. There are n types of dominoes and any number of dominoes are available.</p>
-
+<p>Given a list of pairs ((x<!-- raw HTML omitted -->1<!-- raw HTML omitted -->,y<!-- raw HTML omitted -->1<!-- raw HTML omitted -->),(x<!-- raw HTML omitted -->2<!-- raw HTML omitted -->,y<!-- raw HTML omitted -->2<!-- raw HTML omitted -->),&hellip;,(x<!-- raw HTML omitted -->n<!-- raw HTML omitted -->,y<!-- raw HTML omitted -->n<!-- raw HTML omitted -->)) of non-empty words x<!-- raw HTML omitted -->1<!-- raw HTML omitted -->,x<!-- raw HTML omitted -->2<!-- raw HTML omitted -->,&hellip;,x<!-- raw HTML omitted -->n<!-- raw HTML omitted -->,y<!-- raw HTML omitted -->1<!-- raw HTML omitted -->,y<!-- raw HTML omitted -->2<!-- raw HTML omitted -->,&hellip;,y<!-- raw HTML omitted -->n<!-- raw HTML omitted --> find a non-empty list of indices i<!-- raw HTML omitted -->1<!-- raw HTML omitted -->,i<!-- raw HTML omitted -->2<!-- raw HTML omitted -->,&hellip;,i<!-- raw HTML omitted -->m<!-- raw HTML omitted --> so that the concatination of x<!-- raw HTML omitted -->i<!-- raw HTML omitted -->1<!-- raw HTML omitted --><!-- raw HTML omitted -->.x<!-- raw HTML omitted -->i<!-- raw HTML omitted -->2<!-- raw HTML omitted --><!-- raw HTML omitted -->&hellip;.x<!-- raw HTML omitted -->i<!-- raw HTML omitted -->m<!-- raw HTML omitted --><!-- raw HTML omitted --> equals y<!-- raw HTML omitted -->i<!-- raw HTML omitted -->1<!-- raw HTML omitted --><!-- raw HTML omitted -->.y<!-- raw HTML omitted -->i<!-- raw HTML omitted -->2<!-- raw HTML omitted --><!-- raw HTML omitted -->&hellip;.y<!-- raw HTML omitted -->i<!-- raw HTML omitted -->m<!-- raw HTML omitted --><!-- raw HTML omitted -->.</p>
+<p>The word pairs (x<!-- raw HTML omitted -->i<!-- raw HTML omitted -->,y<!-- raw HTML omitted -->i<!-- raw HTML omitted -->) of a problem case can well be imagined as dominoes, where on one half x<!-- raw HTML omitted -->i<!-- raw HTML omitted --> and on the other half y<!-- raw HTML omitted -->i<!-- raw HTML omitted --> are written. There are n types of dominoes and any number of dominoes are available.</p>
 <p>The correspondence problem can now be understood as follows: Is there a sequence of dominoes so that the words on the upper half of the dominoes (read from left to right) produce the same word as the words (read from left to right) from the lower half of the merged dominoes?</p>
-
 <h2 id="pcp-solver">PCP Solver</h2>
-
-<p><textarea id="pcp_input" rows="8" cols="20">1 101
+<p><!-- raw HTML omitted -->1 101
 10 00
-011 11</textarea><br>
-<button class="btn" onclick="solve()">Solve</button>
-<span>max. depth:</span><input value="6" style="width:40px;margin-left: 3px;" type="number" id="depth"></input>
-<p id="pcp_result"></p></p>
-
-<p><button class="btn" onclick="example1()">Example 1</button><button class="btn" onclick="example2()">Example 2</button></p>
-
+011 11<!-- raw HTML omitted --><!-- raw HTML omitted -->
+<!-- raw HTML omitted -->Solve<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->max. depth:<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<p><!-- raw HTML omitted -->Example 1<!-- raw HTML omitted --><!-- raw HTML omitted -->Example 2<!-- raw HTML omitted --></p>
 <p>JavaScript implementation of the PCP algorithm below. In some cases, in particular with big instances and large values for depth, this might crash the site.</p>
-
 <p>Example two illustrates how even for small instances the solution might only be found with a huge amount of indices.</p>
-
 <h2 id="algorithm-for-solving-pcp-instances">Algorithm for solving PCP Instances</h2>
-
 <p>The Algorithm, given a list of pairs (n pairs) and a limit k, finds a list of indices that are a solution to the PVP problem.</p>
-
 <pre><code>solutions = {}
 (1)FOR i = 1...n:
     IF xi = yi:
@@ -71,24 +58,22 @@
     IF length(yi) &lt; length(xi):
         IF xi begins with yi:
             solutions = solutions + (i)
-
+			
 (2)FOR i = 1...k:
     new_solutions = {}
-(2.1)   FOR solution in solutions:
-(2.2)       FOR j = 1...n:
-(2.2.1)         IF adding pair j would not break the solution:
+(2.1)	FOR solution in solutions:
+(2.2)		FOR j = 1...n:
+(2.2.1)			IF adding pair j would not break the solution:
                     new_solutions = new_solutions + (solution, j)
-
-(2.3)   IF new_solutions = {}:
+	
+(2.3)	IF new_solutions = {}:
             return {}
-(2.4)   FOR solution in new_solutions:
+(2.4)	FOR solution in new_solutions:
             IF length of concatination of all xi equals length of concatination of all yi:
                 return solution
     solutions = new_solutions
 </code></pre>
-
-<p>In step (1) a solutions list is created. Solutions are checked for validity in (2.4). There are k iterations (2). For each iteration each solution in the set of possible solutions (2.1) is checked if there can be added one of each of the possible pairs of (x<sub>j</sub>,y<sub>j</sub>) (2.2). A pair can be added if the concatination of all the x and y in the solution concatinated with x<sub>j</sub> and y<sub>j</sub>, like in (1), the bigger concatination begins with the smaller of both concatinations. If no new possible solutions are found the search can be aborted in (2.3).</p>
-
+<p>In step (1) a solutions list is created. Solutions are checked for validity in (2.4). There are k iterations (2). For each iteration each solution in the set of possible solutions (2.1) is checked if there can be added one of each of the possible pairs of (x<!-- raw HTML omitted -->j<!-- raw HTML omitted -->,y<!-- raw HTML omitted -->j<!-- raw HTML omitted -->) (2.2). A pair can be added if the concatination of all the x and y in the solution concatinated with x<!-- raw HTML omitted -->j<!-- raw HTML omitted --> and y<!-- raw HTML omitted -->j<!-- raw HTML omitted -->, like in (1), the bigger concatination begins with the smaller of both concatinations. If no new possible solutions are found the search can be aborted in (2.3).</p>
 <p>Inpired by <a href="https://webdocs.cs.ualberta.ca/~games/PCP/thesis/pcp.pdf">https://webdocs.cs.ualberta.ca/~games/PCP/thesis/pcp.pdf</a> (Chapter 2.2 An example of solving PCP instances).</p>
 
 

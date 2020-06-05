@@ -34,18 +34,9 @@
 <h1>RGB Rainbow</h1>
 <span class="list-date">Apr 5, 2018 • Arne Vogel</span>
 
-
-
 <p>For the <a href="https://www.arnevogel.com/cyclic-cellular-automaton/">cyclic cellular automaton</a> I had to get a variable amount of colors around the color circle. This is how I solved that problem.</p>
-
-<p><div style="border: 1px solid black; margin-bottom:5px; padding: 5px">
-<div id="rainbow1" class="rainbow"></div>
-# of colors <input style="width:40px;" value="20" onchange="init()" id="n1" type="number">
-</div>
-I split the color wheel into 6 equal parts:</p>
-
-<p><img src="/images/rgb-rainbow/wheelLow.png" alt="wheel" /></p>
-
+<!-- raw HTML omitted -->
+<p><img src="/images/rgb-rainbow/wheelLow.png" alt="wheel"></p>
 <table>
 <thead>
 <tr>
@@ -55,7 +46,6 @@ I split the color wheel into 6 equal parts:</p>
 <th>B</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td>0</td>
@@ -63,35 +53,30 @@ I split the color wheel into 6 equal parts:</p>
 <td>0</td>
 <td>255</td>
 </tr>
-
 <tr>
 <td>1</td>
 <td>255</td>
 <td>0</td>
 <td>decr.</td>
 </tr>
-
 <tr>
 <td>2</td>
 <td>255</td>
 <td>incr.</td>
 <td>0</td>
 </tr>
-
 <tr>
 <td>3</td>
 <td>decr.</td>
 <td>255</td>
 <td>0</td>
 </tr>
-
 <tr>
 <td>4</td>
 <td>0</td>
 <td>255</td>
 <td>incr.</td>
 </tr>
-
 <tr>
 <td>5</td>
 <td>0</td>
@@ -100,11 +85,8 @@ I split the color wheel into 6 equal parts:</p>
 </tr>
 </tbody>
 </table>
-
 <p><strong>incr.</strong> means the color is increasing and <strong>decr.</strong> means the color is decreasing going counter clockwise around the circle.</p>
-
 <p>The pseudo code to achieve this:</p>
-
 <pre><code>#get the i'th color, of n colors. 
 color(i,n):
     r, g, b = 0
@@ -131,15 +113,7 @@ color(i,n):
             g = progress%255
     return r, g, b
 </code></pre>
-
-<p><div style="border: 1px solid black; margin-bottom:5px; padding: 5px">
-<div id="rainbow2" class="rainbow"></div>
-# of colors <input style="width:40px;" value="20" onchange="init()" id="n2" type="number">
-</div></p>
-
-<h2 id="attributions">Attributions</h2>
-
-<p>RGB color wheel: <a href="https://commons.wikimedia.org/wiki/File:RGB_color_wheel_360.svg">https://commons.wikimedia.org/wiki/File:RGB_color_wheel_360.svg</a></p>
+<!-- raw HTML omitted -->
 
 
 

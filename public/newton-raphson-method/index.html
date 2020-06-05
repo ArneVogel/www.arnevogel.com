@@ -30,20 +30,11 @@
 <h1>Newton Raphson Method</h1>
 <span class="list-date">Jan 23, 2018 • Arne Vogel</span>
 
-
-
 <p>The Newton-Raphson method (named after Isaac Newton 1669 and Joseph Raphson 1690) is a method for generating a numerical sulution for systems of equations.</p>
-
-<p>Example for f(x) = -<sup>1</sup>&frasl;<sub>4</sub>*x^4+<sup>5</sup>&frasl;<sub>2</sub>*x^3-7*x^2+8*x-1, x0 = 2 and eps = 0.1 generated with MatLab:</p>
-
-<video src="/images/newton-raphson-method/newton-raphson-approximation.webm" controls>
-    <p>Your browser doesn't seem to support the \<video/\> tag. Direct link to the video: <a href="/images/newton-raphson-method/newton-raphson-approximation.webm">newton-raphson-approximation.webm</a></p>
-</video>
-
+<p>Example for f(x) = -1/4<em>x^4+5/2</em>x^3-7<em>x^2+8</em>x-1, x0 = 2 and eps = 0.1 generated with MatLab:</p>
+<!-- raw HTML omitted -->
 <h2 id="newton-raphson-method-in-matlab">Newton Raphson Method in MatLab</h2>
-
-<p>MatLab implementation for <img src="/images/newton-raphson-method/input.svg" alt="input" />:</p>
-
+<p>MatLab implementation for <img src="/images/newton-raphson-method/input.svg" alt="input">:</p>
 <pre><code>function y = newton_raphson_method(f,x,x0,eps)
     fx = jacobian(f,x);
     v = num2cell(x0);
@@ -58,11 +49,8 @@
     y = x0;
 end
 </code></pre>
-
 <p>Note that the MatLab implementation doesn&rsquo;t exit when the function has no root.</p>
-
 <p>Download: <a href="/download/newton_raphson_method.m">newton_raphson_method.m</a></p>
-
 <p>See <a href="/download/newton_raphson_method_usage.m">newton_raphson_method_usage.m</a> for how to use the implementation. You need the Symbolics library.</p>
 
 

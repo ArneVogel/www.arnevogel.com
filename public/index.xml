@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Welcome</title>
@@ -6,10 +6,20 @@
     <description>Recent content on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 24 Jan 2019 13:20:42 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 04 Apr 2018 10:30:52 +0200</lastBuildDate>
     
 	<atom:link href="https://www.arnevogel.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How Fast Is WebAssembly?</title>
+      <link>https://www.arnevogel.com/how-fast-is-webassembly/</link>
+      <pubDate>Fri, 05 Jun 2020 19:40:42 +0200</pubDate>
+      
+      <guid>https://www.arnevogel.com/how-fast-is-webassembly/</guid>
+      <description>This work is a summary of the paper &amp;ldquo;Not So Fast: Analyzing the Performance of WebAssembly vs. Native Code&amp;rdquo; by Abhinav Jangda, Bobby Powers, Emery D. Berger, and Arjun Guha https://www.usenix.org/conference/atc19/presentation/jangda
+Abstract: WebAssembly was introduced to be an efficient and fast alternative to JavaScript. The goal is to achieve execution times within the range of native code performance. But can WebAssembly achieve this goal? The original paper which introduced WebAssembly already tries to answer this question.</description>
+    </item>
     
     <item>
       <title>Unit Fractions</title>
@@ -17,7 +27,7 @@
       <pubDate>Thu, 24 Jan 2019 13:20:42 +0100</pubDate>
       
       <guid>https://www.arnevogel.com/unit-fractions/</guid>
-      <description></description>
+      <description>Calculating unit fractions with the algorithm of fibonacci.</description>
     </item>
     
     <item>
@@ -26,8 +36,8 @@
       <pubDate>Sun, 08 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://www.arnevogel.com/post-correspondence-problem/</guid>
-      <description>Problem Statement Given a list of pairs ((x1,y1),(x2,y2),&amp;hellip;,(xn,yn)) of non-empty words x1,x2,&amp;hellip;,xn,y1,y2,&amp;hellip;,yn find a non-empty list of indices i1,i2,&amp;hellip;,im so that the concatination of xi1.xi2&amp;hellip;.xim equals yi1.yi2&amp;hellip;.yim.
-The word pairs (xi,yi) of a problem case can well be imagined as dominoes, where on one half xi and on the other half yi are written. There are n types of dominoes and any number of dominoes are available.
+      <description>Problem Statement Given a list of pairs ((x1,y1),(x2,y2),&amp;hellip;,(xn,yn)) of non-empty words x1,x2,&amp;hellip;,xn,y1,y2,&amp;hellip;,ynfind a non-empty list of indices i1,i2,&amp;hellip;,imso that the concatination of xi1.xi2&amp;hellip;.ximequals yi1.yi2&amp;hellip;.yim.
+The word pairs (xi,yi) of a problem case can well be imagined as dominoes, where on one half xiand on the other half yiare written. There are n types of dominoes and any number of dominoes are available.
 The correspondence problem can now be understood as follows: Is there a sequence of dominoes so that the words on the upper half of the dominoes (read from left to right) produce the same word as the words (read from left to right) from the lower half of the merged dominoes?</description>
     </item>
     
@@ -38,8 +48,7 @@ The correspondence problem can now be understood as follows: Is there a sequence
       
       <guid>https://www.arnevogel.com/rgb-rainbow/</guid>
       <description>For the cyclic cellular automaton I had to get a variable amount of colors around the color circle. This is how I solved that problem.
- # of colors  I split the color wheel into 6 equal parts:
-   Sector/Color R G B     0 incr. 0 255   1 255 0 decr.   2 255 incr. 0   3 decr.</description>
+   Sector/Color R G B     0 incr. 0 255   1 255 0 decr.   2 255 incr. 0   3 decr. 255 0   4 0 255 incr.   5 0 decr. 255    incr.</description>
     </item>
     
     <item>
@@ -48,7 +57,7 @@ The correspondence problem can now be understood as follows: Is there a sequence
       <pubDate>Wed, 04 Apr 2018 10:30:52 +0200</pubDate>
       
       <guid>https://www.arnevogel.com/cyclic-cellular-automaton/</guid>
-      <description>StartStepClearRandomize update rate: msApply   Simulation settings: # of colors: threshold: Wrapping: Apply  Display settings: Cell Size: pxApply  Rules: Each cell has a state. There are n states set with the number of colors above. The state of a cell is between 0 and n-1. A cell with state i is consumed and changes to i+1 if the number of cells with state i+1 in the moore neighborhood are equal or greater to the threshold.</description>
+      <description>Rules: Each cell has a state. There are n states set with the number of colors above. The state of a cell is between 0 and n-1. A cell with state i is consumed and changes to i+1 if the number of cells with state i+1 in the moore neighborhood are equal or greater to the threshold. If a cell is in the n-1 state while it is consumed, it changes its state to 0.</description>
     </item>
     
     <item>
@@ -57,7 +66,10 @@ The correspondence problem can now be understood as follows: Is there a sequence
       <pubDate>Tue, 03 Apr 2018 17:08:02 +0200</pubDate>
       
       <guid>https://www.arnevogel.com/brians-brain-cellular-automaton/</guid>
-      <description>StartStepClearRandomize update rate: msApply  Simulation settings: Birth numbers: B Wrapping: Apply  Display settings: Cell Size: pxApply  Rules: There are three cell types. Dead (white), alive (black) and dying (gray). A alive cell always goes into dying and a dying cell always dies in the next iteration. A dead cell comes alive in the next iteration if the number of alive cells in the moore neighborhood are in the birth numbers (above).</description>
+      <description>Rules: There are three cell types. Dead (white), alive (black) and dying (gray). A alive cell always goes into dying and a dying cell always dies in the next iteration. A dead cell comes alive in the next iteration if the number of alive cells in the moore neighborhood are in the birth numbers (above).
+Settings Clicking on the simulation turns cells on and off.
+Controls:
+ Start: Begins the simulation, calculating and displaying the next population every update rate seconds Step: Calculates and displays the next population Clear: Stops the simulation and clears the population Randomize: Randomly sets 50% of the cells alive and the other 50% dead Update Rate: How many milliseconds each frame is displayed.</description>
     </item>
     
     <item>
@@ -66,9 +78,9 @@ The correspondence problem can now be understood as follows: Is there a sequence
       <pubDate>Sat, 31 Mar 2018 12:52:42 +0200</pubDate>
       
       <guid>https://www.arnevogel.com/life-like-cellular-automaton/</guid>
-      <description>StartStepClearRandomize update rate: msApply  Simulation settings: Spawn: B S Wrapping: Apply  Display settings: Cell Size: pxApply  Settings Clicking on the simulation turns cells on and off.
+      <description>Settings Clicking on the simulation turns cells on and off.
 Controls:
- Start: Begins the simulation, calculating and displaying the next population every update rate seconds Step: Calculates and displays the next population Clear: Stops the simulation and clears the population Randomize: Randomly sets 50% of the cells alive and the other 50% dead Update Rate: How many milliseconds each frame is displayed.</description>
+ Start: Begins the simulation, calculating and displaying the next population every update rate seconds Step: Calculates and displays the next population Clear: Stops the simulation and clears the population Randomize: Randomly sets 50% of the cells alive and the other 50% dead Update Rate: How many milliseconds each frame is displayed. Lower = Faster simulation, but more CPU intensive.</description>
     </item>
     
     <item>
@@ -102,9 +114,7 @@ Note that this the logging wasn&amp;rsquo;t perfect and this overview is only a 
       <guid>https://www.arnevogel.com/taylor-series/</guid>
       <description>Taylor series approximation for sin exp log cos and tan.
 Generated with: taylorseries.m and ffmpeg
-Some browsers might not support the .webm format. You can download the files to your pc and view them with vlc if that is the case.
-Your browser doesn&#39;t seem to support the \ tag. Direct link to the video: newton-raphson-approximation.webm
- Your browser doesn&#39;t seem to support the \ tag. Direct link to the video: newton-raphson-approximation.</description>
+Some browsers might not support the .webm format. You can download the files to your pc and view them with vlc if that is the case.</description>
     </item>
     
     <item>
@@ -114,9 +124,8 @@ Your browser doesn&#39;t seem to support the \ tag. Direct link to the video: ne
       
       <guid>https://www.arnevogel.com/newton-raphson-method/</guid>
       <description>The Newton-Raphson method (named after Isaac Newton 1669 and Joseph Raphson 1690) is a method for generating a numerical sulution for systems of equations.
-Example for f(x) = -1&amp;frasl;4*x^4+5&amp;frasl;2*x^3-7*x^2+8*x-1, x0 = 2 and eps = 0.1 generated with MatLab:
-Your browser doesn&#39;t seem to support the \ tag. Direct link to the video: newton-raphson-approximation.webm
- Newton Raphson Method in MatLab MatLab implementation for :
+Example for f(x) = -1/4x^4+5/2x^3-7x^2+8x-1, x0 = 2 and eps = 0.1 generated with MatLab:
+Newton Raphson Method in MatLab MatLab implementation for :
 function y = newton_raphson_method(f,x,x0,eps) fx = jacobian(f,x); v = num2cell(x0); b = f(v{:}); while norm(b) &amp;gt; eps d = fx(v{:})\f(v{:}); x0 = x0 - d; v = num2cell(x0); b = f(v{:}); end y = x0; end  Note that the MatLab implementation doesn&amp;rsquo;t exit when the function has no root.</description>
     </item>
     
@@ -140,7 +149,7 @@ sudo -u postgres psql  Switching databases:
 \c [DB NAME]  Executing an example query:
 SELECT * from user;  Note that SELECT has to be capitalized, otherwise it will result in a syntac error. Also don&amp;rsquo;t forget the ; at the end of the query.
 Exiting psql:
-\q  </description>
+\q </description>
     </item>
     
     <item>
@@ -243,10 +252,10 @@ In a poll I put up some months ago the most asked feature was to increase the do
       <pubDate>Sat, 09 Dec 2017 11:32:35 +0100</pubDate>
       
       <guid>https://www.arnevogel.com/numerical-integration-in-matlab/</guid>
-      <description> The code for the summed newton cotes formulas in matlab. The functions compute the integral of a function f(x) in the same file from a to b with step size n. Use a sufficient high n for accurate results.
+      <description>The code for the summed newton cotes formulas in matlab. The functions compute the integral of a function f(x) in the same file from a to b with step size n. Use a sufficient high n for accurate results.
 See the example for usage.
 x is a vector of equidistant nodes.
-Trapezoid rule function t = trapezoid_rule(a,b,n) t = 0; x = linspace(a,b,n); h = x(2)-x(1); for i = 1:length(x)-1 t = t + (h/2 * (f(x(i)) + f(x(i+1)))); end end  Simpson&amp;rsquo;s rule function s = simpson_rule(a,b,n) s = 0; x = linspace(a,b,n); h = x(2)-x(1); for i = 1:length(x)-1 s = s + (f(x(i)) + 4* f((x(i)+x(i+1))/2) + f(x(i+1))); end s = s * h/6; end  3&amp;frasl;8 rule function r = rule38(a,b,n) r = 0; x = linspace(a,b,n); h = x(2)-x(1); for i = 1:length(x)-1 r = r + ( f(x(i)) + 3* f(((x(i) + x(i+1))*(4/3)/3)) + 3* f(((x(i) + x(i+1))*(5/3))/3) + f(x(i+1))); end r = r * h/8; end  </description>
+Trapezoid rule function t = trapezoid_rule(a,b,n) t = 0; x = linspace(a,b,n); h = x(2)-x(1); for i = 1:length(x)-1 t = t + (h/2 * (f(x(i)) + f(x(i+1)))); end end  Simpson&amp;rsquo;s rule function s = simpson_rule(a,b,n) s = 0; x = linspace(a,b,n); h = x(2)-x(1); for i = 1:length(x)-1 s = s + (f(x(i)) + 4* f((x(i)+x(i+1))/2) + f(x(i+1))); end s = s * h/6; end  3/8 rule function r = rule38(a,b,n) r = 0; x = linspace(a,b,n); h = x(2)-x(1); for i = 1:length(x)-1 r = r + ( f(x(i)) + 3* f(((x(i) + x(i+1))*(4/3)/3)) + 3* f(((x(i) + x(i+1))*(5/3))/3) + f(x(i+1))); end r = r * h/8; end </description>
     </item>
     
   </channel>

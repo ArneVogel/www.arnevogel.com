@@ -38,29 +38,11 @@
 <h1>Cyclic Cellular Automaton</h1>
 <span class="list-date">Apr 4, 2018 • Arne Vogel</span>
 
-
-
-<div id="canvasWrapper" class="canvasWrapper">
-    <canvas id="canvas" class="canvas" height="320" width="480"></canvas>
-</div>
-<div>
-<button class="btn" id="startStop" onclick="startStop()">Start</button><button class="btn" onclick="createAndDrawNextPopulation()">Step</button><button class="btn" onclick="clearScreen()">Clear</button><button class="btn" onclick="randomize()">Randomize</button> update rate: <input value="200" class="width30" id="speed"></input><span>ms</span><button class="btn" onclick="updateSpeed()">Apply</button>
-</div>
-<div>
-Simulation settings: # of colors: <input type="number" style="width:40px" id="n" value="15"> threshold: <input type="number" style="width:35px" id="t" value="1"> Wrapping: <input class="checkbox" id="wrap" type="checkbox"><button class="btn" onclick="gameChange()">Apply</button>
-</div>
-<div class="input_with_appended_unit">
-Display settings: Cell Size: <input style="width:30px" value="10" id="cellSize"></input><span>px</span><button  class="btn" onclick="lvlChange()">Apply</button>
-</div>
-
+<!-- raw HTML omitted -->
 <p><strong>Rules</strong>: Each cell has a state. There are n states set with the number of colors above. The state of a cell is between 0 and n-1. A cell with state i is consumed and changes to i+1 if the number of cells with state i+1 in the <a href="https://en.wikipedia.org/wiki/Moore_neighborhood">moore neighborhood</a> are equal or greater to the threshold. If a cell is in the n-1 state while it is consumed, it changes its state to 0.</p>
-
 <h2 id="settings">Settings</h2>
-
 <p>Clicking on the simulation turns cells on and off.</p>
-
 <p><strong>Controls:</strong></p>
-
 <ul>
 <li>Start: Begins the simulation, calculating and displaying the next population every <em>update rate</em> seconds</li>
 <li>Step: Calculates and displays the next population</li>
@@ -68,21 +50,17 @@ Display settings: Cell Size: <input style="width:30px" value="10" id="cellSize">
 <li>Randomize: Randomly sets 50% of the cells <em>alive</em> and the other 50% <em>dead</em></li>
 <li>Update Rate: How many milliseconds each frame is displayed. Lower = Faster simulation, but more CPU intensive.</li>
 </ul>
-
 <p><strong>Simulation Settings:</strong></p>
-
 <p>Can be edited while the simulation is running.</p>
-
 <ul>
-<li># of colors: Number of colors</li>
+<li>
+<h1 id="of-colors-number-of-colors">of colors: Number of colors</h1>
+</li>
 <li>Threshold: How many cells around a cell have to be the successor of the cell for the cells color to change.</li>
 <li>Wrapping: Makes the <em>world</em> wrap around, like in snake. With wrapping turned off the outside world acts as dead cells.</li>
 </ul>
-
 <p><strong>Display Settings:</strong></p>
-
 <p>Will restart the simulation.</p>
-
 <ul>
 <li>Cell Size: Controls the height and width of the cells. Low values are very CPU intensive.</li>
 </ul>

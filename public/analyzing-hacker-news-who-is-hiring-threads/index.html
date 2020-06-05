@@ -31,43 +31,24 @@
 <span class="list-date">Dec 30, 2017 • Arne Vogel</span>
 
 <p>Analyzing 41194 comments and 6367099 words posted in Hacker News &ldquo;Who is Hiring&rdquo; threads. If you don&rsquo;t know what those threads are here is the latest one: <a href="https://news.ycombinator.com/item?id=15824597">Ask HN: Who is hiring? (December 2017)</a></p>
-
 <p>In these threads companies can self promote their job offerings and in doing to they describe the jobs they are offering.</p>
-
 <p>In this post I show the most interesting things I found while playing around with the data. Note: don&rsquo;t take this too serious. I only did this for the fun of exploring and plotting data. This is no serious scientific and/or statistical analysis.</p>
-
-<p><img src="/images/analyzing-hacker-news-who-is-hiring-threads/words.png" alt="words" /></p>
-
+<p><img src="/images/analyzing-hacker-news-who-is-hiring-threads/words.png" alt="words"></p>
 <p>One of the first things I did was look at how many top-level comments there were in each thread and how many words on average those comments had. The amount of companies promoting their jobs on Hacker News rose quite dramatically between 2015 and 2017. I don&rsquo;t think this has to do with the rise in popularity of Hacker News because the trend in google searches for Hacker News in the last <a href="https://trends.google.com/trends/explore?date=today%205-y&amp;q=hacker%20news">five years</a> has not risen on that level, it has even declined in the same period.</p>
-
 <p>Another thing I noticed is the decline in average words per post in the end of 2014. In a few months the average fell more than 30%. I have no idea what caused this decline.</p>
-
-<p><img src="/images/analyzing-hacker-news-who-is-hiring-threads/data_science.png" alt="data science" /></p>
-
+<p><img src="/images/analyzing-hacker-news-who-is-hiring-threads/data_science.png" alt="data science"></p>
 <p>The mentions match with what you would expect. Collecting, working and getting insights from data got more and more important.</p>
-
-<p><img src="/images/analyzing-hacker-news-who-is-hiring-threads/sys_prog.png" alt="go, rust, java, c++" /></p>
-
+<p><img src="/images/analyzing-hacker-news-who-is-hiring-threads/sys_prog.png" alt="go, rust, java, c++"></p>
 <p>The rise of Go is facinating. Already in the first year of the release of a <a href="https://blog.golang.org/go-version-1-is-released">stable version</a> in 2012 it overtook c++ in mentions in the threads. And that even though Go is 14 ranks behind C++ in the Tiobe Index for <a href="https://www.tiobe.com/tiobe-index/">December 2017</a>.</p>
-
-<p><img src="/images/analyzing-hacker-news-who-is-hiring-threads/docker.png" alt="docker" /></p>
-
+<p><img src="/images/analyzing-hacker-news-who-is-hiring-threads/docker.png" alt="docker"></p>
 <p>Docker also got off to a good start. First released on <a href="https://en.wikipedia.org/wiki/Docker_(software)">13 March 2013</a> it quickly found it&rsquo;s way into the companies posting on Hacker News.</p>
-
-<p><img src="/images/analyzing-hacker-news-who-is-hiring-threads/germany.png" alt="germany" /></p>
-
+<p><img src="/images/analyzing-hacker-news-who-is-hiring-threads/germany.png" alt="germany"></p>
 <p>The germans are invading.</p>
-
-<p><img src="/images/analyzing-hacker-news-who-is-hiring-threads/os.png" alt="os" /></p>
-
+<p><img src="/images/analyzing-hacker-news-who-is-hiring-threads/os.png" alt="os"></p>
 <p>Windows or Linux? Clearly Linux.</p>
-
-<p><img src="/images/analyzing-hacker-news-who-is-hiring-threads/js_framework.png" alt="javascript framework" /></p>
-
+<p><img src="/images/analyzing-hacker-news-who-is-hiring-threads/js_framework.png" alt="javascript framework"></p>
 <p>React outpacing Angular since 3 years.</p>
-
-<hr>
-
+<!-- raw HTML omitted -->
 <p>If you want to play around with the data yourself here is the data I got from the <a href="https://github.com/HackerNews/API">Hacker News API</a> (as of 30.12.2017): <a href="/download/hn_hiring.json">hn_hiring.json</a> (53mb). The json contains all the top level comments for each thread. The threads are sorted ascending by creation date.</p>
 
 

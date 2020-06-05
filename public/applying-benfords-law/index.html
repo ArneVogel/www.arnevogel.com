@@ -30,41 +30,23 @@
 <h1>Applying Benfords Law</h1>
 <span class="list-date">Dec 28, 2017 • Arne Vogel</span>
 
-
-
 <p>If you don&rsquo;t know about Benford&rsquo;s law here is a quick summary:</p>
-
 <p>In numerical data the frequency distribution of the leading digits it not an equal distribution. The lower the digit the more likely it is to appear as leading digit in the data. For example in base 10: Numbers with the initial digit 1 occur about 6.6 times as often as numbers with the initial digit 9.</p>
-
 <p>For more information check out the extensive Wikipedia page about <a href="https://en.wikipedia.org/wiki/Benford%27s_law">Benford&rsquo;s law</a>.</p>
-
 <h2 id="nfl-salary-data">NFL Salary Data</h2>
-
 <p>Salary data from 1765 <a href="https://www.kaggle.com/zynicide/nfl-football-player-stats/data">NFL players</a>. Numbers starting with digit 1 to 9: 310, 109, 114, 361, 276, 315, 132, 67, 81.</p>
-
-<p><img src="/images/applying-benfords-law/benford_nfl_salary.png" alt="benfords law applied to nfl salaries" /></p>
-
+<p><img src="/images/applying-benfords-law/benford_nfl_salary.png" alt="benfords law applied to nfl salaries"></p>
 <p>Since most of the players earn less then a million dollar the distribution of salary numbers is not enough dispersed for the salary numbers to follow Benford&rsquo;s law.
 Because many players earn between $400,000 and $600,000 the digits 5, 6, 7 are over represented while digits 1, 2, 3 are under represented.</p>
-
-<h2 id="wikipedia-pages-about-benford-s-law">Wikipedia Pages about Benford&rsquo;s law</h2>
-
+<h2 id="wikipedia-pages-about-benfords-law">Wikipedia Pages about Benford&rsquo;s law</h2>
 <p>The pages used for the analysis were the englisch Wikipedia page about <a href="https://en.wikipedia.org/wiki/Benford%27s_law">Benford&rsquo;s law</a> and all the translations of it found in the sidebar. There are 1846 numbers in all the Wikipedia pages about Benford&rsquo;s law.</p>
-
-<p><img src="/images/applying-benfords-law/benford_wikipedia.png" alt="benfords law applied to numbers in benfords law wikipedia pages" /></p>
-
+<p><img src="/images/applying-benfords-law/benford_wikipedia.png" alt="benfords law applied to numbers in benfords law wikipedia pages"></p>
 <p>As you can see the actual amount of numbers found on all the Wikipedia pages about Benford’s law don’t match up with what you would expect from Benford’s law. The amount of ones is nearly double of what you would expect and there are no numbers starting with six or seven in any of the pages.</p>
-
 <p>The amount of numbers starting with digit 1 to 9 are: 1040, 260, 234, 52, 78, 0, 0, 26, 130.</p>
-
 <p>It seems to me that Benford&rsquo;s law didn&rsquo;t work for this dataset is that the numbers aren&rsquo;t from a genuinely random source.</p>
-
 <h2 id="boiling-and-melting-points-of-elements">Boiling and melting points of Elements</h2>
-
 <p>Finally a working example. The boiling and melting points of elements from the <a href="https://www.kaggle.com/jwaitze/tablesoftheelements/data">periodic table</a>. With 203 data points the sample size if quite small but it still results in the best results so far. The digits appear this many times from 1 to 9: 68, 38, 39, 17, 13, 9, 4, 4, 10.</p>
-
-<p><img src="/images/applying-benfords-law/benford_elements.png" alt="benfords law applied to melting and boiling points of elements" /></p>
-
+<p><img src="/images/applying-benfords-law/benford_elements.png" alt="benfords law applied to melting and boiling points of elements"></p>
 <p>The way I see it the data points are dispersed enough, elements can have melting and boiling points between -34°C and 1100°C, and thats why Benford&rsquo;s law applies to this dataset.</p>
 
 

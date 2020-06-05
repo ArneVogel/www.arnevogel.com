@@ -30,32 +30,21 @@
 <h1>Installing Latest Golang Version on Ubuntu</h1>
 <span class="list-date">Jan 10, 2018 • Arne Vogel</span>
 
-
-
 <p>Installing Go with apt-get might not give you the most up to date golang version. On this page I describe how to install the latest golang version on how to set the $GOPATH and $GOROOT system variables</p>
-
 <pre><code>$go version
 The program 'go' is currently not installed. You can install it by typing:
 apt install golang-go
 </code></pre>
-
 <p>After installing golang with the suggested command <code>apt install golang-go</code> you might have an older version of golang installed.</p>
-
 <pre><code>$go version
 go version go1.6.2 linux/amd64
 </code></pre>
-
 <h2 id="latest-go-version">Latest Go Version</h2>
-
 <p>So let&rsquo;s install the latest version of go. This should work on all up to date Ubuntu versions, I tested it on 17.10, 16.04, 14.04.</p>
-
 <p>To do so go to the <a href="https://golang.org/dl/">download page</a> of golang and select the version you want to install. In my case the latest version is 1.9.2, but your might be different. Rightclick and copy the link with <code>linux-amd64.tar.gz</code> in the name. Now we download this version using ``</p>
-
 <pre><code>$wget https://dl.google.com/go/go1.9.2.linux-amd64.tar.gz
 </code></pre>
-
 <p>Once the download is finished extract the package with <code>sudo tar -xvf go1.9.2.linux-amd64.tar.gz</code>. This should result in a lot of text flying by your screen. Once its finished there should be a folder named <code>go</code> in the directory. You can remove the package now with <code>rm go1.9.2.linux-amd64.tar.gz</code>.</p>
-
 <pre><code>$sudo tar -xvf go1.9.2.linux-amd64.tar.gz
 $ls
 go  go1.9.2.linux-amd64.tar.gz
@@ -63,32 +52,22 @@ $rm go1.9.2.linux-amd64.tar.gz
 $ls
 go
 </code></pre>
-
 <p>Now move the folder anywhere you like with <code>sudo mv go [folder]</code>. In my case I used <code>sudo mv go /usr/local</code></p>
-
 <pre><code>$sudo mv go /usr/local
 $ls
 [empty]
 </code></pre>
-
 <h2 id="setting-up-gopath-and-goroot">Setting up GOPATH and GOROOT</h2>
-
 <p>To access golang from anywhere on the system and to let golang know where to install packages we have to set the <code>GOPATH</code> and <code>GOROOT</code> system variables and additionally add them to <code>PATH</code>. To do so we have to append them to <code>~/.profile</code>. Open <code>~/.profile</code> with:</p>
-
 <pre><code>$sudo nano ~/.profile
 </code></pre>
-
 <p>Scroll all the way to the botton and add these three lines to the file and save it:</p>
-
 <pre><code>export GOROOT=/usr/local/go
 export GOPATH=/go
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 </code></pre>
-
 <p>You have to change the folder in the first line if you moved the go folder to a different location. The second line tells go where to install packages with <code>go get</code>. So if you want a different folder there just change it in the second line. The third line adds both to the <code>PATH</code>.</p>
-
 <p>After restarting the command line you have the most up to date go version installed:</p>
-
 <pre><code>go version
 go version go1.9.2 linux/amd64
 </code></pre>

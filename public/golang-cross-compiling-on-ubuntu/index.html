@@ -31,21 +31,14 @@
 <span class="list-date">Dec 27, 2017 • Arne Vogel</span>
 
 <p>Cross compiling a golang project on Ubuntu is as easy as building the project for ubuntu itself. Golang makes it easy to cross compile for many platforms and architecture types. When you want to cross compile your go project you only have to set the GOOS and GOARCH variables and go will handle the rest.</p>
-
 <p>In your project folder typing <code>go build</code> will build it for the platform and architecture of the computer you currently are on. When you want to cross compile for a different platform you have to set the GOOS and possibly the GOARCH variable before go build. This is as easy as <code>env GOOS=[OS] GOARCH=[ARCH] go build</code>. Replace [OS] with the OS you want to target and [ARCH] with the architecture.</p>
-
 <p>You don&rsquo;t necessarily have to set the [ARCH] variable. When building for windows I use <code>env GOOS=windows go build</code> and for mac I use <code>env GOOS=darwin go build</code>.</p>
-
 <p>The possible values for OS are:</p>
-
 <pre><code>android darwin dragonfly freebsd linux nacl netbsd openbsd plan9 solaris windows zos
 </code></pre>
-
 <p>and the possible values for ARCH are:</p>
-
 <pre><code>386 amd64 amd64p32 arm armbe arm64 arm64be ppc64 ppc64le mips mipsle mips64 mips64le mips64p32 mips64p32le ppc s390 s390x sparc sparc64
 </code></pre>
-
 <p>These values are up to date as of writing this. Check out the official <a href="https://github.com/golang/go/blob/master/src/go/build/syslist.go">go github repo</a> for possible changes.</p>
 
 

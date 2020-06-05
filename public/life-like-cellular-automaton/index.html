@@ -40,27 +40,10 @@
 <h1>Life-like Cellular Automaton</h1>
 <span class="list-date">Mar 31, 2018 • Arne Vogel</span>
 
-
-
-<div id="canvasWrapper" class="canvasWrapper">
-    <canvas id="canvas" class="canvas" height="320" width="480"></canvas>
-</div>
-<div class="input_with_appended_unit">
-<button class="btn" id="startStop" onclick="startStop()">Start</button><button class="btn" onclick="createAndDrawNextPopulation()">Step</button><button class="btn" onclick="clearScreen()">Clear</button><button class="btn" onclick="randomize()">Randomize</button> update rate: <input value="200" class="width30" id="speed"></input><span>ms</span><button class="btn" onclick="updateSpeed()">Apply</button>
-</div>
-<div class="input_with_appended_unit">
-Simulation settings: Spawn: <input value="3" id="b"></input><span>B</span> <input value="23" id="s"></input><span>S</span> Wrapping: <input class="checkbox" id="wrap" type="checkbox"><button class="btn" onclick="gameChange()">Apply</button>
-</div>
-<div class="input_with_appended_unit">
-Display settings: Cell Size: <input class="width30" value="10" id="cellSize"></input><span>px</span><button  class="btn" onclick="lvlChange()">Apply</button>
-</div>
-
+<!-- raw HTML omitted -->
 <h2 id="settings">Settings</h2>
-
 <p>Clicking on the simulation turns cells on and off.</p>
-
 <p><strong>Controls:</strong></p>
-
 <ul>
 <li>Start: Begins the simulation, calculating and displaying the next population every <em>update rate</em> seconds</li>
 <li>Step: Calculates and displays the next population</li>
@@ -68,21 +51,15 @@ Display settings: Cell Size: <input class="width30" value="10" id="cellSize"></i
 <li>Randomize: Randomly sets 50% of the cells <em>alive</em> and the other 50% <em>dead</em></li>
 <li>Update Rate: How many milliseconds each frame is displayed. Lower = Faster simulation, but more CPU intensive.</li>
 </ul>
-
 <p><strong>Simulation Settings:</strong></p>
-
 <p>Can be edited while the simulation is running.</p>
-
 <ul>
 <li>Spawn B: Specifies how many cells around a dead cell have to be alive for the cell to come alive.</li>
 <li>Spawn S: Specifies how many cells around a alive cell have to a alive for the cell to survive.</li>
 <li>Wrapping: Makes the <em>world</em> wrap around, like in snake. With wrapping turned off the outside world acts as dead cells.</li>
 </ul>
-
 <p><strong>Display Settings:</strong></p>
-
 <p>Will restart the simulation.</p>
-
 <ul>
 <li>Cell Size: Controls the height and width of the cells. Low values are very CPU intensive.</li>
 </ul>

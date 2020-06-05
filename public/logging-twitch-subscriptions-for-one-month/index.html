@@ -30,40 +30,28 @@
 <h1>Logging Twitch Subscriptions for One Month</h1>
 <span class="list-date">Feb 10, 2018 • Arne Vogel</span>
 
-
-
 <p>For one month now I have been logging twitch subscriptions of channels that have surpassed 50 viewers at one point in the month and are partnered with twitch.</p>
-
 <p>Note that this the logging wasn&rsquo;t perfect and this overview is only a distorted view on the ground truth of data that twitch has. The logger isn&rsquo;t as robust as I would like to have it, it wasn&rsquo;t logging 100% of the time in each channel and it sometimes counted subscriptions twice when users had the chance to announce a sub multiple times. The data is only a small portion of all subscriptions on twitch.</p>
-
 <p>You can explore the data yourself at <a href="https://twslogs.com/">twslogs.com</a>. Unfortunately the site runs on the same server as the logging bot so it&rsquo;s quite slow sometimes.</p>
-
 <h2 id="data">Data</h2>
-
 <pre><code>tws=# SELECT count(*) from partner;
  count
 -------
   9948
 </code></pre>
-
 <p>Excactly 9948 streamers chats are monitored for subscriptions as of this writing.</p>
-
 <pre><code>tws=# SELECT count(*) from users;
   count
 ---------
  1040416
 </code></pre>
-
 <p>And to these 9948 streamers are 1 040 416 users that subscribed atleast to one of the partners.</p>
-
 <pre><code>tws=# SELECT count(*) from subscription;
   count
 ---------
  1461692
 </code></pre>
-
 <p>The total number of subscriptions detected by the bot are 1 461 692. So on average one user subscribes to 1.4 streamers per month.</p>
-
 <pre><code>tws=# SELECT sub_plan, count(sub_plan) from subscription group by sub_plan;
  sub_plan | count
 ----------+--------
@@ -72,9 +60,7 @@
  2000     |  25995
  3000     |  24197
 </code></pre>
-
 <p>Of all subscriptions 41.5% were prime subs, 55% were $5 subscriptions, 1.78% where $9.99 subs and 1.7% were $24.99 subs.</p>
-
 <pre><code>tws=# SELECT u.name, count(u.id) from subscription join users u on u_id = u.id group by u.id order by count(u.id) desc limit 10;
         name        | count
 --------------------+-------
@@ -89,11 +75,8 @@
  carcinogensda      |   228
  sweetbro           |   227
 </code></pre>
-
 <p>Above is the number of subs and gifted subscriptions per user. Some people have way to much money to throw around. More than one in 2000 subscriptions on twitch are from champion7b.</p>
-
 <p>Where the streamers come from:</p>
-
 <pre><code>tws=# SELECT language, count(*) from partner group by language order by count(*) DESC;
  language | count
 ----------+-------
@@ -126,9 +109,7 @@
  zh-cn    |     4
  vi       |     3
 </code></pre>
-
 <p>And the number of subscriptions to streamers with their language set to x:</p>
-
 <pre><code>tws=# SELECT language, count(*) from partner join subscription on p_id = partner.id group by language order by count(*) DESC;
  language | count
 ----------+--------
@@ -160,13 +141,9 @@
  zh-cn    |    190
  bg       |     75
 </code></pre>
-
 <p>The three streamers from United States Virgin Islands unfortunately didn&rsquo;t recieve any subscriptions as far as I can tell with the data :(</p>
-
 <h2 id="future-plans">Future plans</h2>
-
 <p>I am going to keep the bot running and will try to make the logging more robust so the data comes more reliable. For some channels the logger has only registered half of all subscriptions.</p>
-
 <p>If you want to take a look at the source code the code is avaliable on github: <a href="https://github.com/ArneVogel/TWS">github.com/ArneVogel/TWS</a>.</p>
 
 
