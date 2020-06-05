@@ -36,8 +36,8 @@ Abstract: WebAssembly was introduced to be an efficient and fast alternative to 
       <pubDate>Sun, 08 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://www.arnevogel.com/post-correspondence-problem/</guid>
-      <description>Problem Statement Given a list of pairs ((x1,y1),(x2,y2),&amp;hellip;,(xn,yn)) of non-empty words x1,x2,&amp;hellip;,xn,y1,y2,&amp;hellip;,ynfind a non-empty list of indices i1,i2,&amp;hellip;,imso that the concatination of xi1.xi2&amp;hellip;.ximequals yi1.yi2&amp;hellip;.yim.
-The word pairs (xi,yi) of a problem case can well be imagined as dominoes, where on one half xiand on the other half yiare written. There are n types of dominoes and any number of dominoes are available.
+      <description>Problem Statement Given a list of pairs ((x1,y1),(x2,y2),&amp;hellip;,(xn,yn)) of non-empty words x1,x2,&amp;hellip;,xn,y1,y2,&amp;hellip;,yn find a non-empty list of indices i1,i2,&amp;hellip;,im so that the concatination of xi1.xi2&amp;hellip;.xim equals yi1.yi2&amp;hellip;.yim.
+The word pairs (xi,yi) of a problem case can well be imagined as dominoes, where on one half xi and on the other half yi are written. There are n types of dominoes and any number of dominoes are available.
 The correspondence problem can now be understood as follows: Is there a sequence of dominoes so that the words on the upper half of the dominoes (read from left to right) produce the same word as the words (read from left to right) from the lower half of the merged dominoes?</description>
     </item>
     
@@ -48,7 +48,7 @@ The correspondence problem can now be understood as follows: Is there a sequence
       
       <guid>https://www.arnevogel.com/rgb-rainbow/</guid>
       <description>For the cyclic cellular automaton I had to get a variable amount of colors around the color circle. This is how I solved that problem.
-   Sector/Color R G B     0 incr. 0 255   1 255 0 decr.   2 255 incr. 0   3 decr. 255 0   4 0 255 incr.   5 0 decr. 255    incr.</description>
+ \# of colors  I split the color wheel into 6 equal parts:    Sector/Color R G B     0 incr. 0 255   1 255 0 decr.   2 255 incr. 0   3 decr. 255 0   4 0 255 incr.</description>
     </item>
     
     <item>
@@ -57,7 +57,7 @@ The correspondence problem can now be understood as follows: Is there a sequence
       <pubDate>Wed, 04 Apr 2018 10:30:52 +0200</pubDate>
       
       <guid>https://www.arnevogel.com/cyclic-cellular-automaton/</guid>
-      <description>Rules: Each cell has a state. There are n states set with the number of colors above. The state of a cell is between 0 and n-1. A cell with state i is consumed and changes to i+1 if the number of cells with state i+1 in the moore neighborhood are equal or greater to the threshold. If a cell is in the n-1 state while it is consumed, it changes its state to 0.</description>
+      <description>StartStepClearRandomize update rate: msApply   Simulation settings: # of colors: threshold: Wrapping: Apply  Display settings: Cell Size: pxApply  Rules: Each cell has a state. There are n states set with the number of colors above. The state of a cell is between 0 and n-1. A cell with state i is consumed and changes to i+1 if the number of cells with state i+1 in the moore neighborhood are equal or greater to the threshold.</description>
     </item>
     
     <item>
@@ -66,10 +66,7 @@ The correspondence problem can now be understood as follows: Is there a sequence
       <pubDate>Tue, 03 Apr 2018 17:08:02 +0200</pubDate>
       
       <guid>https://www.arnevogel.com/brians-brain-cellular-automaton/</guid>
-      <description>Rules: There are three cell types. Dead (white), alive (black) and dying (gray). A alive cell always goes into dying and a dying cell always dies in the next iteration. A dead cell comes alive in the next iteration if the number of alive cells in the moore neighborhood are in the birth numbers (above).
-Settings Clicking on the simulation turns cells on and off.
-Controls:
- Start: Begins the simulation, calculating and displaying the next population every update rate seconds Step: Calculates and displays the next population Clear: Stops the simulation and clears the population Randomize: Randomly sets 50% of the cells alive and the other 50% dead Update Rate: How many milliseconds each frame is displayed.</description>
+      <description>StartStepClearRandomize update rate: msApply  Simulation settings: Birth numbers: B Wrapping: Apply  Display settings: Cell Size: pxApply  Rules: There are three cell types. Dead (white), alive (black) and dying (gray). A alive cell always goes into dying and a dying cell always dies in the next iteration. A dead cell comes alive in the next iteration if the number of alive cells in the moore neighborhood are in the birth numbers (above).</description>
     </item>
     
     <item>
@@ -78,9 +75,9 @@ Controls:
       <pubDate>Sat, 31 Mar 2018 12:52:42 +0200</pubDate>
       
       <guid>https://www.arnevogel.com/life-like-cellular-automaton/</guid>
-      <description>Settings Clicking on the simulation turns cells on and off.
+      <description>StartStepClearRandomize update rate: msApply  Simulation settings: Spawn: B S Wrapping: Apply  Display settings: Cell Size: pxApply  Settings Clicking on the simulation turns cells on and off.
 Controls:
- Start: Begins the simulation, calculating and displaying the next population every update rate seconds Step: Calculates and displays the next population Clear: Stops the simulation and clears the population Randomize: Randomly sets 50% of the cells alive and the other 50% dead Update Rate: How many milliseconds each frame is displayed. Lower = Faster simulation, but more CPU intensive.</description>
+ Start: Begins the simulation, calculating and displaying the next population every update rate seconds Step: Calculates and displays the next population Clear: Stops the simulation and clears the population Randomize: Randomly sets 50% of the cells alive and the other 50% dead Update Rate: How many milliseconds each frame is displayed.</description>
     </item>
     
     <item>
@@ -114,7 +111,9 @@ Note that this the logging wasn&amp;rsquo;t perfect and this overview is only a 
       <guid>https://www.arnevogel.com/taylor-series/</guid>
       <description>Taylor series approximation for sin exp log cos and tan.
 Generated with: taylorseries.m and ffmpeg
-Some browsers might not support the .webm format. You can download the files to your pc and view them with vlc if that is the case.</description>
+Some browsers might not support the .webm format. You can download the files to your pc and view them with vlc if that is the case.
+Your browser doesn&#39;t seem to support the \ tag. Direct link to the video: newton-raphson-approximation.webm
+ Your browser doesn&#39;t seem to support the \ tag. Direct link to the video: newton-raphson-approximation.</description>
     </item>
     
     <item>
@@ -125,7 +124,8 @@ Some browsers might not support the .webm format. You can download the files to 
       <guid>https://www.arnevogel.com/newton-raphson-method/</guid>
       <description>The Newton-Raphson method (named after Isaac Newton 1669 and Joseph Raphson 1690) is a method for generating a numerical sulution for systems of equations.
 Example for f(x) = -1/4x^4+5/2x^3-7x^2+8x-1, x0 = 2 and eps = 0.1 generated with MatLab:
-Newton Raphson Method in MatLab MatLab implementation for :
+Your browser doesn&#39;t seem to support the \ tag. Direct link to the video: newton-raphson-approximation.webm
+ Newton Raphson Method in MatLab MatLab implementation for :
 function y = newton_raphson_method(f,x,x0,eps) fx = jacobian(f,x); v = num2cell(x0); b = f(v{:}); while norm(b) &amp;gt; eps d = fx(v{:})\f(v{:}); x0 = x0 - d; v = num2cell(x0); b = f(v{:}); end y = x0; end  Note that the MatLab implementation doesn&amp;rsquo;t exit when the function has no root.</description>
     </item>
     

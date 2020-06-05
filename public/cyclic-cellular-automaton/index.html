@@ -38,7 +38,18 @@
 <h1>Cyclic Cellular Automaton</h1>
 <span class="list-date">Apr 4, 2018 • Arne Vogel</span>
 
-<!-- raw HTML omitted -->
+<div id="canvasWrapper" class="canvasWrapper">
+    <canvas id="canvas" class="canvas" height="320" width="480"></canvas>
+</div>
+<div>
+<button class="btn" id="startStop" onclick="startStop()">Start</button><button class="btn" onclick="createAndDrawNextPopulation()">Step</button><button class="btn" onclick="clearScreen()">Clear</button><button class="btn" onclick="randomize()">Randomize</button> update rate: <input value="200" class="width30" id="speed"></input><span>ms</span><button class="btn" onclick="updateSpeed()">Apply</button>
+</div>
+<div>
+Simulation settings: # of colors: <input type="number" style="width:40px" id="n" value="15"> threshold: <input type="number" style="width:35px" id="t" value="1"> Wrapping: <input class="checkbox" id="wrap" type="checkbox"><button class="btn" onclick="gameChange()">Apply</button>
+</div>
+<div class="input_with_appended_unit">
+Display settings: Cell Size: <input style="width:30px" value="10" id="cellSize"></input><span>px</span><button  class="btn" onclick="lvlChange()">Apply</button>
+</div>
 <p><strong>Rules</strong>: Each cell has a state. There are n states set with the number of colors above. The state of a cell is between 0 and n-1. A cell with state i is consumed and changes to i+1 if the number of cells with state i+1 in the <a href="https://en.wikipedia.org/wiki/Moore_neighborhood">moore neighborhood</a> are equal or greater to the threshold. If a cell is in the n-1 state while it is consumed, it changes its state to 0.</p>
 <h2 id="settings">Settings</h2>
 <p>Clicking on the simulation turns cells on and off.</p>

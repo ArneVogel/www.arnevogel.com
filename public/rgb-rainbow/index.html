@@ -35,7 +35,11 @@
 <span class="list-date">Apr 5, 2018 • Arne Vogel</span>
 
 <p>For the <a href="https://www.arnevogel.com/cyclic-cellular-automaton/">cyclic cellular automaton</a> I had to get a variable amount of colors around the color circle. This is how I solved that problem.</p>
-<!-- raw HTML omitted -->
+<div style="border: 1px solid black; margin-bottom:5px; padding: 5px">
+<div id="rainbow1" class="rainbow"></div>
+\# of colors <input style="width:40px;" value="20" onchange="init()" id="n1" type="number">
+</div>
+I split the color wheel into 6 equal parts:
 <p><img src="/images/rgb-rainbow/wheelLow.png" alt="wheel"></p>
 <table>
 <thead>
@@ -113,8 +117,12 @@ color(i,n):
             g = progress%255
     return r, g, b
 </code></pre>
-<!-- raw HTML omitted -->
-
+<div style="border: 1px solid black; margin-bottom:5px; padding: 5px">
+<div id="rainbow2" class="rainbow"></div>
+\# of colors <input style="width:40px;" value="20" onchange="init()" id="n2" type="number">
+</div>
+## Attributions
+RGB color wheel: https://commons.wikimedia.org/wiki/File:RGB_color_wheel_360.svg
 
 
 

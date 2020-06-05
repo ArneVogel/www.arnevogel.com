@@ -19,7 +19,9 @@
       <guid>https://www.arnevogel.com/taylor-series/</guid>
       <description>Taylor series approximation for sin exp log cos and tan.
 Generated with: taylorseries.m and ffmpeg
-Some browsers might not support the .webm format. You can download the files to your pc and view them with vlc if that is the case.</description>
+Some browsers might not support the .webm format. You can download the files to your pc and view them with vlc if that is the case.
+Your browser doesn&#39;t seem to support the \ tag. Direct link to the video: newton-raphson-approximation.webm
+ Your browser doesn&#39;t seem to support the \ tag. Direct link to the video: newton-raphson-approximation.</description>
     </item>
     
     <item>
@@ -30,7 +32,8 @@ Some browsers might not support the .webm format. You can download the files to 
       <guid>https://www.arnevogel.com/newton-raphson-method/</guid>
       <description>The Newton-Raphson method (named after Isaac Newton 1669 and Joseph Raphson 1690) is a method for generating a numerical sulution for systems of equations.
 Example for f(x) = -1/4x^4+5/2x^3-7x^2+8x-1, x0 = 2 and eps = 0.1 generated with MatLab:
-Newton Raphson Method in MatLab MatLab implementation for :
+Your browser doesn&#39;t seem to support the \ tag. Direct link to the video: newton-raphson-approximation.webm
+ Newton Raphson Method in MatLab MatLab implementation for :
 function y = newton_raphson_method(f,x,x0,eps) fx = jacobian(f,x); v = num2cell(x0); b = f(v{:}); while norm(b) &amp;gt; eps d = fx(v{:})\f(v{:}); x0 = x0 - d; v = num2cell(x0); b = f(v{:}); end y = x0; end  Note that the MatLab implementation doesn&amp;rsquo;t exit when the function has no root.</description>
     </item>
     
