@@ -12,6 +12,20 @@
     
     
     <item>
+      <title>Wie GPT3 funktioniert - Visualisierungen und Animationen</title>
+      <link>https://www.arnevogel.com/wie-gpt3-funktioniert/</link>
+      <pubDate>Mon, 27 Jul 2020 17:21:01 +0100</pubDate>
+      
+      <guid>https://www.arnevogel.com/wie-gpt3-funktioniert/</guid>
+      <description>Dies ist eine Übersetzung des Beitrags &amp;ldquo;How GPT3 Works - Visualizations and Animations&amp;rdquo; von Alammar, Jay (2020), abgerufen von: https://jalammar.github.io/how-gpt3-works-visualizations-animations/
+Ein trainiertes Sprachmodell erzeugt Text.
+Wir können ihm optional etwas Text als Eingabe übergeben, was seine Ausgabe beeinflusst.
+Die Ausgabe wird aus dem erzeugt, was das Modell während der Trainingsphase &amp;ldquo;gelernt&amp;rdquo; hat, in der es riesige Textmengen gescannt hat.
+
+Training ist der Prozess, bei dem das Modell viel Text vermittelt wird.</description>
+    </item>
+    
+    <item>
       <title>How Fast Is WebAssembly?</title>
       <link>https://www.arnevogel.com/how-fast-is-webassembly/</link>
       <pubDate>Fri, 05 Jun 2020 19:40:42 +0200</pubDate>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<title>Wie GPT3 funktioniert - Visualisierungen und Animationen</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Arne Vogel">
+<meta name="description" content="Wie funktioniert GPT3 eigentlich? In diesem Artikel wird diese Frage mit anschaulichen Animationen beantwortet.">
+<meta property="og:url" content="https://www.arnevogel.com/wie-gpt3-funktioniert/" />
+<meta property="og:title" content="Wie GPT3 funktioniert - Visualisierungen und Animationen" />
+<link rel="canonical" href="https://www.arnevogel.com/wie-gpt3-funktioniert/">
+<link rel="icon" type="image/png" href="https://www.arnevogel.com/favicon.png" sizes="128x128">
+		<link href="https://www.arnevogel.com/style/style.css" rel="stylesheet">
+
+
+
+	</head>
+	<body >
+		<header class="site-header">
+	<div class="wrapper">
+		<a href="/" class="header-text">
+			Arne Vogel
+		</a><br>
+	</div>
+</header>
+		<div class="site-content">
+	<div class="wrapper">
+		
+
+<h1>Wie GPT3 funktioniert - Visualisierungen und Animationen</h1>
+<span class="list-date">Jul 27, 2020 • Arne Vogel</span>
+
+<p><em><strong>Dies ist eine Übersetzung des Beitrags &ldquo;How GPT3 Works - Visualizations and Animations&rdquo; von Alammar, Jay (2020), abgerufen von:</strong></em> <a href="https://jalammar.github.io/how-gpt3-works-visualizations-animations/">https://jalammar.github.io/how-gpt3-works-visualizations-animations/</a></p>
+<p>Ein trainiertes Sprachmodell erzeugt Text.</p>
+<p>Wir können ihm optional etwas Text als Eingabe übergeben, was seine Ausgabe beeinflusst.</p>
+<p>Die Ausgabe wird aus dem erzeugt, was das Modell während der Trainingsphase &ldquo;gelernt&rdquo; hat, in der es riesige Textmengen gescannt hat.</p>
+<p><video id="video-01" src="/images/wie-gpt3-funktioniert/01-gpt3-language-model-overview.webm" autoplay></video></p>
+<p>Training ist der Prozess, bei dem das Modell viel Text vermittelt wird. Es wird einmal gemacht und ist abgeschlossen. Alle Experimente, die wir hier sehen, sind von diesem einen trainierten Modell. Es wird geschätzt, dass das Training 355 GPU-Jahre und 4,6 Millionen Dollar gekostet hat.</p>
+<p><video id="video-02" src="/images/wie-gpt3-funktioniert/02-gpt3-training-language-model.webm" autoplay></video></p>
+<p>Ein Datensatz von 300 Milliarden Textmarken wurde verwendet, um Trainingsbeispiele für das Modell zu generieren. Dabei handelt es sich beispielsweise um drei Trainingsbeispiele, die aus dem Satz oben generiert werden.</p>
+<p>Man sieht, wie Sie ein Teilfenster über den gesamten Text schieben und viele Beispiele erstellen können.</p>
+<p><img src="/images/wie-gpt3-funktioniert/gpt3-training-examples-sliding-window.png" alt="gpt3 training sliding window"></p>
+<p>Dem Modell wird ein Beispiel vorgelegt. Wir zeigen ihm nur die Features und er soll das nächste Wort vorhersagen.</p>
+<p>Die Vorhersage des Modells wird falsch sein. Wir berechnen den Fehler in seiner Vorhersage und aktualisieren das Modell, damit es beim nächsten Mal eine bessere Vorhersage macht.</p>
+<p>Dies wird millionen Mal wiederholt.</p>
+<p><video id="video-03" src="/images/wie-gpt3-funktioniert/03-gpt3-training-step-back-prop.webm" autoplay></video></p>
+<p>Lassen Sie uns nun diese Schritte etwas genauer unter die Lupe nehmen.</p>
+<p>GPT3 erzeugt die Ausgabe Token für Token (wir nehmen an, ein Token ist vorerst ein Wort).</p>
+<p><video id="video-04" src="/images/wie-gpt3-funktioniert/04-gpt3-generate-tokens-output.webm" autoplay></video></p>
+<p>Bitte beachten Sie: Dies ist eine Beschreibung, wie GPT-3 funktioniert, und keine Diskussion darüber, was daran neu ist (was vor allem der unglaublich große Maßstab ist). Die Architektur ist ein Transformator-Decoder-Modell, das auf diesem Papier basiert <a href="https://arxiv.org/pdf/1801.10198.pdf">https://arxiv.org/pdf/1801.10198.pdf</a></p>
+<p>GPT3 ist MASSIV. Es kodiert das, was es aus dem Training lernt, in 175 Milliarden Zahlen (genannt Parameter). Diese Zahlen werden verwendet, um zu berechnen, welches Token bei jedem Durchlauf erzeugt werden soll.</p>
+<p>Das untrainierte Modell beginnt mit Zufallsparametern. Beim Training werden bessere Werte gesucht, die zu besseren Vorhersagen führen.</p>
+<p><img src="/images/wie-gpt3-funktioniert/gpt3-parameters-weights.png" alt="gpt3 training paramether gewichte"></p>
+<p>Diese Zahlen sind Teil von Hunderten von Matrizen innerhalb des Modells. Die Vorhersage besteht hauptsächlich aus einer Vielzahl von Matrizenmultiplikationen.</p>
+<p>Um Licht darauf zu werfen, wie diese Parameter verteilt und verwendet werden, müssen wir das Modell öffnen und hineinschauen.</p>
+<p>GPT3 ist 2048 Tokens breit. Das ist sein &ldquo;Kontextfenster&rdquo;. Das heißt, es hat 2048 Pfade, auf denen die Token verarbeitet werden.</p>
+<p><video id="video-05" src="/images/wie-gpt3-funktioniert/05-gpt3-generate-output-context-window.webm" autoplay></video></p>
+<p>Folgen wir der violetten Spur. Wie verarbeitet ein System das Wort &ldquo;Robotik&rdquo; und produziert &ldquo;A&rdquo;?</p>
+<p>Übersicht der Schritte:</p>
+<ul>
+<li>Das Wort in einen Vektor (Liste von Zahlen) umwandeln, der das Wort repräsentiert</li>
+<li>Vorhersage berechnen</li>
+<li>Ergebnisvektor in ein Wort umwandeln</li>
+</ul>
+<p><video id="video-06" src="/images/wie-gpt3-funktioniert/06-gpt3-embedding.webm" autoplay></video></p>
+<p>Die wichtigen Berechnungen des GPT3 erfolgen innerhalb seines Stapels von 96 Transformator-Decoderschichten.</p>
+<p>Dies ist das &ldquo;Deep&rdquo; beim &ldquo;Deeplearning&rdquo;.</p>
+<p>Jede dieser Schichten hat ihren eigenen 1,8 Milliarden-Parameter, um ihre Berechnungen durchzuführen.</p>
+<p><video id="video-07" src="/images/wie-gpt3-funktioniert/07-gpt3-processing-transformer-blocks.webm" autoplay></video></p>
+<p>Dies ist ein Ausschnitt einer Eingabe und Antwort (&ldquo;Okay human&rdquo;) innerhalb von GPT3. Man erkennt, wie jedes Token durch den gesamten Schichtenstapel fließt. Die Ausgabe der ersten Wörter ist uns egal. Wenn die Eingabe beendet ist, kümmern wir uns um die Ausgabe. Wir speisen jedes Wort zurück in das Modell ein.</p>
+<p><video id="video-08" src="/images/wie-gpt3-funktioniert/08-gpt3-tokens-transformer-blocks.webm" autoplay></video></p>
+<p>Im Beispiel der Codegenerierung von React (<a href="https://twitter.com/sharifshameem/status/1284421499915403264">https://twitter.com/sharifshameem/status/1284421499915403264</a>) wäre die Beschreibung die Eingabeaufforderung (in grün), zusätzlich zu ein paar Beispielen für Beschreibung =&gt; Code. Und der React-Code würde wie die rosa Token hier Token für Token generiert.</p>
+<p>Ich gehe davon aus, dass die Priming-Beispiele und die Beschreibung als Eingabe angehängt werden, wobei spezifische Token die Beispiele und die Ergebnisse trennen. Dann werden sie in das Modell eingegeben.</p>
+<p><video id="video-09" src="/images/wie-gpt3-funktioniert/09-gpt3-generating-react-code-example.webm" autoplay></video></p>
+<p>Es ist beeindruckend, dass dies so funktioniert. Denn man wartet einfach ab, bis das Feintuning für GPT3 ausgerollt wird. Die Möglichkeiten werden noch erstaunlicher sein.</p>
+<p>Durch die Feinabstimmung werden die Gewichte des Modells aktualisiert, um das Modell bei einer bestimmten Aufgabe besser zu machen.</p>
+<p><video id="video-10" src="/images/wie-gpt3-funktioniert/10-gpt3-fine-tuning.webm" autoplay></video></p>
+<script>
+let videos = ["video-01", "video-02", "video-03", "video-04", "video-05", "video-06", "video-07", "video-08", "video-09", "video-10"]
+for (let v of videos) {
+    document.getElementById(v).addEventListener('ended',looper,false);
+}
+function looper(e) {
+    setTimeout(function(){
+        document.getElementById(e.target.id).play();
+    }, 2000);
+}
+</script>
+
+
+
+
+
+
+
+			</div>
+</div>
+		<footer class="site-footer">
+	<div class="wrapper">
+		© Copyright - Arne Vogel<br>
+		See <a href="/license/">License</a> for more details
+	</div>
+	
+</footer>
+	</body>
+</html>
+
