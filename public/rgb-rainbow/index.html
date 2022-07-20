@@ -93,29 +93,29 @@ I split the color wheel into 6 equal parts:
 <p>The pseudo code to achieve this:</p>
 <pre><code>#get the i'th color, of n colors. 
 color(i,n):
-    r, g, b = 0
-    stepsize = floor((255*6)/n)
-    progress = i*stepsize
-    switch(floor(progress/255))
-        case 0:
-            b = 255
-            r = progress%255
-        case 1:
-            r = 255
-            b = progress%255
-        case 2:
-            r = 255
-            g = progress%255
-        case 3:
-            g = 255
-            r = progress%255
-        case 4:
-            g = 255
-            b = progress%255
-        case 5:
-            b = 255
-            g = progress%255
-    return r, g, b
+	r, g, b = 0
+	stepsize = floor((255*6)/n)
+	progress = i*stepsize
+	switch(floor(progress/255))
+		case 0:
+			b = 255
+			r = progress%255
+		case 1:
+			r = 255
+			b = progress%255
+		case 2:
+			r = 255
+			g = progress%255
+		case 3:
+			g = 255
+			r = progress%255
+		case 4:
+			g = 255
+			b = progress%255
+		case 5:
+			b = 255
+			g = progress%255
+	return r, g, b
 </code></pre>
 <div style="border: 1px solid black; margin-bottom:5px; padding: 5px">
 <div id="rainbow2" class="rainbow"></div>

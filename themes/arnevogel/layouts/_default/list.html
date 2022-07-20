@@ -1,6 +1,6 @@
 {{define "main" }}
 {{.Content}}
-{{ if eq .URL "/category/" }}
+{{ if eq .Permalink "/category/" }}
 <ul>
     {{ range $key, $value := $.Site.Taxonomies.category  }}
     <li>
@@ -14,7 +14,7 @@
 {{ if eq .Params.listed "yes"}}
 	<li>
 		<span class="list-date">{{ dateFormat "Jan 2, 2006" .Date }}</span><br>
-		<a class="list-title" href="{{.URL}}">{{.Title}}</a>
+		<a class="list-title" href="{{.Permalink}}">{{.Title}}</a>
 	</li>
 <br>
 {{end}}

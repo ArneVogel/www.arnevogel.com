@@ -6,11 +6,7 @@
     <description>Recent content in go on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Jan 2018 11:03:35 +0100</lastBuildDate>
-    
-	<atom:link href="https://www.arnevogel.com/category/go/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 10 Jan 2018 11:03:35 +0100</lastBuildDate><atom:link href="https://www.arnevogel.com/category/go/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Installing Latest Golang Version on Ubuntu</title>
       <link>https://www.arnevogel.com/installing-latest-golang-version-on-ubuntu/</link>
@@ -18,7 +14,7 @@
       
       <guid>https://www.arnevogel.com/installing-latest-golang-version-on-ubuntu/</guid>
       <description>Installing Go with apt-get might not give you the most up to date golang version. On this page I describe how to install the latest golang version on how to set the $GOPATH and $GOROOT system variables
-$go version The program &#39;go&#39; is currently not installed. You can install it by typing: apt install golang-go  After installing golang with the suggested command apt install golang-go you might have an older version of golang installed.</description>
+$go version The program &#39;go&#39; is currently not installed. You can install it by typing: apt install golang-go After installing golang with the suggested command apt install golang-go you might have an older version of golang installed.</description>
     </item>
     
     <item>

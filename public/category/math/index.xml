@@ -6,11 +6,7 @@
     <description>Recent content in math on Welcome</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Jan 2018 12:45:56 +0100</lastBuildDate>
-    
-	<atom:link href="https://www.arnevogel.com/category/math/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 24 Jan 2018 12:45:56 +0100</lastBuildDate><atom:link href="https://www.arnevogel.com/category/math/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Taylor Series</title>
       <link>https://www.arnevogel.com/taylor-series/</link>
@@ -21,7 +17,7 @@
 Generated with: taylorseries.m and ffmpeg
 Some browsers might not support the .webm format. You can download the files to your pc and view them with vlc if that is the case.
 Your browser doesn&#39;t seem to support the \ tag. Direct link to the video: newton-raphson-approximation.webm
- Your browser doesn&#39;t seem to support the \ tag. Direct link to the video: newton-raphson-approximation.</description>
+Your browser doesn&#39;t seem to support the \ tag. Direct link to the video: newton-raphson-approximation.</description>
     </item>
     
     <item>

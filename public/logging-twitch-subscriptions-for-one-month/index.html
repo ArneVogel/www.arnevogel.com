@@ -62,7 +62,7 @@
 </code></pre>
 <p>Of all subscriptions 41.5% were prime subs, 55% were $5 subscriptions, 1.78% where $9.99 subs and 1.7% were $24.99 subs.</p>
 <pre><code>tws=# SELECT u.name, count(u.id) from subscription join users u on u_id = u.id group by u.id order by count(u.id) desc limit 10;
-        name        | count
+		name        | count
 --------------------+-------
  champion7b         |   864
  asubtoremember     |   465

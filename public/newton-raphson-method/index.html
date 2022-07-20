@@ -38,17 +38,17 @@
 <h2 id="newton-raphson-method-in-matlab">Newton Raphson Method in MatLab</h2>
 <p>MatLab implementation for <img src="/images/newton-raphson-method/input.svg" alt="input">:</p>
 <pre><code>function y = newton_raphson_method(f,x,x0,eps)
-    fx = jacobian(f,x);
-    v = num2cell(x0);
-    b = f(v{:});
+	fx = jacobian(f,x);
+	v = num2cell(x0);
+	b = f(v{:});
 
-    while norm(b) &gt; eps
-        d = fx(v{:})\f(v{:});
-        x0 = x0 - d;
-        v = num2cell(x0);
-        b = f(v{:});
-    end
-    y = x0;
+	while norm(b) &gt; eps
+		d = fx(v{:})\f(v{:});
+		x0 = x0 - d;
+		v = num2cell(x0);
+		b = f(v{:});
+	end
+	y = x0;
 end
 </code></pre>
 <p>Note that the MatLab implementation doesn&rsquo;t exit when the function has no root.</p>

@@ -34,37 +34,37 @@
 <p>See the <a href="/download/numerical-integration.m">example</a> for usage.</p>
 <p><img src="/images/numerical-integration-in-matlab/h.svg" alt="h"></p>
 <p>x is a vector of equidistant nodes.</p>
-<h2 id="trapezoid-rule-">Trapezoid rule</h2>
+<h2 id="trapezoid-rule">Trapezoid rule</h2>
 <p><img src="/images/numerical-integration-in-matlab/trapezoid.svg" alt="trapezoid rule"></p>
 <pre><code>function t = trapezoid_rule(a,b,n)
   t = 0;
   x = linspace(a,b,n);
   h = x(2)-x(1);
   for i = 1:length(x)-1
-    t = t + (h/2 * (f(x(i)) + f(x(i+1))));
+	t = t + (h/2 * (f(x(i)) + f(x(i+1))));
   end
 end
 </code></pre>
-<h2 id="simpsons-rule-">Simpson&rsquo;s rule</h2>
+<h2 id="simpsons-rule">Simpson&rsquo;s rule</h2>
 <p><img src="/images/numerical-integration-in-matlab/simpson.svg" alt="simpson rule"></p>
 <pre><code>function s = simpson_rule(a,b,n)
   s = 0;
   x = linspace(a,b,n);
   h = x(2)-x(1);
   for i = 1:length(x)-1
-    s = s + (f(x(i)) + 4* f((x(i)+x(i+1))/2) + f(x(i+1)));
+	s = s + (f(x(i)) + 4* f((x(i)+x(i+1))/2) + f(x(i+1)));
   end
   s = s * h/6;
 end
 </code></pre>
-<h2 id="38-rule-">3/8 rule</h2>
+<h2 id="38-rule">3/8 rule</h2>
 <p><img src="/images/numerical-integration-in-matlab/38.svg" alt="38"></p>
 <pre><code>function r = rule38(a,b,n)
   r = 0;
   x = linspace(a,b,n);
   h = x(2)-x(1);
   for i = 1:length(x)-1
-    r = r + ( f(x(i)) + 3* f(((x(i) + x(i+1))*(4/3)/3)) + 3* f(((x(i) + x(i+1))*(5/3))/3) + f(x(i+1)));
+	r = r + ( f(x(i)) + 3* f(((x(i) + x(i+1))*(4/3)/3)) + 3* f(((x(i) + x(i+1))*(5/3))/3) + f(x(i+1)));
   end
   r = r * h/8;
 end</code></pre>
