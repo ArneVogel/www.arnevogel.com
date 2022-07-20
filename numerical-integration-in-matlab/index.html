@@ -1,0 +1,26 @@
+<!doctype html><html lang=en><head><title>Numerical Integration in Matlab</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=author content="Arne Vogel"><meta name=description content="Numerical Integration in Matlab with summed newton cotes formulas. Trapezoid rule, Simpson's rule and 3/8 rule."><meta property="og:url" content="https://www.arnevogel.com/numerical-integration-in-matlab/"><meta property="og:title" content="Numerical Integration in Matlab"><link rel=canonical href=https://www.arnevogel.com/numerical-integration-in-matlab/><link rel=icon type=image/png href=https://www.arnevogel.com/favicon.png sizes=128x128><link href=https://www.arnevogel.com/style/style.css rel=stylesheet></head><body><header class=site-header><div class=wrapper><a href=/ class=header-text>Arne Vogel</a><br></div></header><div class=site-content><div class=wrapper><h1>Numerical Integration in Matlab</h1><span class=list-date>Dec 9, 2017; last modified: Dec 11, 2017 • Arne Vogel</span><p>The code for the summed newton cotes formulas in matlab. The functions compute the integral of a function f(x) in the same file from a to b with step size n. Use a sufficient high n for accurate results.</p><p>See the <a href=/download/numerical-integration.m>example</a> for usage.</p><p><img src=/images/numerical-integration-in-matlab/h.svg alt=h></p><p>x is a vector of equidistant nodes.</p><h2 id=trapezoid-rule>Trapezoid rule</h2><p><img src=/images/numerical-integration-in-matlab/trapezoid.svg alt="trapezoid rule"></p><pre><code>function t = trapezoid_rule(a,b,n)
+  t = 0;
+  x = linspace(a,b,n);
+  h = x(2)-x(1);
+  for i = 1:length(x)-1
+	t = t + (h/2 * (f(x(i)) + f(x(i+1))));
+  end
+end
+</code></pre><h2 id=simpsons-rule>Simpson&rsquo;s rule</h2><p><img src=/images/numerical-integration-in-matlab/simpson.svg alt="simpson rule"></p><pre><code>function s = simpson_rule(a,b,n)
+  s = 0;
+  x = linspace(a,b,n);
+  h = x(2)-x(1);
+  for i = 1:length(x)-1
+	s = s + (f(x(i)) + 4* f((x(i)+x(i+1))/2) + f(x(i+1)));
+  end
+  s = s * h/6;
+end
+</code></pre><h2 id=38-rule>3/8 rule</h2><p><img src=/images/numerical-integration-in-matlab/38.svg alt=38></p><pre><code>function r = rule38(a,b,n)
+  r = 0;
+  x = linspace(a,b,n);
+  h = x(2)-x(1);
+  for i = 1:length(x)-1
+	r = r + ( f(x(i)) + 3* f(((x(i) + x(i+1))*(4/3)/3)) + 3* f(((x(i) + x(i+1))*(5/3))/3) + f(x(i+1)));
+  end
+  r = r * h/8;
+end</code></pre></div></div><footer class=site-footer><div class=wrapper>© Copyright - Arne Vogel<br>See <a href=/license/>License</a> for more details</div></footer></body></html>

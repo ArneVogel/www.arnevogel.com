@@ -1,0 +1,10 @@
+.rainbow {
+	width:100%;
+	height:25px;
+	margin: 10px 0px 10px 0px; 
+}
+
+.rainbowChild {
+	height:25px;
+	display: inline-block;
+}
