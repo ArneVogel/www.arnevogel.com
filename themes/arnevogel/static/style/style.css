@@ -8,6 +8,10 @@ body {
 	word-wrap: break-word;
 }
 
+p {
+    max-width: 66ch;
+}
+
 a {
 	color: #1756a9;
 	text-decoration: none;
