@@ -51,7 +51,7 @@ Clicking on the simulation turns cells on and off.
 
 Can be edited while the simulation is running.
 
- * # of colors: Number of colors
+ * \# of colors: Number of colors
  * Threshold: How many cells around a cell have to be the successor of the cell for the cells color to change.
  * Wrapping: Makes the _world_ wrap around, like in snake. With wrapping turned off the outside world acts as dead cells.
 
