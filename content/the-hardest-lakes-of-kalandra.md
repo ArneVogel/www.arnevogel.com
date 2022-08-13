@@ -163,4 +163,4 @@ Finally I just take the longest path from all the remaining paths.
 
 While not exactly a efficient solution, it works.
 
-And what else can you hope for, for a (most likely) NP-Hard problem: [longest path problem](https://en.wikipedia.org/wiki/Longest_path_problem).
+And what else can you hope for, for a (maybe?) NP-Hard problem: [longest path problem](https://en.wikipedia.org/wiki/Longest_path_problem).
