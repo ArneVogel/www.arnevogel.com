@@ -14,7 +14,7 @@ customCSS: []
 customJS: []
 init: "no"
 category: []
-draft: true
+draft: false
 ---
 
 In the [latest expansion](https://www.pathofexile.com/kalandra) of Path of Exile you can create your own areas to play in.
