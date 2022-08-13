@@ -1,0 +1,72 @@
+<!doctype html><html lang=en><head><title>The Hardest Lakes of Kalandra</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=author content="Arne Vogel"><meta name=description content="Finding the maximum difficulty for Path of Exiles Lake of Kalandra expansion"><meta property="og:url" content="https://www.arnevogel.com/the-hardest-lakes-of-kalandra/"><meta property="og:title" content="The Hardest Lakes of Kalandra"><link rel=canonical href=https://www.arnevogel.com/the-hardest-lakes-of-kalandra/><link rel=icon type=image/png href=https://www.arnevogel.com/favicon.png sizes=128x128><link href=https://www.arnevogel.com/style/style.css rel=stylesheet><link href=https://www.arnevogel.com//css/syntax.css rel=stylesheet></head><body><header class=site-header><nav class=wrapper><a href=/ class=header-text>Arne Vogel</a></nav></header><div class=site-content><div class=wrapper><h1>The Hardest Lakes of Kalandra</h1><span class=list-date>Aug 13, 2022 • Arne Vogel</span><p>In the <a href=https://www.pathofexile.com/kalandra>latest expansion</a> of Path of Exile you can create your own areas to play in.
+An example of this can be seen below:</p><p><img src=/images/the-hardest-lakes-of-kalandra/difficulty.png alt="Example difficulty calculation"></p><p>The area is constructed by placing tiles on a board.
+You enter the area from one of the land tiles.</p><p>Moving away from the starting tile causes the difficulty to increase.
+Further away = more difficult areas, but also more rewards.
+In the example the highest difficulty is 10.</p><h2 id=the-highest-difficulty-for-different-grids>The highest difficulty for different grids</h2><p>The trailer for the expansion shows different boards of different sizes.
+So what is the highest difficulty (and reward) you could achieve on any board size?</p><p>What we are looking for is the longest path from the starting location to any other tile on the board.
+See the <a href=#algorithm>algorithm</a> I used to solve this problem.</p><p>The first one are quite obvious:</p><p><img src=/images/the-hardest-lakes-of-kalandra/2x2_0.png alt=2x2_0.png>
+<img src=/images/the-hardest-lakes-of-kalandra/2x2_1.png alt=2x2_1.png>
+<img src=/images/the-hardest-lakes-of-kalandra/3x2_0.png alt=3x2_0.png>
+<img src=/images/the-hardest-lakes-of-kalandra/3x3_0.png alt=3x3_0.png></p><p>The 3x4 board continues with the &ldquo;U&rdquo; shape, but introduces a new kink.</p><p><img src=/images/the-hardest-lakes-of-kalandra/3x4_0.png alt=3x4_0.png>
+<img src=/images/the-hardest-lakes-of-kalandra/3x4_1.png alt=3x4_1.png>
+<img src=/images/the-hardest-lakes-of-kalandra/3x4_2.png alt=3x4_2.png></p><p>In the 3x5 board the pattern continues, but this time a &ldquo;2&rdquo; pattern is introduced.</p><p><img src=/images/the-hardest-lakes-of-kalandra/3x5_0.png alt=3x5_0.png>
+<img src=/images/the-hardest-lakes-of-kalandra/3x5_1.png alt=3x5_1.png>
+<img src=/images/the-hardest-lakes-of-kalandra/3x5_2.png alt=3x5_2.png>
+<img src=/images/the-hardest-lakes-of-kalandra/3x5_3.png alt=3x5_3.png></p><p>Variations of the &ldquo;2&rdquo; are the most optimal for the 3x6 and 3x7 boards.</p><p><img src=/images/the-hardest-lakes-of-kalandra/3x6_0.png alt=3x6_0.png>
+<img src=/images/the-hardest-lakes-of-kalandra/3x7_0.png alt=3x7_0.png></p><p>More chaotic patterns for 4x7 boards.</p><p><img src=/images/the-hardest-lakes-of-kalandra/4x7_0.png alt=4x7_0.png>
+<img src=/images/the-hardest-lakes-of-kalandra/4x7_1.png alt=4x7_1.png></p><p>Some different patterns for the 5x4 boards.</p><p><img src=/images/the-hardest-lakes-of-kalandra/5x4_0.png alt=5x4_0.png>
+<img src=/images/the-hardest-lakes-of-kalandra/5x4_1.png alt=5x4_1.png>
+<img src=/images/the-hardest-lakes-of-kalandra/5x4_2.png alt=5x4_2.png>
+<img src=/images/the-hardest-lakes-of-kalandra/5x4_3.png alt=5x4_3.png>
+<img src=/images/the-hardest-lakes-of-kalandra/5x4_4.png alt=5x4_4.png>
+<img src=/images/the-hardest-lakes-of-kalandra/5x4_5.png alt=5x4_5.png>
+<img src=/images/the-hardest-lakes-of-kalandra/5x4_6.png alt=5x4_6.png>
+<img src=/images/the-hardest-lakes-of-kalandra/5x4_7.png alt=5x4_7.png>
+<img src=/images/the-hardest-lakes-of-kalandra/5x4_8.png alt=5x4_8.png></p><p>Quite a lot more patterns for the 5x5 board.</p><p><img src=/images/the-hardest-lakes-of-kalandra/5x5_0.png alt=5x5_0.png>
+<img src=/images/the-hardest-lakes-of-kalandra/5x5_1.png alt=5x5_1.png>
+<img src=/images/the-hardest-lakes-of-kalandra/5x5_3.png alt=5x5_3.png>
+<img src=/images/the-hardest-lakes-of-kalandra/5x5_4.png alt=5x5_4.png>
+<img src=/images/the-hardest-lakes-of-kalandra/5x5_5.png alt=5x5_5.png>
+<img src=/images/the-hardest-lakes-of-kalandra/5x5_6.png alt=5x5_6.png>
+<img src=/images/the-hardest-lakes-of-kalandra/5x5_7.png alt=5x5_7.png>
+<img src=/images/the-hardest-lakes-of-kalandra/5x5_8.png alt=5x5_8.png>
+<img src=/images/the-hardest-lakes-of-kalandra/5x5_9.png alt=5x5_9.png>
+<img src=/images/the-hardest-lakes-of-kalandra/5x5_10.png alt=5x5_10.png>
+<img src=/images/the-hardest-lakes-of-kalandra/5x5_11.png alt=5x5_11.png>
+<img src=/images/the-hardest-lakes-of-kalandra/5x5_12.png alt=5x5_12.png>
+<img src=/images/the-hardest-lakes-of-kalandra/5x5_13.png alt=5x5_13.png>
+<img src=/images/the-hardest-lakes-of-kalandra/5x5_14.png alt=5x5_14.png>
+<img src=/images/the-hardest-lakes-of-kalandra/5x5_15.png alt=5x5_15.png>
+<img src=/images/the-hardest-lakes-of-kalandra/5x5_16.png alt=5x5_16.png>
+<img src=/images/the-hardest-lakes-of-kalandra/5x5_17.png alt=5x5_17.png>
+<img src=/images/the-hardest-lakes-of-kalandra/5x5_18.png alt=5x5_18.png>
+<img src=/images/the-hardest-lakes-of-kalandra/5x5_19.png alt=5x5_19.png></p><p>Only one optimal pattern for the 5x6 board.</p><p><img src=/images/the-hardest-lakes-of-kalandra/5x6_0.png alt=5x6_0.png></p><p>And then again quite a few patterns for the 6x6 board.</p><p><img src=/images/the-hardest-lakes-of-kalandra/6x6_0.png alt=6x6_0.png>
+<img src=/images/the-hardest-lakes-of-kalandra/6x6_1.png alt=6x6_1.png>
+<img src=/images/the-hardest-lakes-of-kalandra/6x6_2.png alt=6x6_2.png>
+<img src=/images/the-hardest-lakes-of-kalandra/6x6_3.png alt=6x6_3.png>
+<img src=/images/the-hardest-lakes-of-kalandra/6x6_4.png alt=6x6_4.png>
+<img src=/images/the-hardest-lakes-of-kalandra/6x6_5.png alt=6x6_5.png>
+<img src=/images/the-hardest-lakes-of-kalandra/6x6_6.png alt=6x6_6.png>
+<img src=/images/the-hardest-lakes-of-kalandra/6x6_7.png alt=6x6_7.png>
+<img src=/images/the-hardest-lakes-of-kalandra/6x6_8.png alt=6x6_8.png>
+<img src=/images/the-hardest-lakes-of-kalandra/6x6_9.png alt=6x6_9.png>
+<img src=/images/the-hardest-lakes-of-kalandra/6x6_10.png alt=6x6_10.png>
+<img src=/images/the-hardest-lakes-of-kalandra/6x6_11.png alt=6x6_11.png>
+<img src=/images/the-hardest-lakes-of-kalandra/6x6_13.png alt=6x6_13.png>
+<img src=/images/the-hardest-lakes-of-kalandra/6x6_12.png alt=6x6_12.png>
+<img src=/images/the-hardest-lakes-of-kalandra/6x6_14.png alt=6x6_14.png>
+<img src=/images/the-hardest-lakes-of-kalandra/6x6_15.png alt=6x6_15.png>
+<img src=/images/the-hardest-lakes-of-kalandra/6x6_16.png alt=6x6_16.png>
+<img src=/images/the-hardest-lakes-of-kalandra/6x6_17.png alt=6x6_17.png>
+<img src=/images/the-hardest-lakes-of-kalandra/6x6_18.png alt=6x6_18.png>
+<img src=/images/the-hardest-lakes-of-kalandra/6x6_19.png alt=6x6_19.png>
+<img src=/images/the-hardest-lakes-of-kalandra/6x6_20.png alt=6x6_20.png>
+<img src=/images/the-hardest-lakes-of-kalandra/6x6_21.png alt=6x6_21.png></p><p>The 7x6 board is the biggest board I was able to check with my <a href=#algorithm>algorithm</a>:</p><p><img src=/images/the-hardest-lakes-of-kalandra/7x6_0.png alt=7x6_0.png>
+<img src=/images/the-hardest-lakes-of-kalandra/7x6_1.png alt=7x6_1.png></p><p>Some 10x2 patterns.</p><p><img src=/images/the-hardest-lakes-of-kalandra/10x2_0.png alt=10x2_0.png>
+<img src=/images/the-hardest-lakes-of-kalandra/10x2_1.png alt=10x2_1.png>
+<img src=/images/the-hardest-lakes-of-kalandra/10x2_2.png alt=10x2_2.png>
+<img src=/images/the-hardest-lakes-of-kalandra/10x2_3.png alt=10x2_3.png>
+<img src=/images/the-hardest-lakes-of-kalandra/10x2_4.png alt=10x2_4.png>
+<img src=/images/the-hardest-lakes-of-kalandra/10x2_5.png alt=10x2_5.png></p><h2 id=algorithm>Algorithm</h2><p>The <a href=https://github.com/ArneVogel/lakes-of-kalandra>source code</a> used to generate these images is open source.
+I am not claiming that the source code represents the most optimal way to generate these paths.</p><p>First I generate a graph representing the board:</p><p><img src=/images/the-hardest-lakes-of-kalandra/graph.png alt="the graph"></p><p>In this graph I generate all paths between any two nodes.
+From these paths I ignore paths here two nodes &ldquo;meet&rdquo; without a edge connecting them, as this would create shortcuts:</p><p><img src=/images/the-hardest-lakes-of-kalandra/invalid2.png alt="invalid join"></p><p>Finally I just take the longest path from all the remaining paths.</p><p>While not exactly a efficient solution, it works.</p><p>And what else can you hope for, for a (most likely) NP-Hard problem: <a href=https://en.wikipedia.org/wiki/Longest_path_problem>longest path problem</a>.</p></div></div><footer class=site-footer><div class=wrapper>© Copyright - Arne Vogel<br>See <a href=/license/>License</a> for more details</div></footer></body></html>
