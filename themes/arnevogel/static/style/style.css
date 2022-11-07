@@ -157,3 +157,7 @@ video {
   font-family: sans-serif; /* Optional, just styling it so it looks nicer */
   font-size: 12px; /* Optional, just styling it so it looks nicer */
 }
+
+.nav-right {
+    float: right;
+}
