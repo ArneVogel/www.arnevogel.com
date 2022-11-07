@@ -1,6 +1,11 @@
 {{define "main" }}
 <h1>{{ .Title}}</h1>
+{{ if hasPrefix .File "til/" }}
+<p>This is something I just learned so I might be completely wrong. If I am please let me know, my email is in the footer.</p>
+{{ end }}
+
 <span class="list-date">{{ dateFormat "Jan 2, 2006" .Date }}{{ if ne .Params.lastModified ""}}; last modified: {{ dateFormat "Jan 2, 2006" .Params.lastModified }}{{end}} • {{.Params.author }}</span>
+
 {{ if eq .Params.toc "yes"}}
 {{ .TableOfContents }}
 {{end}}
