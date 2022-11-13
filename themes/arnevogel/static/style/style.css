@@ -161,3 +161,10 @@ video {
 .nav-right {
     float: right;
 }
+
+.til-disclaimer {
+	border: 1px solid #2a7ae2;
+	margin-left: -0.5em;
+	padding: 0.5em;
+	margin-right: -0.5em;
+}
