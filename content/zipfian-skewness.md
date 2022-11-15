@@ -1,5 +1,5 @@
 ---
-title: "Zipfian Skewness Distribution Simulator"
+title: "Zipfian Distribution Simulator"
 description: ""
 author: "Arne Vogel"
 date: 2022-11-15T20:40:26+01:00
@@ -14,7 +14,7 @@ customCSS: []
 customJS: ["zipf", "Chart"]
 init: "yes"
 category: []
-draft: true
+draft: false
 ---
 
 Below is a simulator for a zipfian distribution with parameters $N$ and $\alpha$.
