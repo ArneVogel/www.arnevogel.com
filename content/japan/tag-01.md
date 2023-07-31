@@ -14,7 +14,7 @@ customCSS: []
 customJS: []
 init: "no"
 category: []
-draft: true
+draft: false
 ---
 
 Heute gings los, um 12:35 war Abflug ab München.
