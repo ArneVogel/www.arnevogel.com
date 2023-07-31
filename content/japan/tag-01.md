@@ -30,7 +30,7 @@ Nach ungefähr 12 Stunden sind wir über Japan. Ob das Fuji ist kann ich nicht 1
 ![tokio](city.jpg)
 ![tokio](city2.jpg)
 
-Meine Wohnung für zwei Monate. Direkt auch der erste fauxpas… ich bin einfach mit den Schuhen in die Wohnung getrampelt :/
+Meine Wohnung für zwei Monate. Direkt auch der erste fauxpas… ich bin einfach mit den Schuhen in die Wohnung getrampelt :/ [Wabaki](https://www.youtube.com/watch?v=FWQcelJoxcc)
 
 ![Wohnung](wohnung.jpg)
 ![Wohnung](wohnung1.jpg)
