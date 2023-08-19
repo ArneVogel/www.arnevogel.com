@@ -39,7 +39,7 @@ Heute: 35°C bei 55% Luftfeuchtigkeit. Zum Glück ist die Wohnung mit einer Klim
 
 ![Klimaanlage](retter-in-der-not.jpg)
 
-Das erste Essen mit Pierre Louis
+Das erste Essen mit meinen Betreuer
 
 ![nudeln](erstes-essen.jpg)
 
