@@ -1,0 +1,21 @@
+<!doctype html><html lang=en><head><title>TIL: When a SVG Script will execute (and when it won't)</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=author content="Arne Vogel"><meta name=description content><meta property="og:url" content="https://www.arnevogel.com/til/svg-script/"><meta property="og:title" content="TIL: When a SVG Script will execute (and when it won't)"><link rel=canonical href=https://www.arnevogel.com/til/svg-script/><link rel=icon type=image/png href=https://www.arnevogel.com/favicon.png sizes=128x128><link href=https://www.arnevogel.com/style/style.css rel=stylesheet><link href=https://www.arnevogel.com//css/syntax.css rel=stylesheet></head><body><header class=site-header><nav class=wrapper><a href=/ class=header-text>Arne Vogel</a><div class=nav-right><a href=/til class=header-text>TIL</a></div></nav></header><div class=site-content><div class=wrapper><h1>TIL: When a SVG Script will execute (and when it won't)</h1><span class=list-date>Aug 21, 2023 • Arne Vogel</span><p>Ok, SVGs can have <a href=https://developer.mozilla.org/en-US/docs/Web/SVG/Element/script>script elements</a> where you can add regular JavaScript.
+But the script won&rsquo;t always be executed when you add it to a page.</p><hr><p>This script will execute if you add the the SVG directly in the HTML. E.g.,</p><pre tabindex=0><code>&lt;body&gt;
+&lt;svg
+  viewBox=&#34;0 0 10 10&#34;
+  height=&#34;120px&#34;
+  width=&#34;120px&#34;
+  xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+  &lt;circle cx=&#34;5&#34; cy=&#34;5&#34; r=&#34;4&#34; /&gt;
+
+  &lt;script&gt;
+    alert(&#34;hi&#34;);
+  &lt;/script&gt;
+&lt;/svg&gt;
+&lt;/body&gt;
+</code></pre><p><a href=direct.html>direct.html</a></p><hr><p>But not if you add the SVG in an image tag. The image will show but the script won&rsquo;t be executed. E.g.,</p><pre tabindex=0><code>&lt;body&gt;
+    &lt;img src=&#34;test.svg&#34;&gt;
+&lt;/body&gt;
+</code></pre><p><a href=img.html>img.html</a></p><hr><p>Instead you can use an <code>embed</code> to add the image, which will execute the script. E.g.</p><pre tabindex=0><code>&lt;body&gt;
+    &lt;embed src=&#34;test.svg&#34;&gt;
+&lt;/body&gt;
+</code></pre><p><a href=embed.html>embed.html</a></p><p class=til-disclaimer><em>Disclaimer:</em> This is something I just learned so I might be completely wrong. If I am please let me know, my email is in the footer.</p></div></div><footer class=site-footer><div class=wrapper>© Copyright - Arne Vogel - Email: <a href=mailto:arne@arnevogel.com>arne@arnevogel.com</a><br>See <a href=/license/>License</a> for more details</div></footer></body></html>
