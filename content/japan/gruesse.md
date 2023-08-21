@@ -2,7 +2,7 @@
 title: "Viele Grüße aus Japan"
 description: ""
 author: "Arne Vogel"
-date: 2023-08-21T17:55:04+09:00
+date: 2023-08-21T14:55:04+09:00
 lastModified: ""
 language: "de"
 about: "no"
