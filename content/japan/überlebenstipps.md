@@ -33,3 +33,22 @@ Einfach ran winken.
 
 Bezahlt wird nicht am Tisch.
 Entweder es gibt diese Automaten vorm Restaurant bei denen man bezahlt und wo man sein Ticket fürs Essen bekommt oder man bezahl beim raus gehen.
+
+Die Essstäbchen kann man nach dem Essen eigentlich überall ablegen.
+Außer im Reis!
+Das ist ein Symbol für den Tod, bzw. für einen Grabstein.
+
+## Einkaufen
+
+Wenn man in einen Laden kommt wird man begrüßt.
+Besonders in Convenient Stores ist dies der Fall.
+Mir wurde gesagt, diese Begrüßung wird von Kunden ignoriert.
+Ich kann das nicht, ich nicke der Person höflich zu.
+Alles andere wäre komisch für mich.
+
+Wenn man bezahlt wird man etwas gefragt.
+Es geht darum ob man eine Tüte haben möchte oder nicht.
+Den genauen Wortlaut weiß ich aber nicht.
+Die Frage wird negiert gestellt: etwa "passt das so?"
+Die richtige Antwort ist also "Yes, this is fine" wenn man keine Tüte haben möchte.
+Am Anfang hab ich immer noch "No, I don't need a bag" geantwortet und immer eine Tüte bekommen...
