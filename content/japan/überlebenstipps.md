@@ -17,6 +17,47 @@ category: []
 draft: true
 ---
 
+## Geld und Bezahlen
+Ich konnte mit meiner Visa Karte hier in 90% der Läden bezahlen.
+Vereinzelt wird aber Bargeld verlangt, bzw. einmal hat die Visa Bezahlung nicht funktioniert.
+Daher würde ich immer etwas Bargeld dabei haben.
+
+An den ATMs konnte ich mit meine Karte Geld abheben.
+Das hat ungefähr 200 Yen an Gebühren gekostet.
+
+
+## SIM Karte
+SIM Karten kann man am Flughafen kaufen.
+Der Name würde es nicht verraten aber ich hab meine bei "Big Camera" gekauft.
+
+Man muss die Karte dann noch Online Registrieren, zu mindestenz mit den IIJ Karten aber dann hat man auch direkt Internet.
+
+## Navigation
+Google Maps funktioniert ganz gut hier.
+Mit den verschiedenen Metro Anbietern usw. kommt die Navigation gut zurecht.
+Bei manchen Stationen kann Maps sogar sagen in welchen Wagon man am besten einsteigen sollte damit man schneller zur Treppe bzw. Ausgang kommt.
+
+Nur für die Navigation zu Fuß ist Google Maps nicht 100% optimal.
+Man kommt zum Ziel, aber die App bevorzugt große Straßen.
+Ruhiger kommt man zum Ziel wenn man Google Maps nur als Richtwert nimmt und eine Seitenstraße rechts oder links von der Navigation geht.
+
+Ich kann die Suica Karte empfehlen.
+Das ist die Karte von JR East, man kann aber auch mit der U-Bahn und allen anderen Anbietern mit denen ich gefahren bin Bezahlen.
+Die Karte kann man am Flughafen an einen Automaten holen und Aufladen.
+Wie genau weiß ich aber auch nicht, ich hatte zum Glück einen Begleiter der Japanisch lesen konnte.
+
+Die Karte benutzt man einfach an den Ein uns Ausgängen und tippt sie einfach an die Schranken.
+Die Schranken sind manchmal einfach so offen, man sollte aber trotzdem tippen.
+Ich weiß nicht genau was passiert wenn man raus tippen möchte wenn man sich nicht eingetippt hat, oder anders herum, ich möchte es aber auch nicht herausfinden.
+
+Wenn man die Suica Karte benutzt sollte man immer etwas Bargeld als Reserve mitnehmen.
+Dies braucht man, wenn man mit der Karte losgefahren ist, das Geld auf der Karte aber nicht mehr ausreicht.
+Dann gibt es "Fare Adjustment Machines" an den Ausgängen wo man sich Geld auf die Karte aufladen kann.
+Dies funktioniert aber nur mit Bargeld.
+
+Was noch interessant ist zur Suica Karte, mit der Karte kann man in einzelnen Läden und Restaurants Bezahlen.
+Funktioniert dann einfach wie eine Prepaid Kreditkarte.
+
 ## Essen
 
 In Restaurants bekommt man feuchte Tücher gereicht, bzw. es sind schon welche am Tisch.
