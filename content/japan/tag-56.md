@@ -72,7 +72,7 @@ Und im Hintergrund kann man schemenhaft Tokio erkennen.
 
 Oben aufm Berg ein Zwischenstopp.
 
-Und dort ist auf einmal Fufi:
+Und dort ist auf einmal Fuji:
 
 ![fuji](fuji.jpg)
 
