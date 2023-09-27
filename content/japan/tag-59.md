@@ -43,7 +43,7 @@ Zwei Platformen hat der Turm, einmal auf 350 und einmal auf 450 Metern.
 
 Und man kommt überraschend schnell hoch mit dem Aufzug.
 55 Sekunden hat er nur gebraucht.
-Laut Bildschirm ging es mit 600m/s hochgeschossen.
+Laut Bildschirm ging es mit 600m/min hochgeschossen.
 
 ![skytree](skytree2.jpg)
 ![skytree](skytree3.jpg)
