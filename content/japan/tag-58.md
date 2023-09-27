@@ -33,3 +33,9 @@ Hmm, geht eigentlich.
 
 Ich würde es nicht nochmal gestellen aber geschmacklich vollkommen ok bei einer etwas besonderen Textur.
 Etwas Schwammig(?) wenn ich es beschreiben müsste.
+
+---
+
+Wie erwartet:
+
+![offen](offen.jpg)
