@@ -25,6 +25,8 @@ Daher würde ich immer etwas Bargeld dabei haben.
 An den ATMs konnte ich mit meine Karte Geld abheben.
 Das hat ungefähr 200 Yen an Gebühren gekostet.
 
+Bei Automaten wo man mit Bargeld bezahlen kann: man kann mehrere Geldscheine gestapelt in den Schlitz Stecken.
+Man muss nicht jeden Schein einzelnt einstecken.
 
 ## SIM Karte
 SIM Karten kann man am Flughafen kaufen.
@@ -70,14 +72,17 @@ Aber für wann das der Fall ist kann ich keine Regel für geben.
 Eigentlich gab es den Reis immer in kleinen Schüsseln in den Restaurants in denen dies der Fall war.
 
 Die Bedienungen kommen nicht immer automatisch zum Tisch um eine Bestellung aufzunehmen.
-Einfach ran winken.
+Angucken oder im extremfall ran winken.
+Das gehört hier zum guten Ton.
 
 Bezahlt wird nicht am Tisch.
 Entweder es gibt diese Automaten vorm Restaurant bei denen man bezahlt und wo man sein Ticket fürs Essen bekommt oder man bezahl beim raus gehen.
+Beim Bezahlen beim raus gehen, an die Rechnung denken.
 
 Die Essstäbchen kann man nach dem Essen eigentlich überall ablegen.
 Außer im Reis!
 Das ist ein Symbol für den Tod, bzw. für einen Grabstein.
+Verpöhnt!
 
 ## Einkaufen
 
