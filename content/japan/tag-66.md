@@ -90,6 +90,29 @@ Osaka im Hintergrund, wo ich morgen zum Abschluss wohl eine Tagestour hin machen
 
 ---
 
+Oh und ich war nochmal in einen Yodobashi Camera.
+Einen der großen Elektro/Kaufhäusern hier.
+
+Und da wird man ja verrückt.
+So viel Audio, überlappung und alles.
+
+Und die Audiodateien sind schon auf 0.4 runterskaliert.
+
+<figure>
+  <figcaption>Überlappende Musik</figcaption>
+  <audio controls src="laut.mp3">
+    <a href="laut.mp3"> Download audio </a>
+  </audio>
+    <audio controls src="laut2.mp3">
+    <a href="laut2.mp3"> Download audio </a>
+  </audio>
+
+</figure>
+
+
+
+---
+
 Ich glaube ja auch, dass der Onsen im neuen Hotel Betrug ist.
 Da sind überhaupt keine Mineralien im Wasser drinnen.
 Warum denke ich das?
