@@ -1,0 +1,20 @@
+<!doctype html><html lang=en><head><title>What does the ping actually measure?</title>
+<meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=author content="Arne Vogel"><meta name=description content><meta property="og:url" content="https://www.arnevogel.com/network-latency-measurements/"><meta property="og:title" content="What does the ping actually measure?"><link rel=canonical href=https://www.arnevogel.com/network-latency-measurements/><link rel=icon type=image/png href=https://www.arnevogel.com/favicon.png sizes=128x128><link href=https://www.arnevogel.com/style/style.css rel=stylesheet><link href=https://www.arnevogel.com//css/syntax.css rel=stylesheet></head><body><header class=site-header><nav class=wrapper><a href=/ class=header-text>Arne Vogel</a><div class=nav-right><a href=/til class=header-text>TIL</a></div></nav></header><div class=site-content><div class=wrapper><h1>What does the ping actually measure?</h1><span class=list-date>Oct 30, 2023 • Arne Vogel</span><p>This is an appendix to the following blog post, if you want to learn how to get more details for network latency measurements using hardware timestamps, check it out:
+<a href=https://eng-blog.iij.ad.jp/archives/21198>https://eng-blog.iij.ad.jp/archives/21198</a></p><h2 id=network-time-measurements-with-ping>Network time measurements with <code>ping</code></h2><p>In short: ping uses <code>gettimeofday</code> to add a timestamp to the packet before sending it.
+And then uses <code>gettimeofday</code> again to get the time when the packet is received.
+<code>ping</code> reports the difference between these two as the latency.</p><h3 id=in-the-code>In the code</h3><p>Inserting a timestamp into the packet: <code>gettimeofday</code></p><pre tabindex=0><code>struct timeval tmp_tv;
+gettimeofday(&amp;tmp_tv, NULL);
+memcpy(icp + 1, &amp;tmp_tv, sizeof(tmp_tv));
+</code></pre><p>When they receive a packet they again get the time with <code>gettimeofday</code>:</p><pre tabindex=0><code>if (rts-&gt;opt_latency || recv_timep == NULL) {
+    if (rts-&gt;opt_latency ||
+        ioctl(sock-&gt;fd, SIOCGSTAMP, &amp;recv_time))
+        gettimeofday(&amp;recv_time, NULL);
+    recv_timep = &amp;recv_time;
+}
+</code></pre><p>And then they calculate the latency:</p><pre tabindex=0><code>struct timeval tmp_tv;
+memcpy(&amp;tmp_tv, ptr, sizeof(tmp_tv));
+tvsub(tv, &amp;tmp_tv);
+triptime = tv-&gt;tv_sec * 1000000 + tv-&gt;tv_usec;
+</code></pre><h3 id=latency-breakdown-with-hardware-timestamps>Latency breakdown with hardware timestamps</h3><p>One disadvantage of <code>ping</code>s approach is that we do not know how much time the packet spent in the network, how much time it spent on the NIC and how much time it spent in the kernel.
+We only see the sum of all these different aspects of network latency.</p><p>For optimizing the latency critial software, it is important to know where the latency is coming from.</p><p>If you want to learn how to get more details about the network time measurements, check out the blog post :
+<a href=https://eng-blog.iij.ad.jp/archives/21198>https://eng-blog.iij.ad.jp/archives/21198</a></p><p>It describes how to use hardware timestamps to get more details about the network latency, in particular with a breakdown of how much time the packet spend in the network, on the NIC and in the kernel.</p></div></div><footer class=site-footer><div class=wrapper>© Copyright - Arne Vogel - Email: <a href=mailto:arne@arnevogel.com>arne@arnevogel.com</a><br>See <a href=/license/>License</a> for more details</div></footer></body></html>
