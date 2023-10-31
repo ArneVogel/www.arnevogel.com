@@ -14,7 +14,7 @@ customCSS: []
 customJS: []
 init: "no"
 category: []
-draft: true
+draft: false
 ---
 
 This is an appendix to the following blog post, if you want to learn how to get more details for network latency measurements using hardware timestamps, check it out:
