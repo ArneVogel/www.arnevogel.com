@@ -23,7 +23,7 @@ Sunshine City in Ikebukuro besucht.
 
 Mega Aussicht bei Nacht:
 
-![Ausicht](aussicht.jpg)
+[![Ausicht](aussicht-small.jpg)](aussicht.jpg)
 
 Dannach im Planetarium.
 
@@ -50,5 +50,5 @@ Nach Mitternacht, Laden ist geschlossen, es wird renoviert.
 
 100% ist der Laden morgen wieder auf als wenn nichts gewesen wäre.
 
-![umbau](umbau.jpg)
+[![umbau](umbau-small.jpg)](umbau.jpg)
 

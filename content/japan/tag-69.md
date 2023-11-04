@@ -19,8 +19,8 @@ draft: false
 
 Und es geht zurück.
 
-![Flughafen](flughafen.jpg)
-![Flughafen](flugzeug.jpg)
+[![Flughafen](flughafen-small.jpg)](flughafen.jpg)
+[![Flughafen](flugzeug-small.jpg)](flugzeug.jpg)
 
 Ja ich bin zurück. (Man beachte die +3)
-![verspätung](verspätung.jpg)
+[![verspätung](verspätung-small.jpg)](verspätung.jpg)

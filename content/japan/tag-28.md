@@ -23,7 +23,7 @@ Achtung die Videos sind laut!
 
 Noch ein Erdbeben, das ich nicht gespürt habe?
 
-![Erdbeben](erdbeben.jpg)
+[![Erdbeben](erdbeben-small.jpg)](erdbeben.jpg)
 
 Andere aus meiner Gruppe haben es gespürt. 
 Warum ich dagegen immun bin, weiß ich nicht.
@@ -71,16 +71,16 @@ P.S. im Sommer 2025 wird es eine andere Ausstellung von teamLabs auch in Hamburg
 
 Anschließend haben wir uns noch die Regenbogen Brücke angeguckt.
 
-![rainbow bridge](rainbow.jpg)
+[![rainbow bridge](rainbow-small.jpg)](rainbow.jpg)
 
 ---
 
 Fürs Protokoll, mein Essen diese Woche:
 
-![essen](essen1.jpg)
-![essen](essen2.jpg)
-![essen](essen3.jpg)
-![essen](essen3-3.jpg)
-![essen](essen4.jpg)
-![essen](essen5.jpg)
-![essen](essen6.jpg)
+[![essen](essen1-small.jpg)](essen1.jpg)
+[![essen](essen2-small.jpg)](essen2.jpg)
+[![essen](essen3-small.jpg)](essen3.jpg)
+[![essen](essen3-3-small.jpg)](essen3-3.jpg)
+[![essen](essen4-small.jpg)](essen4.jpg)
+[![essen](essen5-small.jpg)](essen5.jpg)
+[![essen](essen6-small.jpg)](essen6.jpg)

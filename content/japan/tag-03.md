@@ -21,11 +21,11 @@ Zwei Bilder vom weg zur Arbeit.
 
 Werbung über Werbung in der nähe der S-Bahn Station.
 
-![Werbung](werbung.jpg)
+[![Werbung](werbung-small.jpg)](werbung.jpg)
 
 Außenansicht vom IIJ Gebäude in dem ich arbeite.
 
-![IIJ Gebäude](gebaude.jpg)
+[![IIJ Gebäude](gebaude-small.jpg)](gebaude.jpg)
 
 Aus der Mittagspause ein Video.
 Was man da hört sollen wohl Grillen sein.
@@ -36,7 +36,7 @@ Es sollen außerdem verschiedene Grillenarten in Tokio existieren, die sich dann
 
 Neben den abgebrochenen Ast sieht man eine von den Grillen:
 
-![Grille](grille.jpg)
+[![Grille](grille-small.jpg)](grille.jpg)
 
 Und noch ein Video, genauso Laut, vom Heimweg:
 
@@ -46,6 +46,6 @@ Im Hintergund sieht man übrigens den 1st [Torri](https://de.wikipedia.org/wiki/
 Unter den 2 Millionen Kriegsgefallenen wird hier wohl auch an 14 Kriegsverbrecher aus dem 2. Weltkrieg gedacht.
 Finden wohl nicht alle so cool und es gibt wohl auch immer wieder Drama am 15. August, den Jahrestag der Niederlage Japans im 2. Weltkrieg, geben.
 
-![yasukini schrein torri](1st-torii.jpg)
+[![yasukini schrein torri](1st-torii-small.jpg)](1st-torii.jpg)
 
 

@@ -20,11 +20,11 @@ draft: false
 
 Und auf einmal sind 50.000 Yen weg.
 
-![Asurüstung](ausrüstung.jpg)
+[![Asurüstung](ausrüstung-small.jpg)](ausrüstung.jpg)
 
 Der Typhoon darf aber mal langsam abdrehen.
 
-![Typhoon](typhoon.jpg)
+[![Typhoon](typhoon-small.jpg)](typhoon.jpg)
 
 Bis jetzt ist aber noch alles im grünen Bereich laut diesen Vorhersagen:
 

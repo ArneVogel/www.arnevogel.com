@@ -36,4 +36,4 @@ Am besten sind auch mehrere Runden abwechselnd kalt duschen und heiß Garen lass
 
 Ist gleich 15:00 in Erlangen… Eiszeit
 
-![Eiszeit](eiszeit.jpg)
+[![Eiszeit](eiszeit-small.jpg)](eiszeit.jpg)

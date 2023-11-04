@@ -21,12 +21,12 @@ draft: false
 Rauchen ist hier fast nirgends erlaubt.
 Nicht einmal im Freien ist das Rauchen erlaubt, geschweige denn in Gebäuden.
 
-![Rauchen](rauchen.jpg)
+[![Rauchen](rauchen-small.jpg)](rauchen.jpg)
 
 Für Raucher gibt es speziell abgetrennte Bereiche:
 
-![Raucherbereich](raucherbereich.jpg)
-![Raucherbereich](raucherbereich2.jpg)
+[![Raucherbereich](raucherbereich-small.jpg)](raucherbereich.jpg)
+[![Raucherbereich](raucherbereich2-small.jpg)](raucherbereich2.jpg)
 
 ---
 

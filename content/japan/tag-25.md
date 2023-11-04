@@ -22,7 +22,7 @@ Wieder so ein Kontrast zwischen Moderne und Vergangenheit.
 
 Riesen Hochhaus, welches eine Einkerbung für einen Schrein hat.
 
-![Kontrast](kontrast.jpg)
+[![Kontrast](kontrast-small.jpg)](kontrast.jpg)
 
 ---
 

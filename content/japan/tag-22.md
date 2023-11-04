@@ -27,6 +27,6 @@ Morgen aber wieder ab ins Büro.
 
 Um diesen langweiligen Tag jetzt trotzdem noch ein Bild zu geben, ein Bild noch von Gestern:
 
-![Kompost](kompost.jpg)
+[![Kompost](kompost-small.jpg)](kompost.jpg)
 
 Nichts atemberaubendes und wahrscheinlich auch nicht so geplant, aber ich fands trotzdem cool.

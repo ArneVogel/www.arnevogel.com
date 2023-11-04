@@ -20,7 +20,7 @@ draft: false
 Der nächste Taifun zieht über Japan hinüber.
 Aber er wird uns wohl wieder verpassen.
 
-![Taifun](taifun.jpg)
+[![Taifun](taifun-small.jpg)](taifun.jpg)
 
 Laut der NERV App ist das Taifun Nummer 7.
 Und Nummer 8 ist auch schon unterwegs.
@@ -30,4 +30,4 @@ Ansonsten, ein schöner und ereigenissloser Montag.
 
 Das vielleich noch: Mittagessen mit Aussicht.
 
-![Aussicht](aussicht.jpg)
+[![Aussicht](aussicht-small.jpg)](aussicht.jpg)

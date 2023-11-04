@@ -22,7 +22,7 @@ Gestern war "Respect for the Aged Day", ein Feiertag hier in Japan.
 
 Und was wollte ich Gestern auch noch zeigen:
 
-![Dorayaki](Dorayaki.jpg)
+[![Dorayaki](Dorayaki-small.jpg)](Dorayaki.jpg)
 
 Dorayaki in der Form des Buddhas.
 Wieder etwas mit der Bohnenpaste, wie so fast jede der Süßspeisen hier in Japan.

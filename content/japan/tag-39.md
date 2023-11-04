@@ -23,7 +23,7 @@ Bei dem Wetter geb ich auf, Gewitter und Sturm, dann halt doch nicht :(
 
 Der Typhoon geht halt aber auch wirklich mitten drüber:
 
-![typhoon](typhoon.jpg)
+[![typhoon](typhoon-small.jpg)](typhoon.jpg)
 
 Ich bin gespannt, wie schlimm das morgen hier wird.
 Vorsichtshalber hab ich mal ein paar der leeren zwei Liter Iso Flaschen mit Wasser ausgefüllt.

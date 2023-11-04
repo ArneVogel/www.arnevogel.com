@@ -23,9 +23,9 @@ Weg zur arbeit: zuerst in die falsche Richtung mit der S-Bahn gefahren. Nächste
 
 Auf der Arbeit angekommen Besucherkarte bekommen und ab in den 15. Stock. Was für eine Aussicht:
 
-![Aussicht](aussicht.jpg)
-![Aussicht](aussicht2.jpg)
-![Aussicht](aussicht3.jpg)
+[![Aussicht](aussicht-small.jpg)](aussicht.jpg)
+[![Aussicht](aussicht2-small.jpg)](aussicht2.jpg)
+[![Aussicht](aussicht3-small.jpg)](aussicht3.jpg)
 
 Mehr Bilder habe ich nicht mehr groß gemacht.
 Sonst habe ich mich mit dem Setup für die nächsten Monate bekannt gemacht und am Abend ging es noch mit den Kollegen in eine Bar.

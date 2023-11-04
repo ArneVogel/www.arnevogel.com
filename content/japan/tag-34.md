@@ -57,9 +57,9 @@ Nachdem Pierre-Louis und seine Schwägerin fertig waren durfte ich auch noch mal
 Pierre-Louis und seine Schwägerin machen das nämlich wirklich zum Lernen.
 Da werden kann Stempel gesammelt und Prüfungen abgelegt.
 
-![Teezeremonie](zeremony.jpg)
+[![Teezeremonie](zeremony-small.jpg)](zeremony.jpg)
 
-![Teezeremonie](zeremony2.jpg)
+[![Teezeremonie](zeremony2-small.jpg)](zeremony2.jpg)
 
 ---
 

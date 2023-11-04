@@ -18,5 +18,5 @@ draft: false
 ---
 
 So schnell sind zwei Monate rum.
-![zahlpasta](zahnpasta.jpg)
+[![zahlpasta](zahnpasta-small.jpg)](zahnpasta.jpg)
 

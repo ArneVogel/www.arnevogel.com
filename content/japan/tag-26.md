@@ -23,7 +23,7 @@ Gestern war Zahltag.
 Da wir kürzer als 6 Monate in Japan sind, bekommen wir hier kein Bankkonto.
 Deshalb gibt es das Geld in Bar.
 
-![zahltag](zahltag.jpg)
+[![zahltag](zahltag-small.jpg)](zahltag.jpg)
 
 Interessantes Gefühl.
 

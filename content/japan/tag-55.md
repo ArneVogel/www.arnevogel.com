@@ -57,8 +57,8 @@ Zuerst war ich im Museum für viktorianisches Glas.
 Meine Bewertung: Drinnen: ja ist halt Glas, fand ich nicht so beeindruckend.
 Draußen: Ziemlich cool, die Rosen aus Glas sind verrückt und die Aussicht kröhnt das ganze.
 
-![glas](glas2.jpg)
-![glas](glas.jpg)
+[![glas](glas2-small.jpg)](glas2.jpg)
+[![glas](glas-small.jpg)](glas.jpg)
 
 ---
 
@@ -69,12 +69,12 @@ Aus gehts zu Fuß.
 
 Was ich vergessen habe, es ist ja Bergig hier…
 
-![weg in den bergen](weg.jpg)
+[![weg in den bergen](weg-small.jpg)](weg.jpg)
 
 Und Fußgängerwege: Fehlanzeige.
 
 
-![weg in den bergen](weg2.jpg)
+[![weg in den bergen](weg2-small.jpg)](weg2.jpg)
 
 Was das soll weiß ich aber nicht?
 Was soll der Belag?
@@ -95,14 +95,14 @@ Nach dem Museum wurde es schon etwas dunkler und den Fehler mit dem Spaziergang 
 
 Fast in der Unterkunft angekommen:
 
-![blick](blick.jpg)
+[![blick](blick-small.jpg)](blick.jpg)
 
 ---
 
 Und hier schlafe ich heute:
 
-![kabine](kabine.jpg)
-![kabine](kabine2.jpg)
+[![kabine](kabine-small.jpg)](kabine.jpg)
+[![kabine](kabine2-small.jpg)](kabine2.jpg)
 
 Und wer schläft unter mir?
 Noch ein Deutscher :)

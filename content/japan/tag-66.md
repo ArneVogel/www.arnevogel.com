@@ -19,7 +19,7 @@ draft: false
 
 Aufm Weg zum ersten Ziel:
 
-![japan zug takt](takt.jpg)
+[![japan zug takt](takt-small.jpg)](takt.jpg)
 
 Der Zugführer hat einen Plan der Sekundengenau sagt, wann er ankommen soll und wann er los fahren muss.
 Und dann ist er 15 Sekunden zu spät abgefahren D:
@@ -31,14 +31,14 @@ Fünf Sekunden zu spät angekommen, das kann ich noch verkraften.
 
 Es ging zum Bambus Wald:
 
-![Bambus](bambus.jpg)
-![Bambus](bambus2.jpg)
+[![Bambus](bambus-small.jpg)](bambus.jpg)
+[![Bambus](bambus2-small.jpg)](bambus2.jpg)
 
 Wenn man die ganzen Menschenmengen ignoriert: ganz ok.
 Man ist aber auch in 10 Minuten durch.
 In der Umgebung gibt es aber noch mehr sachen zu erkunden, von daher angucken kann man sich das mal.
 
-![Bambus](bambus3.jpg)
+[![Bambus](bambus3-small.jpg)](bambus3.jpg)
 
 ---
 
@@ -46,21 +46,21 @@ Ich wusste aber nicht wirklich was ich machen wollte, geplant hatte ich nichts.
 Erstmal von den Menschenmengen weg.
 Da hab ich diesen Fluss entdeckt.
 
-![fluss](fluss.jpg)
+[![fluss](fluss-small.jpg)](fluss.jpg)
 
 Auf der anderen Flussseite ist ein Weg am Wasser.
 Erstmal 2km(?) zur nächsten Brücke maschiert.
 
-![Brücke](brücke.jpg)
+[![Brücke](brücke-small.jpg)](brücke.jpg)
 
 Ganz schön hier.
 Besser als der Bambus Garten eigentlich.
 
-![fluss](fluss2.jpg)
+[![fluss](fluss2-small.jpg)](fluss2.jpg)
 
 Und am Ende gab es noch einen Weg hoch mit dieser Aussicht.
 
-![aussicht](aussicht.jpg)
+[![aussicht](aussicht-small.jpg)](aussicht.jpg)
 
 Das ist übrigens von der Hütte aus, die man im ersten Fluss Bild sieht.
 
@@ -69,11 +69,11 @@ Das ist übrigens von der Hütte aus, die man im ersten Fluss Bild sieht.
 Dannach wollte ich zum Kyoto Tower.
 Dafür musste ich durch den Central Exit und wurde erstmal von der Bahnstation abgelenkt.
 
-![kyoto station](station2.jpg)
-![kyoto station](station.jpg)
+[![kyoto station](station2-small.jpg)](station2.jpg)
+[![kyoto station](station-small.jpg)](station.jpg)
 
 Das nächste Ziel:
-![kyoto station](station3.jpg)
+[![kyoto station](station3-small.jpg)](station3.jpg)
 
 ---
 
@@ -82,11 +82,11 @@ Schon ganz cool der Turm.
 Rundum gibt es kostenlose Fernrohre.
 In der Stadt gibt es keinen Punkt an den man unbeobachtet sein kann :O
 
-![Turm](turm2.jpg)
+[![Turm](turm2-small.jpg)](turm2.jpg)
 
 Osaka im Hintergrund, wo ich morgen zum Abschluss wohl eine Tagestour hin machen werde:
 
-![Turm](turm3.jpg)
+[![Turm](turm3-small.jpg)](turm3.jpg)
 
 ---
 

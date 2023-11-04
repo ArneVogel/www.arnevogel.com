@@ -19,7 +19,7 @@ draft: false
 
 Hier ist mein Review für Fahrradwege in Tokio.
 
-![blau](blau.jpg)
+[![blau](blau-small.jpg)](blau.jpg)
 
 Die meisten Fahrradwege hier sind einfache farbliche Markierungen auf der Straße.
 
@@ -28,7 +28,7 @@ Kann ich aber auch verstehen, so wie ich Autos Fahrräder auf solchen Wegen übe
 
 Und sonst wird es auch gerne als Parkplatz benutzt:
 
-![auto](auto.jpg)
+[![auto](auto-small.jpg)](auto.jpg)
 
 Also: Autofahrer haben kein Respekt dafür.
 
@@ -39,7 +39,7 @@ Das hatte ich jetzt schon öfters, dass die bis auf zwei Meter an mich ran fahre
 
 Aber Fußgänger sind auch nicht unschuldig.
 
-![fußgänger](fuss.jpg)
+[![fußgänger](fuss-small.jpg)](fuss.jpg)
 
 Schöner Fahrradweg, getrennt von der Straße, selten hier.
 
@@ -51,7 +51,7 @@ Die gelbe Markierung ist für Sehbehinderte, nicht die Grenze zwischen Fuß und 
 
 Also: Fußgänger respektieren Fahrradwege auch nicht.
 
-![getrennt](getrennt.jpg)
+[![getrennt](getrennt-small.jpg)](getrennt.jpg)
 
 Und dann das schlimmste eigentlich, Fahrradfahrer respektieren den Fahrradweg auch nicht :/
 

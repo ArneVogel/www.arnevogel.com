@@ -19,11 +19,11 @@ draft: false
 
 Heute war ich im "Art Aquarium".
 
-![aquarium](aquarium.jpg)
+[![aquarium](aquarium-small.jpg)](aquarium.jpg)
 
 <video controls src="aquarium.mp4"></video>
 
-![aquarium](aquarium2.jpg)
+[![aquarium](aquarium2-small.jpg)](aquarium2.jpg)
 
 Ganz ok, würde ich aber nicht empfehlen.
 
@@ -31,7 +31,7 @@ Ganz ok, würde ich aber nicht empfehlen.
 
 Das war aber cool:
 
-![Garten](garten.jpg)
+[![Garten](garten-small.jpg)](garten.jpg)
 
 da kommt man aus dem Auszug in den 9. Stock und sieht das.
 
@@ -39,4 +39,4 @@ da kommt man aus dem Auszug in den 9. Stock und sieht das.
 
 Und die Straße in Ginza war wieder gesperrt.
 
-![ginza](ginza.jpg)
+[![ginza](ginza-small.jpg)](ginza.jpg)

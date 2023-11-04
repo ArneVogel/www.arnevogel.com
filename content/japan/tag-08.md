@@ -31,9 +31,9 @@ Die stehen hier überall.
 Die soll es wohl noch für Naturkatastrophen geben.
 Was ich dann doch wieder verstehen kann.
 
-![Telefonzelle in Japan](telefonzelle.jpg)
-![Telefonzelle in Japan](telefonzelle2.jpg)
-![Telefonzelle in Japan](telefonzelle3.jpg)
+[![Telefonzelle in Japan](telefonzelle-small.jpg)](telefonzelle.jpg)
+[![Telefonzelle in Japan](telefonzelle2-small.jpg)](telefonzelle2.jpg)
+[![Telefonzelle in Japan](telefonzelle3-small.jpg)](telefonzelle3.jpg)
 
 
 Apropos Naturkatastrophen, der Typhoon, über den ich neulich geschrieben habe, ist nach Korea abgedreht.
