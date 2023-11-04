@@ -137,3 +137,6 @@ Was ich noch berichten kann, um halb zwei (letzter Zug ist schon lange weg) ist 
 Und jetzt ist es halb drei und ich hab zu viel Zeit Text zu schreiben.
 
 Bis morgen (heute?) Deutschland.
+
+
+[![Gestern](../left.png)](../tag-67) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-69)

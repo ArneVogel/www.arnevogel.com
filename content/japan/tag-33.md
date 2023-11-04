@@ -73,3 +73,6 @@ Aber zum Glück habe ich das heute herausgefunden und mir eine neue SIM Karte be
 Zwischenbilanz zur Stadt:
 Ganz cool für so ein Praktikum, für längere Zeit wäre mir das aber glaube ich zu viel hier.
 Da brauche ich dann doch etwas mehr Ruhe und Natur.
+
+
+[![Gestern](../left.png)](../tag-32) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-34)

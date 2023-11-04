@@ -29,3 +29,6 @@ Auf der Arbeit angekommen Besucherkarte bekommen und ab in den 15. Stock. Was f�
 
 Mehr Bilder habe ich nicht mehr groß gemacht.
 Sonst habe ich mich mit dem Setup für die nächsten Monate bekannt gemacht und am Abend ging es noch mit den Kollegen in eine Bar.
+
+
+[![Gestern](../left.png)](../tag-01) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-03)

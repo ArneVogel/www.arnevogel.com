@@ -37,3 +37,6 @@ So lange es nicht zu Windig wird mach ich mir nichts draus.
 Für den Regen hab ich noch extra Regenhose und Jacke gekauft.
 
 Das wird schon.
+
+
+[![Gestern](../left.png)](../tag-37) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-39)

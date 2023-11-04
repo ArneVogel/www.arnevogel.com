@@ -24,3 +24,6 @@ Und es geht zurück.
 
 Ja ich bin zurück. (Man beachte die +3)
 [![verspätung](verspätung-small.jpg)](verspätung.jpg)
+
+
+[![Gestern](../left.png)](../tag-68) [![Back](../back.png)](..)

@@ -61,3 +61,6 @@ Es stellt sich heraus, es ist die Anzahl der Verkehrstoten in rot und der Verlet
 Der Taifun (#7) ist nun fast über Japan hinweg.
 Hier in Tokio war es heute etwas windig, aber das war es auch schon.
 Dafür, dass ich letzte Woche noch Essens-und Trinkreserven gekauft hab sind wir gut damit weggekommen.
+
+
+[![Gestern](../left.png)](../tag-15) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-17)

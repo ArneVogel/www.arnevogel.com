@@ -27,3 +27,6 @@ Viele haben so eine “Stupsnase”.
 [![stupsnase auto](stupsnase5-small.jpg)](stupsnase5.jpg)
 
 Das war auch schon alles, danke für die Aufmerksamkeit.
+
+
+[![Gestern](../left.png)](../tag-08) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-10)

@@ -31,3 +31,6 @@ Hier noch ein Photo vom Ghibli Museum.
 
 [![Ghibli Statue](statue-small.jpg)](statue.jpg)
 
+
+
+[![Gestern](../left.png)](../tag-42) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-44)

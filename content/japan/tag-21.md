@@ -85,3 +85,6 @@ Wie Üblich, mein Essen diese Woche:
 (Der Bürger war Teil zwei von Tag 5. Apfelbürger Abends in einer Bar. Überraschend gut!)
 [![Essen](essen6-small.jpg)](essen6.jpg)
 [![Essen](essen7-small.jpg)](essen7.jpg)
+
+
+[![Gestern](../left.png)](../tag-20) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-22)

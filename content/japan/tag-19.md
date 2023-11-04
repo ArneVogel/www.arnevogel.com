@@ -41,3 +41,6 @@ Mit der Karte kann man sogar in verschiedenen Supermärkten und Restaurants beza
 Und zum Abschluss ein Foto vom Abendspaziergang.
 
 [![Tokio Fluss](wasser-small.jpg)](wasser.jpg)
+
+
+[![Gestern](../left.png)](../tag-18) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-20)

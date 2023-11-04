@@ -54,3 +54,6 @@ Abendessen, was schnelles vom Supermarkt nebenan:
 Meine Nachbarn, erkennt man nicht gut, aber keine 10 Meter von meiner Wohnung ist ein Restaurant:
 
 [![Nachbarn](nachbarn-small.jpg)](nachbarn.jpg)
+
+
+[![Back](../back.png)](..) [![Morgen](../right.png)](../tag-02)

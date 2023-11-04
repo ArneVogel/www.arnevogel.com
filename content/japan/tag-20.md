@@ -96,3 +96,6 @@ Nach dem reencoding mit ffmpeg:
 (und der Befehl, nur für mich nochmal `ffmpeg -i in.mp4 -c:a copy -c:v libx265 -crf 10 -preset ultrafast -s 1280x720 -pix_fmt yuv420p -map 0 out.mp4`).
 (und der Befehl um die Bitrate zu limitieren `ffmpeg -i in.mp4 -b:v 4000k out.mp4`).
 
+
+
+[![Gestern](../left.png)](../tag-19) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-21)

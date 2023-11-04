@@ -77,3 +77,6 @@ Hier ein Elefantenskelett:
 Ansonsten, direkt als ich aus dem Museum raus bin hat es anfangen zu schütten... super Timing.
 
 <video controls src="regen.mp4"></video>
+
+
+[![Gestern](../left.png)](../tag-13) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-15)

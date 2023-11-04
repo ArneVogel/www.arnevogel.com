@@ -43,3 +43,6 @@ So wird es wohl die ganze Typhoon-Saison sein.
 ![typhoon](typhoon.png)
 
 [Links zur Typhoon Karte](https://www.jma.go.jp/bosai/map.html#5/30.902/135.571/&elem=root&typhoon=all&contents=typhoon&lang=en)
+
+
+[![Gestern](../left.png)](../tag-07) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-09)

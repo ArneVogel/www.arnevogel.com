@@ -39,3 +39,6 @@ Etwas Schwammig(?) wenn ich es beschreiben müsste.
 Wie erwartet:
 
 [![offen](offen-small.jpg)](offen.jpg)
+
+
+[![Gestern](../left.png)](../tag-57) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-59)

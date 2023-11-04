@@ -48,3 +48,6 @@ https://en.wikipedia.org/wiki/Artizon_Museum
 Heute habe ich gesehen, dass auf der Talk-Seite ein aktuelles Bild vom Museum (wo ich vor [11 Tagen](/japan/tag-12/) war) angefordert wurde. :)
 
 
+
+
+[![Gestern](../left.png)](../tag-22) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-24)

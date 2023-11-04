@@ -82,3 +82,6 @@ Und aus einen noch älteren Gebäude:
 
 [![Toilette](toilette3-small.jpg)](toilette3.jpg)
 
+
+
+[![Gestern](../left.png)](../tag-26) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-28)

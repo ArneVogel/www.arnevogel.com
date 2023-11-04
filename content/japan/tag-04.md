@@ -41,3 +41,6 @@ Bis zur Hälfte der Strecke nach Tokio sind es aber noch 5 Tage.
 
 ![taifun khanun](taifun.png)
 
+
+
+[![Gestern](../left.png)](../tag-03) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-05)

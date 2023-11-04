@@ -42,3 +42,6 @@ Das weiß ich jetzt aber tatächlich nicht aus eigener Erfahrung, nur von dem wa
 
 Diesen Kontrast fand ich noch irgendwie witzig.
 Und mit der Beleuchtung passt das auch perfekt: alte Statue in orange, und die moderne Welt in blau.
+
+
+[![Gestern](../left.png)](../tag-11) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-13)

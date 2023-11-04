@@ -32,3 +32,6 @@ Und verhungern werde ich in meiner Wohnung auch nicht.
 Ich fühle mich ein bischen wie ein Prepper, aber besser haben als brauchen.
 
 
+
+
+[![Gestern](../left.png)](../tag-38) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-40)

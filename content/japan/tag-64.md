@@ -114,3 +114,6 @@ Letztes Ziel Kiyomizu-dera:
 ---
 
 Und das war Kyoto in knapp 25.000 Schritten.
+
+
+[![Gestern](../left.png)](../tag-63) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-65)

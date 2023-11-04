@@ -40,3 +40,6 @@ da kommt man aus dem Auszug in den 9. Stock und sieht das.
 Und die Straße in Ginza war wieder gesperrt.
 
 [![ginza](ginza-small.jpg)](ginza.jpg)
+
+
+[![Gestern](../left.png)](../tag-48) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-50)

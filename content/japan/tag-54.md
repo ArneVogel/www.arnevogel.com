@@ -31,3 +31,6 @@ Hier ein paar Bilder von meinen Heimweg heute:
 [![Regen](regen4-small.jpg)](regen4.jpg)
 [![Regen](regen5-small.jpg)](regen5.jpg)
 [![Regen](regen6-small.jpg)](regen6.jpg)
+
+
+[![Gestern](../left.png)](../tag-53) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-55)

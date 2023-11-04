@@ -84,3 +84,6 @@ Ok.
 
 Diesmal hat es nicht so lange gedauert den Koffer zu finden.
 Ab zum Hotel und gut ist.
+
+
+[![Gestern](../left.png)](../tag-62) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-64)

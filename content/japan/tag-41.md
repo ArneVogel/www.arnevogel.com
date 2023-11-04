@@ -86,3 +86,6 @@ Bis jetzt hatte ich gedacht, dass die spinnen.
 35°C und Handschuhe?
 
 Aber ok, das macht dann schon eher Sinn.
+
+
+[![Gestern](../left.png)](../tag-40) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-42)

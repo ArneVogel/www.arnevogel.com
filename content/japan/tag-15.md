@@ -31,3 +31,6 @@ Ansonsten, ein schöner und ereigenissloser Montag.
 Das vielleich noch: Mittagessen mit Aussicht.
 
 [![Aussicht](aussicht-small.jpg)](aussicht.jpg)
+
+
+[![Gestern](../left.png)](../tag-14) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-16)

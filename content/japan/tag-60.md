@@ -20,3 +20,6 @@ draft: false
 So schnell sind zwei Monate rum.
 [![zahlpasta](zahnpasta-small.jpg)](zahnpasta.jpg)
 
+
+
+[![Gestern](../left.png)](../tag-59) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-61)

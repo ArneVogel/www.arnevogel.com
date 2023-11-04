@@ -58,3 +58,6 @@ Das alles ist in einen schönen Park der auf einen Berg noch geht:
 Und das Meer war das letzte Ziel:
 
 [![Meer](meer-small.jpg)](meer.jpg)
+
+
+[![Gestern](../left.png)](../tag-49) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-51)

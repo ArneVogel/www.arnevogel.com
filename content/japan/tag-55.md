@@ -116,3 +116,6 @@ Was aber cool an der Unterkunft ist, ist der eingebundene Onsen, diese japanisch
 Und sogar mit outdoor Onsen.
 
 Schön heißes Wasser, gut zum runter kommen nach so einen regnerischen Tag.
+
+
+[![Gestern](../left.png)](../tag-54) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-56)

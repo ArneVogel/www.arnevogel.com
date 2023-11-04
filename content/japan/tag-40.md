@@ -39,3 +39,6 @@ Außerhalb der Saison muss man wohl mehrere Umstiege nehmen um hoch zu kommen.
 
 Mal sehen.
 Ich guck mal wie das Wetter wird.
+
+
+[![Gestern](../left.png)](../tag-39) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-41)

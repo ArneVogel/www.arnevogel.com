@@ -145,3 +145,6 @@ Schmeckt.
 
 [![stracciatella](stracciatella-small.jpg)](stracciatella.jpg)
 [![stracciatella](stracciatella2-small.jpg)](stracciatella2.jpg)
+
+
+[![Gestern](../left.png)](../tag-51) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-53)
