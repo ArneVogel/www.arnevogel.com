@@ -30,3 +30,6 @@ Nach dem Essen noch gesehen, dass es in der nähe wohl ein Erdbeben gab?
 Nichts von gespührt.
 
 Ich beschwöre es hier jetzt mal ganz offiziell auf: Eigentlich würde ich dann doch noch gerne hier mal so ein (kleines) Erdbeben miterleben.
+
+
+[![Gestern](../left.png)](../tag-09) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-11)

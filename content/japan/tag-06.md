@@ -70,3 +70,6 @@ Komisch für so eine riesige Stadt, von ca. 23:30 bis 04:00 fährt hier keine S-
 Das merkt man auch extrem, wenn man in meinem Viertel unterwegs ist.
 Hier gibt es viele Bars, Restaurants usw.
 Um 22:00 ist in meinem Viertel noch was los, ab 23:00 ist es eine Geisterstadt.
+
+
+[![Gestern](../left.png)](../tag-05) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-07)

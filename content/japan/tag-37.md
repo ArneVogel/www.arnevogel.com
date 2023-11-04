@@ -28,3 +28,6 @@ Die Tickets nach Fuji sind gekauft.
 Ich hoffe mal, dass der Typhoon bis Freitag Nachmittag an Fuji vorbei ist:
 
 [![NERV](nerv2-small.jpg)](nerv2.jpg)
+
+
+[![Gestern](../left.png)](../tag-36) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-38)

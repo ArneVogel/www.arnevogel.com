@@ -78,3 +78,6 @@ Skytree wo ich auch noch hin möchte:
 Und Schatten in den Wolken?
 
 [![wolken](wolke-small.jpg)](wolke.jpg)
+
+
+[![Gestern](../left.png)](../tag-47) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-49)

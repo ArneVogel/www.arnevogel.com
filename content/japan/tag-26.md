@@ -37,3 +37,6 @@ Laptop, Handy, egal.
 Es wird einfach liegen gelassen, weil es noch da sein wird wenn man wiederkommt.
 
 Hab ich jetzt noch nicht ausprobiert, aber glauben tue ich das.
+
+
+[![Gestern](../left.png)](../tag-25) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-27)

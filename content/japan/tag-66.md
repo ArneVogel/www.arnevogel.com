@@ -121,3 +121,6 @@ Die Fliesen im Onsen sind alle viel zu sauber und die Haut nach dem Bad nicht so
 In den anderen beiden Onsens in den ich war, waren die Fliesen gelb rötlich verfärbt von den ganzen Mineralien im Wasser.
 Und nach dem Bad hat sich die Haut ungewöhnlich angefühlt, "belegt" fällt mit als Wort dazu ein.
 Diesen Belag soll man übrigens nicht abwaschen habe ich mir sagen lassen.
+
+
+[![Gestern](../left.png)](../tag-65) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-67)

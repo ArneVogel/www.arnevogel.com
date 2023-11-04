@@ -31,3 +31,6 @@ Wie hab ich das den noch nicht gezeigt?
 <video controls src="toilette.mp4"></video>
 
 Ein kleines Waschbecken auf dem Spühkasten.
+
+
+[![Gestern](../left.png)](../tag-24) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-26)

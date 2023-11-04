@@ -47,3 +47,6 @@ Auf einmal ist da ein riesen Volkfest.
 War cool anzusehen, obwohl ich nur die letzen 10 Minuten mitbekommen habe.
 Punkt 21:00 war schluss.
 Hätte ich das mal vorher gewusst...
+
+
+[![Gestern](../left.png)](../tag-12) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-14)

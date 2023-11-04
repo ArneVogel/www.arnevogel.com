@@ -79,3 +79,6 @@ Jetzt riecht es richtig schön widerlich nach vergorenen Früchten aufm Heimweig
 [![Früchte](früchte-small.jpg)](früchte.jpg)
 
 [![Früchte](früchte2-small.jpg)](früchte2.jpg)
+
+
+[![Gestern](../left.png)](../tag-52) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-54)

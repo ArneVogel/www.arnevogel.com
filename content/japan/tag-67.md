@@ -51,3 +51,6 @@ Wirklich cool, auch wenn die Bilder das nicht wirklich einfangen.
 
 [![licht](licht-small.jpg)](licht.jpg)
 [![licht](licht2-small.jpg)](licht2.jpg)
+
+
+[![Gestern](../left.png)](../tag-66) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-68)

@@ -27,3 +27,6 @@ Ich muss auch noch Equipment dafür Kaufen.
 Schuhe, Regenjacke/hose, Handschuhe etc.
 
 Hätte ich mal gewusst, dass ich zwei Koffer hätte mitnehmen konnte.
+
+
+[![Gestern](../left.png)](../tag-35) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-37)

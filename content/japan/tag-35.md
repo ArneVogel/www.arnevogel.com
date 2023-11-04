@@ -120,3 +120,6 @@ Diesman mit Ratespiel, die Preise sind jeweils unter dem Bild gelistet.
      
 7.62€
 </details>
+
+
+[![Gestern](../left.png)](../tag-34) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-36)

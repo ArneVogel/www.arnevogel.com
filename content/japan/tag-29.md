@@ -40,3 +40,6 @@ Das Zwischenfazit spare ich mich mich dann für die wirkliche Halbzeit auf.
 Zufälliges Bild von einen zufälligen deutschen Wort:
 
 [![auslese](auslese-small.jpg)](auslese.jpg)
+
+
+[![Gestern](../left.png)](../tag-28) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-30)

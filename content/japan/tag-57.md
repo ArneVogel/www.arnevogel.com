@@ -52,3 +52,6 @@ Nach Mitternacht, Laden ist geschlossen, es wird renoviert.
 
 [![umbau](umbau-small.jpg)](umbau.jpg)
 
+
+
+[![Gestern](../left.png)](../tag-56) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-58)

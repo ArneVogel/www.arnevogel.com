@@ -84,3 +84,6 @@ Fürs Protokoll, mein Essen diese Woche:
 [![essen](essen4-small.jpg)](essen4.jpg)
 [![essen](essen5-small.jpg)](essen5.jpg)
 [![essen](essen6-small.jpg)](essen6.jpg)
+
+
+[![Gestern](../left.png)](../tag-27) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-29)

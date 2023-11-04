@@ -41,3 +41,6 @@ Ansonsten allgemein Straßenverkehr: hier gilt Linksverkehr :O
 Das merkt man auch im Alltag. 
 Auf der Rolltreppe stellen sich alle links hin.
 Auf dem Bürgersteig oder im Supermarkt geht man links, der Supermarkt wird auch gegen den Uhrzeigersinn durchlaufen.
+
+
+[![Gestern](../left.png)](../tag-04) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-06)

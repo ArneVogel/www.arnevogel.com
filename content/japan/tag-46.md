@@ -27,3 +27,6 @@ Ich hatte hier in Japan auch schon eine Erdbebenwarnung erhalten 2-3 Minuten bev
 In der NERV App war sogar ein Sekunden genauer Timer wann es passieren sollte.
 
 Ich hab nichts gespührt :/
+
+
+[![Gestern](../left.png)](../tag-45) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-47)

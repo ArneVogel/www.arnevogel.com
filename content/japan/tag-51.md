@@ -34,3 +34,6 @@ Ich hatte mich ganz zur Seite im Schatten gesetzt.
 Kopf abgebissen und duch die Gegend geguckt.
 
 Und dann sieht man da Leute beim Beten zu diesen Buddha…
+
+
+[![Gestern](../left.png)](../tag-50) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-52)

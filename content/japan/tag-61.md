@@ -36,3 +36,6 @@ Morgen geht es nach Nara.
 Um 8:00 geht es mit dem Shinkanzen los und drei Stunden später schon da.
 
 Ich bin gespannt.
+
+
+[![Gestern](../left.png)](../tag-60) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-62)

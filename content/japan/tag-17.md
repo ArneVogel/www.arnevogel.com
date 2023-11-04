@@ -32,3 +32,6 @@ Für Raucher gibt es speziell abgetrennte Bereiche:
 
 Ansonsten zur Arbeit, erste Projektphase ist erfolgreich abgeschlossen.
 Auf gehts zur zweiten Phase.
+
+
+[![Gestern](../left.png)](../tag-16) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-18)

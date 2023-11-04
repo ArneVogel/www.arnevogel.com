@@ -49,3 +49,6 @@ Zwar noch ein bischen aber genau passend.
 
 Was die weißen Bällchen sind hab ich schon wieder vergessen. 
 So autemberaubend waren die aber auch nicht.
+
+
+[![Gestern](../left.png)](../tag-23) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-25)

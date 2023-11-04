@@ -125,3 +125,6 @@ Noch ein letzen abstecher zum Torii im Wasser gemacht und das hat gereicht für 
 Nur das noch, von der Bahn fahrt zurück.
 
 <video controls src="bahn.mp4"></video>
+
+
+[![Gestern](../left.png)](../tag-55) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-57)

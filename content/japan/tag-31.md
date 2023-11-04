@@ -23,3 +23,6 @@ Ich hatte nicht damit gerechnet, dass die Saison so früh zu Ende geht.
 
 Ich hoffe, dass ich für nächsten Freitag (08.09.) noch eine Unterkunft finde.
 Damit ich Freitag hinfahren kann um Samstag rauf klettern zu können.
+
+
+[![Gestern](../left.png)](../tag-30) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-32)

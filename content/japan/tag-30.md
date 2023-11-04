@@ -36,3 +36,6 @@ Selbst das "Body Wash" hat ein Pictogram von Haaren auf der Verpackung.
 [![body wash in Japan](body-wash-small.jpg)](body-wash.jpg)
 
 Wird schon passen hoffe ich 🤷
+
+
+[![Gestern](../left.png)](../tag-29) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-31)

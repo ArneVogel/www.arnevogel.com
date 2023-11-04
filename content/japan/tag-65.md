@@ -61,3 +61,6 @@ Warte selbst für das Architekturmuseum, die wirklich alten Gebäude der Bauern,
 Was ist hier los?
 
 
+
+
+[![Gestern](../left.png)](../tag-64) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-66)

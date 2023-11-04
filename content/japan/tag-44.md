@@ -24,3 +24,6 @@ Fast so, als würden die sich entschuldigen, dass sie jetzt hier durch müssen.
 So stelle ich mir das jedenfalls vor.
 
 <video controls src="krankenwagen.mp4"></video>
+
+
+[![Gestern](../left.png)](../tag-43) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-45)

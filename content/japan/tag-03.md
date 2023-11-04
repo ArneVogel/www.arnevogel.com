@@ -49,3 +49,6 @@ Finden wohl nicht alle so cool und es gibt wohl auch immer wieder Drama am 15. A
 [![yasukini schrein torri](1st-torii-small.jpg)](1st-torii.jpg)
 
 
+
+
+[![Gestern](../left.png)](../tag-02) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-04)

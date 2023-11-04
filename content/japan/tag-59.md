@@ -64,3 +64,6 @@ Ist doch ein passendes Bild für das fast abgeschlossene Praktikum.
 [![skytree](skytree8-small.jpg)](skytree8.jpg)
 [![skytree](skytree9-small.jpg)](skytree9.jpg)
 
+
+
+[![Gestern](../left.png)](../tag-58) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-60)

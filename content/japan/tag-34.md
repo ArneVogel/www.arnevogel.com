@@ -86,3 +86,6 @@ Naja ich hab glück gehabt.
 Sie hat mich dann in die zweite Klasse gelotst und das war das.
 
 
+
+
+[![Gestern](../left.png)](../tag-33) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-35)

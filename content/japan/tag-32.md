@@ -43,3 +43,6 @@ Wie man an der Uhrzeit sehen kann: ich hab noch keine Gefunden.
 ---
 
 Bessere Nachrichten, ich habe einen Hotelplatz für nächste Woche Freitag bekommen.
+
+
+[![Gestern](../left.png)](../tag-31) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-33)

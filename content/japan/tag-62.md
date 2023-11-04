@@ -221,3 +221,6 @@ Der Bezug für die Decke hat ein Loch???
 Was ich jetzt in der Bildersuche gefunden habe scheint das so üblich zu sein?
 
 Komisch.
+
+
+[![Gestern](../left.png)](../tag-61) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-63)

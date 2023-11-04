@@ -133,3 +133,6 @@ Und ich werde wohl noch mindestens einmal hierher kommen.
 Im Park gibt es noch ein Technik- und Wissenschaftsmuseum, wo ich heute noch nicht war, was sich aber auch lohnen sollte.
 
 [![wal](wal-small.jpg)](wal.jpg)
+
+
+[![Gestern](../left.png)](../tag-06) [![Back](../back.png)](..) [![Morgen](../right.png)](../tag-08)
