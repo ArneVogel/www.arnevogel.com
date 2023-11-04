@@ -25,13 +25,13 @@ Auf gehts nach Osaka.
 
 Und das ist das erste Ziel: Burg Osaka.
 
-![burg osaka](burg.jpg)
-![burg osaka](burg2.jpg)
+[![burg osaka](burg-small.jpg)](burg.jpg)
+[![burg osaka](burg2-small.jpg)](burg2.jpg)
 
 Und man kommt sogar oben drauf rauf.
 
-![burg osaka](burg3.jpg)
-![burg osaka](burg4.jpg)
+[![burg osaka](burg3-small.jpg)](burg3.jpg)
+[![burg osaka](burg4-small.jpg)](burg4.jpg)
 
 ---
 
@@ -49,5 +49,5 @@ Von der gleichen Gruppe deren Ausstellung ich im ersten Monat schon besucht hab.
 
 Wirklich cool, auch wenn die Bilder das nicht wirklich einfangen.
 
-![licht](licht.jpg)
-![licht](licht2.jpg)
+[![licht](licht-small.jpg)](licht.jpg)
+[![licht](licht2-small.jpg)](licht2.jpg)

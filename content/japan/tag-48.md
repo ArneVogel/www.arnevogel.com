@@ -39,11 +39,11 @@ Das war meine gute Tat des Tages.
 
 Weiter waren heute mehrere Umzüge durch die ganze Stadt.
 
-![umzug](umzug.jpg)
+[![umzug](umzug-small.jpg)](umzug.jpg)
 
 Dabei wird das Ding von Oben durch die Gegend getragen.
 
-![umzug](umzug2.jpg)
+[![umzug](umzug2-small.jpg)](umzug2.jpg)
 
 Und es wird Getrommelt.
 
@@ -57,7 +57,7 @@ Das alleine waren drei verchiedene Umzüge.
 
 Ich war auf dem Weg ins Tabak und Salz Museum.
 
-![Museum](museum.jpg)
+[![Museum](museum-small.jpg)](museum.jpg)
 
 Es hat überall überraschend gute Bewertungen.
 
@@ -65,7 +65,7 @@ Und was soll ich sagen, war wirklich gut!
 
 Schnuffi :O
 
-![Schnuffi](elefant.jpg)
+[![Schnuffi](elefant-small.jpg)](elefant.jpg)
 
 ---
 
@@ -73,8 +73,8 @@ Und noch zwei Bilder vom Heimweg.
 
 Skytree wo ich auch noch hin möchte:
 
-![Skytree](skytree.jpg)
+[![Skytree](skytree-small.jpg)](skytree.jpg)
 
 Und Schatten in den Wolken?
 
-![wolken](wolke.jpg)
+[![wolken](wolke-small.jpg)](wolke.jpg)

@@ -35,7 +35,7 @@ Aus dem Bahnhof raus und erstmal den Skytree nicht gesehen.
 Aber nach ein paar Metern hab ich ihn dann doch gefunden.
 So schnell übersieht man ihn nicht ;)
 
-![skytree](skytree.jpg)
+[![skytree](skytree-small.jpg)](skytree.jpg)
 
 Und die Aussicht ist schon gewaltig.
 
@@ -45,22 +45,22 @@ Und man kommt überraschend schnell hoch mit dem Aufzug.
 55 Sekunden hat er nur gebraucht.
 Laut Bildschirm ging es mit 600m/min hochgeschossen.
 
-![skytree](skytree2.jpg)
-![skytree](skytree3.jpg)
+[![skytree](skytree2-small.jpg)](skytree2.jpg)
+[![skytree](skytree3-small.jpg)](skytree3.jpg)
 
 Schatten vom Skytree:
 
-![skytree](skytree4.jpg)
-![skytree](skytree10.jpg)
+[![skytree](skytree4-small.jpg)](skytree4.jpg)
+[![skytree](skytree10-small.jpg)](skytree10.jpg)
 
 Tokio beim Sonnenuntergang.
 Ist doch ein passendes Bild für das fast abgeschlossene Praktikum.
 
-![skytree](skytree5.jpg)
-![skytree](skytree6.jpg)
-![skytree](skytree11.jpg)
-![skytree](skytree12.jpg)
-![skytree](skytree7.jpg)
-![skytree](skytree8.jpg)
-![skytree](skytree9.jpg)
+[![skytree](skytree5-small.jpg)](skytree5.jpg)
+[![skytree](skytree6-small.jpg)](skytree6.jpg)
+[![skytree](skytree11-small.jpg)](skytree11.jpg)
+[![skytree](skytree12-small.jpg)](skytree12.jpg)
+[![skytree](skytree7-small.jpg)](skytree7.jpg)
+[![skytree](skytree8-small.jpg)](skytree8.jpg)
+[![skytree](skytree9-small.jpg)](skytree9.jpg)
 

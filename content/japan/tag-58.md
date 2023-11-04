@@ -27,7 +27,7 @@ Ich habs nicht bestellt aber probieren kann man ja mal.
 
 Pferdefleisch:
 
-![pferd](pferd.jpg)
+[![pferd](pferd-small.jpg)](pferd.jpg)
 
 Hmm, geht eigentlich.
 
@@ -38,4 +38,4 @@ Etwas Schwammig(?) wenn ich es beschreiben müsste.
 
 Wie erwartet:
 
-![offen](offen.jpg)
+[![offen](offen-small.jpg)](offen.jpg)

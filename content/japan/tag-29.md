@@ -39,4 +39,4 @@ Das Zwischenfazit spare ich mich mich dann für die wirkliche Halbzeit auf.
 
 Zufälliges Bild von einen zufälligen deutschen Wort:
 
-![auslese](auslese.jpg)
+[![auslese](auslese-small.jpg)](auslese.jpg)

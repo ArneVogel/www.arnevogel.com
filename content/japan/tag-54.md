@@ -25,9 +25,9 @@ Ich fahre nach Hakone und werde den Laptop nicht mitnehmen.
 
 Hier ein paar Bilder von meinen Heimweg heute:
 
-![Regen](regen.jpg)
-![Regen](regen2.jpg)
-![Regen](regen3.jpg)
-![Regen](regen4.jpg)
-![Regen](regen5.jpg)
-![Regen](regen6.jpg)
+[![Regen](regen-small.jpg)](regen.jpg)
+[![Regen](regen2-small.jpg)](regen2.jpg)
+[![Regen](regen3-small.jpg)](regen3.jpg)
+[![Regen](regen4-small.jpg)](regen4.jpg)
+[![Regen](regen5-small.jpg)](regen5.jpg)
+[![Regen](regen6-small.jpg)](regen6.jpg)

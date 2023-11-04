@@ -19,7 +19,7 @@ draft: false
 
 Ok, wer hat sich den Quatsch ausgedacht?
 
-![Milchtüte in Japan](milch.jpg)
+[![Milchtüte in Japan](milch-small.jpg)](milch.jpg)
 
 Hat mich die ganze Zeit schon aufgeregt.
 Und jetzt habe ich auch wirklich einen Grund dafür.
@@ -34,7 +34,7 @@ Musste ein Handtuch für herhalten.
 
 Heute morgen soll wohl auch wieder ein Erdbeben passiert sein.
 
-![Erdbeben](erdbeben.jpg)
+[![Erdbeben](erdbeben-small.jpg)](erdbeben.jpg)
 
 Ich hab wieder nichts davon mitbekommen :(
 

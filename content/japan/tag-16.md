@@ -27,19 +27,19 @@ Und das hat man gemerkt.
 
 Um dem umstrittene Kriegsdenkmal war heute auch mehr los als sonst.
 
-![torri](torii.jpg)
+[![torri](torii-small.jpg)](torii.jpg)
 
 Rund um dem Kriegsdenkmal haben sich verschiedene Leute mit Flugzetteln und Transparenten aufgestellt.
 Wie ich das mitbekommen habe waren die nicht gut auf die CCP zu sprechen.
 
 Und die Gruppe ist mir aufm Weg nach Hause entgegengekommen.
 
-![Japanische Flaggenträger](flaggenträger.jpg)
+[![Japanische Flaggenträger](flaggenträger-small.jpg)](flaggenträger.jpg)
 
 Von der Polizei hab ich wohl auch nur den letzen Rest mitbekommen.
 Überall aufm nach Hause weg waren Polizeibusse.
 
-![Japnischer Polizeibus](polizeibus.jpg)
+[![Japnischer Polizeibus](polizeibus-small.jpg)](polizeibus.jpg)
 
 ---
 
@@ -54,7 +54,7 @@ Aber die untere Zahl springt immer hin und her…
 
 Es stellt sich heraus, es ist die Anzahl der Verkehrstoten in rot und der Verletzten in schwarz.
 
-![unfälle](unfälle.jpg)
+[![unfälle](unfälle-small.jpg)](unfälle.jpg)
 
 ---
 

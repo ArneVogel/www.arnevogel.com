@@ -22,15 +22,15 @@ Heute ist/war [Moutain Day](https://en.wikipedia.org/wiki/Mountain_Day), Nationa
 Angesichts der Hitze habe ich es etwas ruhiger angehen lassen und bin nicht auf einen Berg hochgekrakselt
 Stattdessen war ich im Artizon Museum.
 
-![artizon](artizon.jpg)
+[![artizon](artizon-small.jpg)](artizon.jpg)
 
 Dort gab es zwei Ininity Nets von Yayoi Kusama :O
 
-![infinity net](infinity-net.jpg)
+[![infinity net](infinity-net-small.jpg)](infinity-net.jpg)
 
-![infinity net](infinity-net-01.jpg)
+[![infinity net](infinity-net-01-small.jpg)](infinity-net-01.jpg)
 
-![infinity net](infinity-net-02.jpg)
+[![infinity net](infinity-net-02-small.jpg)](infinity-net-02.jpg)
 
 Natürlich habe ich auch keine Bilder von Gemälden gemacht, bei denen Fotographieren verboten stand.
 Deswegen hat mich der laufende Wächter auch nicht aus der Fassung gebracht, der wollte eh nur zu einen anderen den er erwischt hat.
@@ -38,7 +38,7 @@ Deswegen hat mich der laufende Wächter auch nicht aus der Fassung gebracht, der
 Aber da passiert eh nicht so viel wenn die einen erwischen, die Fragen einfach nur, dass man das Bild wieder löscht.
 Das weiß ich jetzt aber tatächlich nicht aus eigener Erfahrung, nur von dem was ich da mitbekommen habe.
 
-![victoria](victoria.jpg)
+[![victoria](victoria-small.jpg)](victoria.jpg)
 
 Diesen Kontrast fand ich noch irgendwie witzig.
 Und mit der Beleuchtung passt das auch perfekt: alte Statue in orange, und die moderne Welt in blau.

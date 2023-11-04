@@ -23,7 +23,7 @@ Keine Fotos erlaubt.
 
 Außer im UV Raum.
 
-![blumen](blumen.jpg)
+[![blumen](blumen-small.jpg)](blumen.jpg)
 
 <video controls src="video.mp4"></video>
 
@@ -47,11 +47,11 @@ Keine Ahnung warum es keine offiziellen Archive für sowas gibt.
 
 Nach der Ausstellung hatte ich Taiyaki aus _dem [Taiyaki Laden](https://en.wikipedia.org/wiki/Taiyaki#History)_ in dem Taiyaki erfunden wurde.
 
-![Taiyaki](taiyaki.jpg)
+[![Taiyaki](taiyaki-small.jpg)](taiyaki.jpg)
 
 Dünner Teig gefüllt mit der Adzukibohnenpaste.
 
-![taiyaki füllung](taiyaki-vorne.jpg)
+[![taiyaki füllung](taiyaki-vorne-small.jpg)](taiyaki-vorne.jpg)
 
 Wirklich lecker.
 
@@ -67,7 +67,7 @@ Und noch fürs Protokoll mein Essen die Woche.
 
 Diesman mit Ratespiel, die Preise sind jeweils unter dem Bild gelistet.
 
-![essen in japan](essen1.jpg)
+[![essen in japan](essen1-small.jpg)](essen1.jpg)
 
 <details>
     <summary>Preis</summary>
@@ -76,7 +76,7 @@ Diesman mit Ratespiel, die Preise sind jeweils unter dem Bild gelistet.
 5.65€
 </details>
 
-![essen in japan](essen2.jpg)
+[![essen in japan](essen2-small.jpg)](essen2.jpg)
 
 <details>
     <summary>Preis</summary>
@@ -85,7 +85,7 @@ Diesman mit Ratespiel, die Preise sind jeweils unter dem Bild gelistet.
 5.71€
 </details>
 
-![essen in japan](essen3.jpg)
+[![essen in japan](essen3-small.jpg)](essen3.jpg)
 
 <details>
     <summary>Preis</summary>
@@ -94,7 +94,7 @@ Diesman mit Ratespiel, die Preise sind jeweils unter dem Bild gelistet.
 6.85€
 </details>
 
-![essen in japan](essen4.jpg)
+[![essen in japan](essen4-small.jpg)](essen4.jpg)
 
 <details>
     <summary>Preis</summary>
@@ -103,7 +103,7 @@ Diesman mit Ratespiel, die Preise sind jeweils unter dem Bild gelistet.
 8.88€
 </details>
 
-![essen in japan](essen5.jpg)
+[![essen in japan](essen5-small.jpg)](essen5.jpg)
 
 <details>
     <summary>Preis</summary>
@@ -112,7 +112,7 @@ Diesman mit Ratespiel, die Preise sind jeweils unter dem Bild gelistet.
 6.35€
 </details>
 
-![essen in japan](essen6.jpg)
+[![essen in japan](essen6-small.jpg)](essen6.jpg)
 
 <details>
     <summary>Preis</summary>

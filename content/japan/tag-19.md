@@ -29,7 +29,7 @@ Vereinzelt sieht man noch Maskenträger.
 Vor ein paar Monaten soll das Verhältnis aber wohl noch umgekehrt gewesen sein.
 Aber mit der Hitze ist wohl auch der Drang zur Maske zurückgegangen.
 
-![Suica Karte](suica.jpg)
+[![Suica Karte](suica-small.jpg)](suica.jpg)
 
 Und Bezahlen tut man mit der Suica Karte.
 (Ich hoffe jetzt mal, dass da nichts wichtiges drauf steht).
@@ -40,4 +40,4 @@ Mit der Karte kann man sogar in verschiedenen Supermärkten und Restaurants beza
 
 Und zum Abschluss ein Foto vom Abendspaziergang.
 
-![Tokio Fluss](wasser.jpg)
+[![Tokio Fluss](wasser-small.jpg)](wasser.jpg)

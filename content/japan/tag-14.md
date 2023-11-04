@@ -31,32 +31,32 @@ Naja, jetzt weiß ich, dass ich das nicht noch einmal brauche.
 
 Das Lätzchen Essen:
 
-![Lätzchen Essen](essen2.jpg)
+[![Lätzchen Essen](essen2-small.jpg)](essen2.jpg)
 
 Mehr oder weniger gefüllte Pfannkuchen.
 Standardmäßig mit Kohl gefüllt und ich hatte dann noch Fisch mit drin.
 Und die braune Soße oben drauf ist mega!
 
-![Pfannkuchen](essen3.jpg)
+[![Pfannkuchen](essen3-small.jpg)](essen3.jpg)
 
 Der freie Freitag.
 Ich hab ein bischen rum geguckt, aber extrem viele Läden hatten nicht auf und keiner davon sah richtig einladend aus.
 Also wieder zu meinen Ramen laden:
 
-![ramen](essen4.jpg)
+[![ramen](essen4-small.jpg)](essen4.jpg)
 
 Samstag gleiches Spiel.
 *Aber*, ich wollte nich nochmal das selbe Essen.
 Also drück ich draußen beim Automaten mal auf das zweite Gericht.
 Stellt sich heraus: es ist das gleiche nur in scharf...
 
-![ramen](essen5.jpg)
+[![ramen](essen5-small.jpg)](essen5.jpg)
 
 ---
 
 Heute war ich zum Nationalmuseum für Natur und Wissenschaft.
 
-![Nationalmuseum für Natur und Wissenschaft Tokio](museum.jpg)
+[![Nationalmuseum für Natur und Wissenschaft Tokio](museum-small.jpg)](museum.jpg)
 
 Leider ein großer Fehler.
 95% der Erklärungen sind nicht auf Englisch übersetzt.
@@ -67,12 +67,12 @@ Und Notiz an mich: keine Museen besuchen, die damit werben, für Kinder geeignet
 Trotzdem war es interessant, viele der Exponate zu sehen.
 Zum Beispiel der Seismograph vom Erdbeben in 1923:
 
-![Seismograph](seismograph.jpg)
+[![Seismograph](seismograph-small.jpg)](seismograph.jpg)
 
 Oder die ganzen Tierskelette. 
 Hier ein Elefantenskelett:
 
-![Elefanten Skelett](elefantenskelett.jpg)
+[![Elefanten Skelett](elefantenskelett-small.jpg)](elefantenskelett.jpg)
 
 Ansonsten, direkt als ich aus dem Museum raus bin hat es anfangen zu schütten... super Timing.
 

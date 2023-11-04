@@ -20,11 +20,11 @@ draft: false
 
 Heute war ich im Sumida Hokusai Museum.
 
-![Hokusai Museum](hokusai-museum.jpg)
+[![Hokusai Museum](hokusai-museum-small.jpg)](hokusai-museum.jpg)
 
 Hokusai ist der Künstler von **Die große Welle vor Kanagawa** von dem es auch einen Druck im Museum gab.
 
-![Hokusai Die große Welle von Kanagawa](hokusai-welle.jpg)
+[![Hokusai Die große Welle von Kanagawa](hokusai-welle-small.jpg)](hokusai-welle.jpg)
 
 Das Museum war wirklich gut gemacht.
 Alle Bilder hatten englische Beschreibungen und es gab diese Terminals, an denen der geschichtliche Hintergrund zu jedem Bild erklärt wurde.
@@ -33,12 +33,12 @@ Dadurch wurden die Lebensumstände von Hokusai (er lebte von 1760 bis 1849) noch
 
 Ich hatte keine Ahnung, dass [Napoleon in Ägypten](https://de.wikipedia.org/wiki/%C3%84gyptische_Expedition) unterwegs war.
 
-![Napoleon in Ägypten](bonaparte.jpg)
-(Bonaparte beim Besuch des Pesthauses in Jaffa [Gemeinfreie Abildung](https://commons.wikimedia.org/wiki/File:Antoine-Jean_Gros_-_Bonaparte_visitant_les_pestif%C3%A9r%C3%A9s_de_Jaffa.jpg))
+[![Napoleon in Ägypten](bonaparte-small.jpg)](bonaparte.jpg)
+[(Bonaparte beim Besuch des Pesthauses in Jaffa [Gemeinfreie Abildung](https://commons.wikimedia.org/wiki/File:Antoine-Jean_Gros_-_Bonaparte_visitant_les_pestif%C3%A9r%C3%A9s_de_Jaffa-small.jpg))](https://commons.wikimedia.org/wiki/File:Antoine-Jean_Gros_-_Bonaparte_visitant_les_pestif%C3%A9r%C3%A9s_de_Jaffa.jpg)
 
 Wachsfiguren die Hokusai im alter mit seiner Tocher dargstellen:
 
-![Hokusai im Alter](hokusai-wohnung.jpg)
+[![Hokusai im Alter](hokusai-wohnung-small.jpg)](hokusai-wohnung.jpg)
 
 ---
 
@@ -48,7 +48,7 @@ Das Essen teile ich jetzt schon.
 Nach dem Museum bin ich mit der anderen Praktikantin hier in der Nähe in ein [Restaurant](https://kikanbo.co.jp/) gegangen.
 Sie hat dort schon öfter gegessen und jemand aus der Arbeitsgruppe hat es empfohlen.
 
-![Essbares Feuer](feuer.jpg)
+[![Essbares Feuer](feuer-small.jpg)](feuer.jpg)
 
 Wir haben beide die schärfste Version genommen…
 
@@ -56,8 +56,8 @@ Was man auf der Suppe sieht, ist Chili und Sansho-Pfeffer.
 
 Und ich sag mal so, ich lasse das Ambiete für sich sprechen:
 
-![ambiente](ambiente.jpg)
-![ambiente](ambiente2.jpg)
+[![ambiente](ambiente-small.jpg)](ambiente.jpg)
+[![ambiente](ambiente2-small.jpg)](ambiente2.jpg)
 
 Interessant ist, dass der Sansho-Pfeffer den Mund und die Lippen taub macht.
 Ich hatte schon scharfes Essen, aber diese Taubheit war etwas ganz anderes.
@@ -67,7 +67,7 @@ Aber ich hab aufgegessen!
 Zumindest den festen Teil der Suppe.
 Ich habe 2 Löffel von der Suppe probiert und dann schnell aufgehört.
 
-![Aufgegessen](aufgegessen.jpg)
+[![Aufgegessen](aufgegessen-small.jpg)](aufgegessen.jpg)
 
 ---
 
@@ -75,11 +75,11 @@ Noch zwei Bilder vom Abendspaziergang.
 
 Nochmal Kando Schrein:
 
-![kando schrein](kando.jpg)
+[![kando schrein](kando-small.jpg)](kando.jpg)
 
 Und ein Bild aus dem Elektroviertel:
 
-![Werbung in Chiyoda](werbung.jpg)
+[![Werbung in Chiyoda](werbung-small.jpg)](werbung.jpg)
 
 ---
 

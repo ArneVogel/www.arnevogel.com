@@ -19,9 +19,9 @@ draft: false
 
 Was soll das denn?
 
-![Typhoon](typhoon1.jpg)
+[![Typhoon](typhoon1-small.jpg)](typhoon1.jpg)
 
-![Typhoon](typhoon2.jpg)
+[![Typhoon](typhoon2-small.jpg)](typhoon2.jpg)
 
 Auf einmal geht es nur noch im Schneckentempo mit dem Typhoon vorran.
 

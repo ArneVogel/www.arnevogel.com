@@ -19,13 +19,13 @@ draft: false
 
 Heute auf dem Heimweig :(
 
-![eins](eins.jpg)
+[![eins](eins-small.jpg)](eins.jpg)
 
 ---
 
 Und noch etwas vom Heimweg: eine Tankstelle
 
-![tankstelle](tankstelle.jpg)
+[![tankstelle](tankstelle-small.jpg)](tankstelle.jpg)
 
 Mit an der Decke hängenden Zapfsäulen.
 
@@ -33,7 +33,7 @@ Mit an der Decke hängenden Zapfsäulen.
 
 Matcha Eis
 
-![Matcha Eis](eis.jpg)
+[![Matcha Eis](eis-small.jpg)](eis.jpg)
 
 …mit Azuki Bohnenpaste.
 

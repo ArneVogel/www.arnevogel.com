@@ -27,7 +27,7 @@ An die Tür, keiner da.
 
 War wohl, dass die SIM Karte sich deaktiviert hat:
 
-![Emergency Calls Only](emergency.jpg)
+[![Emergency Calls Only](emergency-small.jpg)](emergency.jpg)
 
 Ok kein Problem, dachte ich.
 

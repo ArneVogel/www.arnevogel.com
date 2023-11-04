@@ -27,7 +27,7 @@ Heute mal ein paar Flaschen nach unten in den Müll gebracht.
 Gibt ja kein Pfand hier.
 Und Deckel werden hier gesondert gesammelt.
 
-![Deckel](deckel.jpg)
+[![Deckel](deckel-small.jpg)](deckel.jpg)
 
 ---
 
@@ -44,13 +44,13 @@ Die Animation beginnt 3-4 Minuten vor der vollen Stunde.
 
 Von der Uhr sind es nur ein paar Minuten bis zum Hamarikyu Garten.
 
-![hamarikyu garten](garten.jpg)
+[![hamarikyu garten](garten-small.jpg)](garten.jpg)
 
 Der Garten liegt am Wasser.
 Wenn man sich das auf der Karte anguckt würde man denken, dass der Garten frisch aufgeschüttet wäre.
 Hat aber anscheinend über 300 Jahre Geschichte.
 
-![hamarikyu garten hafen](hafen.jpg)
+[![hamarikyu garten hafen](hafen-small.jpg)](hafen.jpg)
 
 In Japan ist es übrigens Üblich, dass diese Musik gespielt wird bevor ein Laden schließt:
 
@@ -67,7 +67,7 @@ Im Garten hat das ungefähr 15 Minuten vorm Schließen angefangen zu spielen.
 
 Aufm Weg nach Hause:
 
-![Gesperrte Straße](straße.jpg)
+[![Gesperrte Straße](straße-small.jpg)](straße.jpg)
 
 Keine Ahnung was da los war, aber die Straße war gesperrt.
 
@@ -77,7 +77,7 @@ Krass wie selbst so eine 5 spurige Straße schön sein kann wenn keine Autos dra
 
 Und das auch noch vom Heimweg:
 
-![Fahrrad Handschuhe](handschuhe.jpg)
+[![Fahrrad Handschuhe](handschuhe-small.jpg)](handschuhe.jpg)
 
 Ich hab solche dinger schon öfters hier rum fahren sehen.
 Nur war mir bis jetzt nicht klar, dass es keine Winterhandschuhe sind 😅.

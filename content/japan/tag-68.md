@@ -67,7 +67,7 @@ Der erste Zug kommt rein, ein paar Steigen aus, mehr steigen ein.
 
 (Man beachte die Frau rechts die gegen die Tür gedrückt wird.)
 
-![voller zug](voll.jpg)
+[![voller zug](voll-small.jpg)](voll.jpg)
 
 Ok… den Zug lass ich Zug sein.
 
@@ -75,7 +75,7 @@ Das kann ja was werden.
 
 Erstmal mit mein Zeug hingesetzt und auf ein Wunder gehofft.
 
-![Zeug](zeug.jpg)
+[![Zeug](zeug-small.jpg)](zeug.jpg)
 
 Zweiter Zug, gleiches Muster.
 
@@ -108,7 +108,7 @@ Was war da nochmal?
 
 Shibuya Crossing.
 
-![Kreuzung](kreuzung.jpg)
+[![Kreuzung](kreuzung-small.jpg)](kreuzung.jpg)
 
 Yep, da muss ich durch.
 
@@ -120,7 +120,7 @@ Da war die Kreuzung schon wieder ganz entspannt.
 
 Aber ich habe mein kleines Kabuff dann doch noch erreicht.
 
-![Kabuff](kabuff.jpg)
+[![Kabuff](kabuff-small.jpg)](kabuff.jpg)
 
 Und ohne die Koffer ist es dann doch eine ganz guter Standort für die letzte Nacht in Tokio.
 
@@ -128,11 +128,11 @@ Noch ein paar Runden um die Blöcke gedreht und noch gut was gegessen.
 
 Mein letztes Abendessen hier: Tonkatsu.
 
-![Tonkatsu](tonkatsu.jpg)
+[![Tonkatsu](tonkatsu-small.jpg)](tonkatsu.jpg)
 
 Was ich noch berichten kann, um halb zwei (letzter Zug ist schon lange weg) ist es dann nicht mehr so voll auf der Kreuzung.
 
-![Shibuya Kreuzung leer](leer.jpg)
+[![Shibuya Kreuzung leer](leer-small.jpg)](leer.jpg)
 
 Und jetzt ist es halb drei und ich hab zu viel Zeit Text zu schreiben.
 

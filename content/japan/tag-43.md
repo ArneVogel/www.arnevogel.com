@@ -29,5 +29,5 @@ Was ich auch bemerkt habe: wenn ich jetzt die Klimaanlage zu Hause auf 27°C an 
 
 Hier noch ein Photo vom Ghibli Museum.
 
-![Ghibli Statue](statue.jpg)
+[![Ghibli Statue](statue-small.jpg)](statue.jpg)
 

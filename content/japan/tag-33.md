@@ -19,7 +19,7 @@ draft: false
 
 Wie sie sehen, sehen sie nichts:
 
-![nichts](nichts.jpg)
+[![nichts](nichts-small.jpg)](nichts.jpg)
 
 Mittwoch Nach war hier der Gehweg noch 10m lang komplett offen.
 
@@ -40,19 +40,19 @@ Es gibt nur sehr wenige (kostenlose) öffentliche Parkplätze hier.
 
 Dafür gibt es das:
 
-![Parkplatz](parkplatz.jpg)
+[![Parkplatz](parkplatz-small.jpg)](parkplatz.jpg)
 
 Ein Parkplatz Hochhaus.
 
-![Parkplatz](parkplatz2.jpg)
+[![Parkplatz](parkplatz2-small.jpg)](parkplatz2.jpg)
 
 Und als kleine Version:
 
-![Parkplatz](parkplatz3.jpg)
+[![Parkplatz](parkplatz3-small.jpg)](parkplatz3.jpg)
 
 Und Parkuhren:
 
-![Parkuhr](parkuhr.jpg)
+[![Parkuhr](parkuhr-small.jpg)](parkuhr.jpg)
 
 Oder Warnblinklicht ;)
 

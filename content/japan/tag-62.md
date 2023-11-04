@@ -24,7 +24,7 @@ Ist dann jetzt doch alles etwas mehr geworden als ich gedacht hatte.
 
 Schlüssel ist weg, jetzt gibt es kein zurück mehr.
 
-![schlüssel](schlüssel.jpg)
+[![schlüssel](schlüssel-small.jpg)](schlüssel.jpg)
 
 ---
 
@@ -32,27 +32,27 @@ Auf gehts mit dem Shinkanzen.
 
 An den Bilder sieht man es, er ist schnell ;)
 
-![schnell](schnell.jpg)
+[![schnell](schnell-small.jpg)](schnell.jpg)
 
 War eine angenehme fahrt, die Geschwindigkeit fühlt man eigentlich gar nicht.
 
 Fuji im Hintergrund:
 
-![fuji](fuji.jpg)
+[![fuji](fuji-small.jpg)](fuji.jpg)
 
 (Merken, wenn man von Tokio nach Kyoto fährt, rechts am Fenster sitzen.)
 
-![wasser](wasser.jpg)
+[![wasser](wasser-small.jpg)](wasser.jpg)
 
 Und das verstehe ich nicht: Warum sind die Felder so klein?
 Da kann doch kein Bauer wirtschaftlich drauf arbeiten? Oder?
 
-![Felder](feld.jpg)
-![Felder](feld2.jpg)
+[![Felder](feld-small.jpg)](feld.jpg)
+[![Felder](feld2-small.jpg)](feld2.jpg)
 
 Und nochmal der Zug von außen.
 
-![shinkanzen](shinkanzen.jpg)
+[![shinkanzen](shinkanzen-small.jpg)](shinkanzen.jpg)
 
 Ungefähr 2 Stunden 15min fahrtzeit insgesamt zwischen Tokyo und Kyoto.
 Mit dem Auto hätte man fast 6 Stunden gebraucht.
@@ -66,12 +66,12 @@ Man kann also einen beliebigen Shinkanzen nehmen an dem Tag den man möchte (Ang
 
 Mit noch einen Zwischenstopp mit der Bummelbahn in Nara angekommen und es ist noch nicht mal 12:00.
 
-![turm](turm.jpg)
-![turm](tempel.jpg)
+[![turm](turm-small.jpg)](turm.jpg)
+[![turm](tempel-small.jpg)](tempel.jpg)
 
 Noch nicht mal im Nara Park und die ersten Rehe(?) sind schon da.
 
-![tiere](tiere.jpg)
+[![tiere](tiere-small.jpg)](tiere.jpg)
 
 Ok laut Wikipedia sind es [Sikahirsche](https://de.wikipedia.org/wiki/Sikahirsch).
 
@@ -86,18 +86,18 @@ Irgendwann wars dann mal genug mit den Tieren und ich bin weiter rein in den Par
 Ich hatte nichts wirklich geplant und hab mir von den Menschenmengen leiten lassen.
 So hab ich Kasugataisha Schrein gefunden und erkundet.
 
-![Schrein](schrein.jpg)
+[![Schrein](schrein-small.jpg)](schrein.jpg)
 
 Da wurden es mir aber dann zu viele Menschen und ich bin Rechts abgebogen.
 
-![Schrein](rechts.jpg)
+[![Schrein](rechts-small.jpg)](rechts.jpg)
 
 War immernoch auf dem Gelende und es waren kleine Schreine überall verteilt.
 Die ruhigen Ecken waren echt schön.
 
 Und überall diese Hirsche.
 
-![Überall Rehe](rehe.jpg)
+[![Überall Rehe](rehe-small.jpg)](rehe.jpg)
 
 ---
 
@@ -105,7 +105,7 @@ Ok fertig mit dem Schrein und im Hintergrund sehe ich eine kleine Lichtung.
 
 Mal hin gehen und gucken wie die Aussicht ist.
 
-![Berg](berg.jpg)
+[![Berg](berg-small.jpg)](berg.jpg)
 
 Hmm die Treppe geht ja noch weiter?
 
@@ -113,28 +113,28 @@ Und plötzlich bin ich auf einen [342 Meter hohen Berg](https://en.wikipedia.org
 
 Und wer ist schon oben?
 
-![reh aufm berg](berg-reh.jpg)
+[![reh aufm berg](berg-reh-small.jpg)](berg-reh.jpg)
 
 Aber das hat sich echt gelohnt.
 Die Aussicht ist direkt schöner wenn man sich das erarbeiten musste.
 
-![Aussicht vom berg](aussicht.jpg)
+[![Aussicht vom berg](aussicht-small.jpg)](aussicht.jpg)
 
 Mittig das grüne Feld, da muss ich übrigens noch hin zum Hotel… 26500 Schritte heute gesammelt laut meiner Uhr.
 
-![weg](weg.jpg)
+[![weg](weg-small.jpg)](weg.jpg)
 
 ---
 
 Was darfs sein?
 
-![Shoppen](shoppen.jpg)
+[![Shoppen](shoppen-small.jpg)](shoppen.jpg)
 
 ---
 
 Eine (wilde?) Schildkröte :O
 
-![Schildkröte](schildkröte.jpg)
+[![Schildkröte](schildkröte-small.jpg)](schildkröte.jpg)
 
 ---
 
@@ -149,7 +149,7 @@ Ryokans sind traditionelle japanische Gasthäuser.
 
 Und man sieht es am Zimmer.
 
-![Oh ha](oh-ha.jpg)
+[![Oh ha](oh-ha-small.jpg)](oh-ha.jpg)
 
 Und im Hotel wird Yukata getragen.
 Die Bilder gibt es aber nur persönlich.
@@ -163,7 +163,7 @@ Keine Ahnung aber hier sonst nochmal:
 
 Man darf natürlicherweise keine Bilder im Onsen machen also hier ein Bild vom Architekturmuseum letzen Monat:
 
-![onsen](onsen.jpg)
+[![onsen](onsen-small.jpg)](onsen.jpg)
 
 Es gibt Bäder mit heißen Mineralwasser in die man sich setzen kann.
 Bevor man das macht muss man sich sauber machen.
@@ -174,22 +174,22 @@ Und alles Nackig, Badehose oder so ist nicht erlaubt im Onsen.
 
 Weiter zum Essen:
 
-![essen](essen1.jpg)
-![essen](essen2.jpg)
+[![essen](essen1-small.jpg)](essen1.jpg)
+[![essen](essen2-small.jpg)](essen2.jpg)
 Ist noch jemand so verwirrt wie ich?
 Was soll ich mit dem Ei machen?
 
 Ok als Anfänger geoutet und nachgefragt: das Ei verquillt man und dann wird das Fleisch/Gemüse aus der heißen Soße in das Ei gedippt.
 Ist überraschend ok.
 
-![essen](essen3.jpg)
-![essen](essen4.jpg)
+[![essen](essen3-small.jpg)](essen3.jpg)
+[![essen](essen4-small.jpg)](essen4.jpg)
 
 Da war der Appetit größer als der Wille zum Fotografieren ;)
-![essen](essen5.jpg)
+[![essen](essen5-small.jpg)](essen5.jpg)
 
 Und das war das Menü:
-![essen](essen6.jpg)
+[![essen](essen6-small.jpg)](essen6.jpg)
 
 Ok das kann ich noch zum Yukata noch zeigen:
 
@@ -206,7 +206,7 @@ Das hat mich jetzt am meisten Überrascht, und ich nehme an, es ist *die* Überr
 
 Von 21:00 bis 22:30 gibt es einen "Snack". Eine kleine Schüssel Nudeln.
 
-![snack](überraschung.jpg)
+[![snack](überraschung-small.jpg)](überraschung.jpg)
 
 Weiß nicht wer nach dem großen Essen vorher noch hunger hat aber war ganz ok.
 
@@ -216,7 +216,7 @@ Ok hier nach ist jetzt aber wirklich Schluss.
 
 Der Bezug für die Decke hat ein Loch???
 
-![decke](decke.jpg)
+[![decke](decke-small.jpg)](decke.jpg)
 
 Was ich jetzt in der Bildersuche gefunden habe scheint das so üblich zu sein?
 

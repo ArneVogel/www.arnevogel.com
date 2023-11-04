@@ -21,9 +21,9 @@ Ok bin ich aufm Kopf gefallen?
 
 Solche halb hohen Stufen gibt es doch nicht in Deutschland? Oder?
 
-![stufe](stufe.jpg)
-![stufe](stufe2.jpg)
-![stufe](stufe3.jpg)
+[![stufe](stufe-small.jpg)](stufe.jpg)
+[![stufe](stufe2-small.jpg)](stufe2.jpg)
+[![stufe](stufe3-small.jpg)](stufe3.jpg)
 
 ---
 
@@ -33,6 +33,6 @@ Ich weiß nicht ob es daran lag, dass ich in einen Drug Store eingekauft habe, a
 
 Selbst das "Body Wash" hat ein Pictogram von Haaren auf der Verpackung.
 
-![body wash in Japan](body-wash.jpg)
+[![body wash in Japan](body-wash-small.jpg)](body-wash.jpg)
 
 Wird schon passen hoffe ich 🤷

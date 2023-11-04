@@ -20,9 +20,9 @@ draft: false
 Wieder entspannte 35°C heute bei 55% Luftfeuchtigkeit.
 Und alle anderen laufen hier mit Anzug zur Arbeit.
 
-![Japanische Salarymen im Anzug](anzug.jpg)
-![Japanische Salarymen im Anzug](anzug2.jpg)
-![Japanische Salarymen im Anzug](anzug3.jpg)
+[![Japanische Salarymen im Anzug](anzug-small.jpg)](anzug.jpg)
+[![Japanische Salarymen im Anzug](anzug2-small.jpg)](anzug2.jpg)
+[![Japanische Salarymen im Anzug](anzug3-small.jpg)](anzug3.jpg)
 
 Und das ist wohl schon entspannt.
 Bis 2005 war es wohl noch üblich, auch im Hochsommer Anzugjacke und Krawatte zu tragen.
@@ -33,7 +33,7 @@ Damit einher ging die Empfehlung, Anzugjacke und Krawatte lieber zu Hause zu las
 Um der Hitze entgegenzuwirken, sind hier auch verteilt solche Wasserdampfgeräte aufgestellt.
 Hilft mir persönlich nicht wirklich, wird nur noch stickiger, wenn man mich fragt.
 
-![Wasserdampfmaschienen am Straßenrand von Tokio, Japan](nebel.jpg)
+[![Wasserdampfmaschienen am Straßenrand von Tokio, Japan](nebel-small.jpg)](nebel.jpg)
 
 Und das habe ich heute auch noch erfahren: es ist gerade Taifun [Khanun](https://www.tagesschau.de/ausland/asien/japan-taiwan-taifun-100.html) um/auf Japan unterwegs.
 Zur Zeit ist er ganz im Süden auf Okinawa unterwegs, soll aber in den nächsten Tagen nach Norden ziehen.

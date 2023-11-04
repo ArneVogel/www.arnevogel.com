@@ -27,7 +27,7 @@ Oder durch Städte, aber halt nicht übers Land.
 
 In Kamakura war ich zuerst zu Kotoku-in:
 
-![kotoku-in](kotoku-in.jpg)
+[![kotoku-in](kotoku-in-small.jpg)](kotoku-in.jpg)
 
 Große Buddah Statue. Interessant für 5 Minuten, aber mehr auch nicht.
 
@@ -45,16 +45,16 @@ Ich hab den Rinzo und Mani-Guruma gedreht und hab jetzt genauso viel geleistet a
 
 Naja vielleicht, "can earn", also nicht gesichert.
 
-![merit](merit.jpg)
+[![merit](merit-small.jpg)](merit.jpg)
 
 Das alles ist in einen schönen Park der auf einen Berg noch geht:
 
-![Fische](fisch.jpg)
+[![Fische](fisch-small.jpg)](fisch.jpg)
 
-![Kamakura Hasedera](Kamakura-Hasedera.jpg)
+[![Kamakura Hasedera](Kamakura-Hasedera-small.jpg)](Kamakura-Hasedera.jpg)
 
 ---
 
 Und das Meer war das letzte Ziel:
 
-![Meer](meer.jpg)
+[![Meer](meer-small.jpg)](meer.jpg)

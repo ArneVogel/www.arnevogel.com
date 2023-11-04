@@ -76,6 +76,6 @@ Aber ich hab auch noch nie wirklich drauf geachtet.
 In anderen Nachrichten, diese Bäume verlieren ihre Früchte.
 Jetzt riecht es richtig schön widerlich nach vergorenen Früchten aufm Heimweig.
 
-![Früchte](früchte.jpg)
+[![Früchte](früchte-small.jpg)](früchte.jpg)
 
-![Früchte](früchte2.jpg)
+[![Früchte](früchte2-small.jpg)](früchte2.jpg)

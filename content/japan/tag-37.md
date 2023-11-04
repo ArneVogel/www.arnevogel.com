@@ -19,7 +19,7 @@ draft: false
 
 Und wieder nichts gespührt:
 
-![NERV](nerv.jpg)
+[![NERV](nerv-small.jpg)](nerv.jpg)
 
 ---
 
@@ -27,4 +27,4 @@ Die Tickets nach Fuji sind gekauft.
 
 Ich hoffe mal, dass der Typhoon bis Freitag Nachmittag an Fuji vorbei ist:
 
-![NERV](nerv2.jpg)
+[![NERV](nerv2-small.jpg)](nerv2.jpg)

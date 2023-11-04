@@ -32,12 +32,12 @@ Dort habe ich ein Bild über die Zerstörung des Myojin-Schreins gesehen.
 Vor fast 100 Jahren, 1923, hat ein großes Erdbeben große Teile von Tokyo [zerstört](https://de.wikipedia.org/wiki/Gro%C3%9Fes_Kant%C5%8D-Erdbeben_1923).
 Und ich sage bewusst fast, denn am 1. September ist der Jahrestag.
 
-![near kanda myojin shrine kanda, tokyo](kanda-zerstörung.jpg)
+[![near kanda myojin shrine kanda, tokyo](kanda-zerstörung-small.jpg)](kanda-zerstörung.jpg)
 
 Der Schrein ist hier ganz in der Nähe meiner Wohnung.
 Dachte ich mir, da kann ich ja mal einen ruhigen Abendspaziergang hin machen.
 
-![kanda schrein](kanda-schrein.jpg)
+[![kanda schrein](kanda-schrein-small.jpg)](kanda-schrein.jpg)
 
 Auf einmal ist da ein riesen Volkfest.
 

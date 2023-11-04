@@ -50,22 +50,22 @@ Da werden die Häuser an denen man vorbei Fährt dann doch schon etwas kleiner.
 Das Museum ist in einen Park und echt schön gemacht.
 Man kann in die Häuser aus verschiedenen Perioden rein und sich alles angucken.
 
-![do not touch](touch1.jpg)
-![do not touch](touch2.jpg)
+[![do not touch](touch1-small.jpg)](touch1.jpg)
+[![do not touch](touch2-small.jpg)](touch2.jpg)
 
 Aber nichts Anfassen bitte. 
 
 Das sah ein bischen lächerlich aus. An jeden Gegenstand hing ein extra Hinweis. Aber macht wohl Sinn.
 
-![Deutsches Haus](deutsch.jpg)
+[![Deutsches Haus](deutsch-small.jpg)](deutsch.jpg)
 
-![Japanisches Haus](japanisch.jpg)
+[![Japanisches Haus](japanisch-small.jpg)](japanisch.jpg)
 
 Das ist mal eine anständige Stube:
 
-![Das ist mal eine anständige Stube](stube.jpg)
+[![Das ist mal eine anständige Stube](stube-small.jpg)](stube.jpg)
 
-![Japanisches Haus](japanisch2.jpg)
+[![Japanisches Haus](japanisch2-small.jpg)](japanisch2.jpg)
 
 Und wie man auf dem Bildern sieht: die Sonne ist auch wieder raus gekommen.
 
@@ -73,12 +73,12 @@ Und wie man auf dem Bildern sieht: die Sonne ist auch wieder raus gekommen.
 
 Aber ich habe ja Toiletten versprochen:
 
-![Toilette](toilette.jpg)
-![Toilette](toilette2.jpg)
+[![Toilette](toilette-small.jpg)](toilette.jpg)
+[![Toilette](toilette2-small.jpg)](toilette2.jpg)
 
 In dem Haus war das das einzige Toilettendesign welches ich gesehen habe… ka.
 
 Und aus einen noch älteren Gebäude:
 
-![Toilette](toilette3.jpg)
+[![Toilette](toilette3-small.jpg)](toilette3.jpg)
 

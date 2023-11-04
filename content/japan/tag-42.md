@@ -21,13 +21,13 @@ Heute war ich zuerst zum Ghibli Museum.
 
 Innen durfte man keine Bilder machen, also hier zwei Bilder von außen:
 
-![ghibli](ghibli.jpg)
+[![ghibli](ghibli-small.jpg)](ghibli.jpg)
 
-![ghibli](ghibli2.jpg)
+[![ghibli](ghibli2-small.jpg)](ghibli2.jpg)
 
 Zum Ticket hat man noch ein Schnipsel von einer Filmrolle bekommen:
 
-![Filmrolle](filmrolle.jpg)
+[![Filmrolle](filmrolle-small.jpg)](filmrolle.jpg)
 
 Weiß jemand aus welchen Film das ist? 
 Ich hab keine Ahnung 😅.
@@ -36,9 +36,9 @@ Ich hab keine Ahnung 😅.
 
 Abends war ich noch zu Senso-ji.
 
-![gate](gate.jpg)
+[![gate](gate-small.jpg)](gate.jpg)
 
-![senso ji tempel](temple.jpg)
+[![senso ji tempel](temple-small.jpg)](temple.jpg)
 
 Ganz cool, aber wenn man Kanda Temple schon gesehen hat auch nicht viel anders als der.
 

@@ -34,17 +34,17 @@ Den Eingang zum "richtigen" Palast hab ich nicht gefunden, bzw. es war so heiß,
 Außenansicht von irgendwas um den Palast?
 Keine Ahnung was genau da zu sehen ist, aber der "Palastgraben" ist cool.
 
-![Palast Außen](palast-außen.jpg)
+[![Palast Außen](palast-außen-small.jpg)](palast-außen.jpg)
 
 Im Garten selber: wie in einer anderen Welt.
 Von der Großstadt in den Wald.
 
-![Wald](wald.jpg)
+[![Wald](wald-small.jpg)](wald.jpg)
 
 Außer man guckt nach oben:
 
-![großstadt](großstadt.jpg)
-![großstadt](großstadt2.jpg)
+[![großstadt](großstadt-small.jpg)](großstadt.jpg)
+[![großstadt](großstadt2-small.jpg)](großstadt2.jpg)
 
 ---
 
@@ -52,7 +52,7 @@ Am Abend hab ich dann mit Arbeitskollegen das Edogawa Feuerwerks besucht.
 700.000 Leute sollen sich das wohl rund um den Fluss angeguckt haben.
 Bei den Menschenmassen die mit uns vom Bahnhof zum Fluss gegangen sind kann ich das gut glauben.
 
-![Reservierte Plätze Edogawa](ankunft.jpg)
+[![Reservierte Plätze Edogawa](ankunft-small.jpg)](ankunft.jpg)
 
 
 Das Feuerwerk selbst war spektakulär!

@@ -44,14 +44,14 @@ Also kann man das wohl nicht benutzen um als Tourist die Warteschlange und dem k
 Nach der Arbeit war ich dann noch mit meinen Betreuer zu ein Rust Meetup in Shibuya.
 Das ist der Stadtteil mit der berühmten Kreuzung.
 
-![shibuya kreuzung](shibuya.jpg)
+[![shibuya kreuzung](shibuya-small.jpg)](shibuya.jpg)
 
 <video controls src="shibuya.mp4"></video>
 
 Das war sonst auch noch Eindrucksvoll: "The Myth of Tomorrow" mitten in der Metro.
 
-![/the-myth-of-tomorrow.jpg](the-myth-of-tomorrow.jpg)
+[[![/the-myth-of-tomorrow.jpg](the-myth-of-tomorrow-small.jpg)](the-myth-of-tomorrow-small.jpg)](the-myth-of-tomorrow-small.jpg)
 
 Mehr Skyline vom Meetup Gebäude.
 
-![skyline](skyline.jpg)
+[![skyline](skyline-small.jpg)](skyline.jpg)

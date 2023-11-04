@@ -19,12 +19,12 @@ draft: false
 
 Wer will sich da noch über Lätzchen lustig machen?
 
-![Lätzchen](lätzchen.jpg)
+[![Lätzchen](lätzchen-small.jpg)](lätzchen.jpg)
 
 Bekommen übrigens nicht nur die "Ausländer" hier.
 Mag zwar komisch aussehen, wenn man in so einen Laden kommt und alle Lätzchen tragen, aber was kann man bei so einem Ergebnis schon dagegen sagen?
 
-![Erdbebenwarnung](erdbebenwarnung.jpg)
+[![Erdbebenwarnung](erdbebenwarnung-small.jpg)](erdbebenwarnung.jpg)
 
 Nach dem Essen noch gesehen, dass es in der nähe wohl ein Erdbeben gab?
 Nichts von gespührt.
