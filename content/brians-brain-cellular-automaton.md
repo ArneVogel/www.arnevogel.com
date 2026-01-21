@@ -1,5 +1,5 @@
 ---
-title: "Brian\'s Brain Cellular Automaton"
+title: "Brian's Brain Cellular Automaton"
 description: ""
 author: "Arne Vogel"
 date: 2018-04-03T17:08:02+02:00
