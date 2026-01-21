@@ -13,7 +13,7 @@
 {{ range .Pages }}
 {{ if eq .Params.listed "yes"}}
 	<li>
-		<span class="list-date">{{ dateFormat "Jan 2, 2006" .Date }}</span><br>
+		<span class="list-date">{{ dateFormat "Jan 2, 2006" .Date }}{{ if .Params.language }} • {{ .Params.language }}{{ end }}</span><br>
 		<a class="list-title" href="{{.Permalink}}">{{.Title}}</a>
 	</li>
 <br>
