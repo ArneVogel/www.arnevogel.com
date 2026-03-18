@@ -1,0 +1,6 @@
+{{ $file := .Get "file" | default "/all.bib" }}
+{{ $keys := .Get "keys" | default "" }}
+<div class="bibliography" data-bib-file="{{ $file }}" data-bib-keys="{{ $keys }}">
+  <p class="bib-loading">Loading bibliography…</p>
+</div>
+<script src="/js/bibliography.js"></script>

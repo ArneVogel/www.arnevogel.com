@@ -172,3 +172,20 @@ video {
 .flex-container {
     display: flex;
 }
+
+.bibliography-list {
+    padding-left: 1.5em;
+}
+
+.bib-entry {
+    margin-bottom: 0.75em;
+    line-height: 1.5;
+}
+
+.bib-title {
+    font-style: italic;
+}
+
+.bib-loading {
+    color: #888;
+}
