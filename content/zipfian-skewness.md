@@ -19,7 +19,7 @@ draft: false
 
 Below is a simulator for a zipfian distribution with parameters $N$ and $\alpha$.
 Each entry has probability:
-$${f(i;\alpha,N)~=~{\frac {\left[{\frac {1}{\ i^{\alpha}\ }}\right]}{\ \left[\ \sum \limits _{n=1}^{N}{\frac {1}{\ n^{\alpha}\ }}\ \right]\ \ }}}$$
+$${f(i;\alpha,N)={\frac {\left[{\frac {1}{\ i^{\alpha}\ }}\right]}{\ \left[\ \sum \limits _{n=1}^{N}{\frac {1}{\ n^{\alpha}\ }}\ \right]\ \ }}}$$
 
 
 <canvas id="chart" style="width:100%;max-width:700px"></canvas>
