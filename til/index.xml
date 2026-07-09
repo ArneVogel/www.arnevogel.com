@@ -61,20 +61,4 @@ But making a full switch seems like a lot of work and im lazy.
 Because of this I am happy to find out that the &lt;a href="https://github.com/nix-community/home-manager"&gt;home-manager&lt;/a&gt; project works on non-nix distros.
 Tl:dr on home-manager: it lets you configure and install software on your system using the nix ecosystem.
 This lets me incrementally switch while staying on my regular distros.
-I have successfully run the home-manager on Ubuntu and Arch linux.&lt;/p&gt;</description></item><item><title/><link>https://www.arnevogel.com/til/svg-script/direct/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.arnevogel.com/til/svg-script/direct/</guid><description>&lt;body&gt;
-&lt;svg
- viewBox="0 0 10 10"
- height="120px"
- width="120px"
- xmlns="http://www.w3.org/2000/svg"&gt;
- &lt;circle cx="5" cy="5" r="4" /&gt;
-
- &lt;script&gt;
- alert("hi");
- &lt;/script&gt;
-&lt;/svg&gt;
-&lt;/body&gt;</description></item><item><title/><link>https://www.arnevogel.com/til/svg-script/embed/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.arnevogel.com/til/svg-script/embed/</guid><description>&lt;body&gt;
- &lt;embed src="test.svg"/&gt;
-&lt;/body&gt;</description></item><item><title/><link>https://www.arnevogel.com/til/svg-script/img/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.arnevogel.com/til/svg-script/img/</guid><description>&lt;body&gt;
- &lt;img src="test.svg"/&gt;
-&lt;/body&gt;</description></item></channel></rss>
+I have successfully run the home-manager on Ubuntu and Arch linux.&lt;/p&gt;</description></item></channel></rss>
